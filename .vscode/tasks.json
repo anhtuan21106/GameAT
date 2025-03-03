@@ -1,0 +1,44 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SDL2 Game",
+            "type": "shell",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-std=c++17",
+                "-I",
+                "C:\\msys64\\ucrt64\\include\\SDL2",
+                "-L",
+                "C:\\msys64\\ucrt64\\lib",
+                "-o",
+                "${workspaceFolder}\\main.exe",
+                "${workspaceFolder}\\src\\main.cpp",
+                //  "${workspaceFolder}\\src\\Character.cpp",
+                //  "${workspaceFolder}\\src\\Map.cpp",
+                //  "${workspaceFolder}\\src\\TimeManager.cpp",
+                //"${workspaceFolder}\\src\\Menu.cpp",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2",
+                "-lSDL2_image",
+                "-lSDL2_ttf",
+                "-mwindows"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run SDL2 Game",
+            "type": "shell",
+            "command": "${workspaceFolder}\\main.exe",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
