@@ -17,7 +17,7 @@
                 //  "${workspaceFolder}\\src\\Character.cpp",
                 //  "${workspaceFolder}\\src\\Map.cpp",
                 //  "${workspaceFolder}\\src\\TimeManager.cpp",
-                //"${workspaceFolder}\\src\\Menu.cpp",
+                "${workspaceFolder}\\src\\Menu.cpp",
                 "-lmingw32",
                 "-lSDL2main",
                 "-lSDL2",

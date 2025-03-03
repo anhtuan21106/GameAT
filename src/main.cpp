@@ -1,5 +1,6 @@
 #include <SDL2/SDL.h>
 #include <iostream>
+#include "Menu.h"
 using namespace std;
 
 const int SCREEN_WIDTH = 1920;
@@ -33,8 +34,10 @@ void init()
 
 void cleanup()
 {
-    SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
+    if (renderer)
+        SDL_DestroyRenderer(renderer);
+    if (window)
+        SDL_DestroyWindow(window);
     SDL_Quit();
 }
 
@@ -43,22 +46,20 @@ int main(int argc, char *argv[])
     init();
     bool running = true;
     SDL_Event event;
+    Menu menu(renderer);
 
     while (running)
     {
         while (SDL_PollEvent(&event))
         {
-            if (event.type == SDL_QUIT||event.key.keysym.sym==SDLK_ESCAPE)
+            if (event.type == SDL_QUIT ||
+                (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE))
             {
                 running = false;
             }
         }
-        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255); 
         SDL_RenderClear(renderer);
-        SDL_Rect rect={100,100,100,100};
-        SDL_SetRenderDrawColor(renderer,0,0,225,255);
-        SDL_RenderDrawRect(renderer,&rect);
-        SDL_RenderPresent(renderer);
+        menu.render();
     }
 
     cleanup();
