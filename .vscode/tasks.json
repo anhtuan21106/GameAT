@@ -15,7 +15,7 @@
                 "${workspaceFolder}\\main.exe",
                 "${workspaceFolder}\\src\\main.cpp",
                 //  "${workspaceFolder}\\src\\Character.cpp",
-                //  "${workspaceFolder}\\src\\Map.cpp",
+                "${workspaceFolder}\\src\\Map.cpp",
                 //  "${workspaceFolder}\\src\\TimeManager.cpp",
                 "${workspaceFolder}\\src\\Menu.cpp",
                 "-lSDL2_mixer",

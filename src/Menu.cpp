@@ -108,11 +108,12 @@ void Menu::playMusic()
         Mix_PlayMusic(backgroundMusic, -1); // lặp vô hạn
     }
 }
+
 void Menu::playMusicButton()
 {
     if (buttonSound)
     {
-        Mix_PlayChannel(-1, buttonSound, 0);
+        Mix_PlayChannel(-1, buttonSound, 0);//lặp 1 lần
     }
 }
 
