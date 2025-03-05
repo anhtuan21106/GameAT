@@ -52,14 +52,16 @@ int main(int argc, char *argv[])
     {
         while (SDL_PollEvent(&event))
         {
-            if (event.type == SDL_QUIT ||
-                (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE))
-            {
+            MenuState state = menu.handleEvents(event);
+            if (state == EXIT || event.type == SDL_QUIT || event.key.keysym.sym == SDLK_ESCAPE)
+            {       
                 running = false;
             }
         }
         SDL_RenderClear(renderer);
         menu.render();
+        SDL_RenderPresent(renderer);
+        SDL_Delay(16);
     }
 
     cleanup();

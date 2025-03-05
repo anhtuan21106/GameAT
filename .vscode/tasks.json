@@ -18,6 +18,7 @@
                 //  "${workspaceFolder}\\src\\Map.cpp",
                 //  "${workspaceFolder}\\src\\TimeManager.cpp",
                 "${workspaceFolder}\\src\\Menu.cpp",
+                "-lSDL2_mixer",
                 "-lmingw32",
                 "-lSDL2main",
                 "-lSDL2",
