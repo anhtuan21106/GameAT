@@ -6,6 +6,7 @@ using namespace std;
 
 Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr)
 {
+    IMG_Init(IMG_INIT_PNG);
     SDL_Surface *surface = IMG_Load("Menu.png");
     if (!surface)
     {
@@ -113,7 +114,7 @@ void Menu::playMusicButton()
 {
     if (buttonSound)
     {
-        Mix_PlayChannel(-1, buttonSound, 0);//lặp 1 lần
+        Mix_PlayChannel(-1, buttonSound, 0); // lặp 1 lần
     }
 }
 

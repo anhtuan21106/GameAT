@@ -1,8 +1,8 @@
 #ifndef MAP_H
 #define MAP_H
 #include <SDL2/SDL.h>
-#include<string>
-#include<vector>
+#include <string>
+#include <vector>
 using namespace std;
 enum TileType
 {
@@ -15,14 +15,14 @@ class Map
 {
 private:
     SDL_Renderer *renderer;
-    SDL_Texture *map;
     int tileSize;
-    bool ShowMap;
     vector<SDL_Texture *> types;
+    vector<vector<int>> tileMap;
+
 public:
     Map(SDL_Renderer *renderer, int tileSize);
     ~Map();
-    bool LoadMap(const string &file); 
+    bool LoadMap(const string &file);
 
     void render();
 };

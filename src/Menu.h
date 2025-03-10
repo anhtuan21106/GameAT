@@ -1,7 +1,7 @@
 #ifndef MENU_H
 #define MENU_H
 #include <SDL2/SDL.h>
-#include<SDL2/SDL_mixer.h>
+#include <SDL2/SDL_mixer.h>
 enum MenuState
 {
     PLAY,
