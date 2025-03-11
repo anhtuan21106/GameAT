@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Menu.h"
 #include "Map.h"
+#include "Character.h"
 using namespace std;
 
 const int SCREEN_WIDTH = 1920;
@@ -50,29 +51,31 @@ int main(int argc, char *argv[])
     SDL_Event event;
     Menu menu(renderer);
     Map map(renderer, 22);
+    Character character(renderer);
     while (running)
     {
         while (SDL_PollEvent(&event))
         {
+            if (event.type == SDL_QUIT || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE))
+                running = false;
+
             if (showmap)
             {
-                if (event.type == SDL_QUIT || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE))
-                {
-                    running = false;
-                }
-                if (event.key.keysym.sym == SDLK_a)
+                if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_a)
                 {
                     showmap = false;
                     menu.playMusic();
+                }
+                else
+                {
+                    character.move(event);
                 }
             }
             else
             {
                 MenuState state = menu.handleEvents(event);
                 if (state == EXIT)
-                {
                     running = false;
-                }
                 else if (state == PLAY)
                 {
                     if (map.LoadMap("map.txt"))
@@ -80,11 +83,17 @@ int main(int argc, char *argv[])
                 }
             }
         }
+
         SDL_RenderClear(renderer);
         if (showmap)
+        {
             map.render();
+            character.render();
+        }
         else
+        {
             menu.render();
+        }
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }

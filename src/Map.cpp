@@ -6,7 +6,7 @@
 using namespace std;
 Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize)
 {
-    // IMG_Init(IMG_INIT_PNG);
+    IMG_Init(IMG_INIT_PNG);
     types.resize(3, nullptr);
     string fileNames[] = {"grass.png", "wall.png", "treasure.png"};
     for (int i = 0; i < 3; i++)
