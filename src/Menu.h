@@ -7,7 +7,7 @@ enum MenuState
     PLAY,
     CONTINUE,
     EXIT,
-    NONE
+    MENU
 };
 class Menu
 {

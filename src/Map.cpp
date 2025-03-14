@@ -4,7 +4,7 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 using namespace std;
-Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize)
+Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(true)
 {
     IMG_Init(IMG_INIT_PNG);
     types.resize(3, nullptr);
@@ -35,26 +35,9 @@ Map::~Map()
     IMG_Quit();
 }
 
-void Map::render()
-{
-    int rows = tileMap.size();
-    int cols = tileMap[0].size();
-
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < cols; j++)
-        {
-            int tileType = tileMap[i][j];
-            if (tileType < 0 || tileType >= types.size() || !types[tileType])
-                continue;
-            SDL_Rect dstRect = {tileSize * j, tileSize * i, tileSize, tileSize};
-            SDL_RenderCopy(renderer, types[tileType], NULL, &dstRect);
-        }
-    }
-}
-
 bool Map::LoadMap(const string &file)
 {
+    Gameover = false;
     ifstream File(file);
     if (!File.is_open())
     {
@@ -75,10 +58,66 @@ bool Map::LoadMap(const string &file)
                 row.push_back(WALL);
             else if (c == '2')
                 row.push_back(TREASURE);
-            else continue;
+            else
+                continue;
         }
         tileMap.push_back(row);
     }
     File.close();
     return !tileMap.empty();
+}
+bool Map::isGameover() const
+{
+    return Gameover;
+}
+
+int Map::getTile(int x, int y, int width, int height)
+{
+    int leftCol = x / tileSize;
+    int rightCol = (x + width - 1) / tileSize;
+    int topRow = y / tileSize;
+    int bottomRow = (y + height - 1) / tileSize;
+    for (int row = topRow; row <= bottomRow; row++)
+    {
+        for (int col = leftCol; col <= rightCol; col++)
+        {
+            if (tileMap[row][col] == WALL)
+                return 1;
+            if (tileMap[row][col] == TREASURE)
+            {
+                Gameover = true;
+                return 2;
+            }
+        }
+    }
+    return 0;
+}
+
+void Map::render()
+{
+    if (Gameover)
+    {
+        return;
+    }
+    else
+    {
+        int rows = tileMap.size();
+        int cols = tileMap[0].size();
+
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
+                int tileType = tileMap[i][j];
+                if (tileType < 0 || tileType >= types.size() || !types[tileType])
+                    continue;
+                SDL_Rect dstRect = {tileSize * j, tileSize * i, tileSize, tileSize};
+                SDL_RenderCopy(renderer, types[tileType], NULL, &dstRect);
+            }
+        }
+    }
+}
+void Map::setGameover(bool value)
+{
+    Gameover = value;
 }

@@ -57,6 +57,7 @@ Menu::~Menu()
         Mix_FreeChunk(buttonSound);
 
     Mix_CloseAudio();
+    Mix_Quit();
 }
 
 void Menu::render()
@@ -99,7 +100,7 @@ MenuState Menu::handleEvents(SDL_Event &event)
             return EXIT;
         }
     }
-    return NONE;
+    return MENU;
 }
 
 void Menu::playMusic()

@@ -17,7 +17,7 @@ void init()
         cerr << "Lỗi khởi tạo SDL: " << SDL_GetError() << endl;
         exit(1);
     }
-    window = SDL_CreateWindow("TIM KHO BAU", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
+    window = SDL_CreateWindow("JOURNEY IN THE DARK", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
     if (!window)
     {
         cerr << "Lỗi tạo cửa sổ: " << SDL_GetError() << endl;
@@ -47,45 +47,48 @@ int main(int argc, char *argv[])
 {
     init();
     bool running = true;
-    bool showmap = false;
     SDL_Event event;
     Menu menu(renderer);
+    MenuState state = MENU;
     Map map(renderer, 22);
     Character character(renderer);
+
     while (running)
     {
         while (SDL_PollEvent(&event))
         {
-            if (event.type == SDL_QUIT || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE))
-                running = false;
-
-            if (showmap)
+            if (event.type == SDL_QUIT || (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || state == EXIT)
             {
-                if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_a)
+                running = false;
+            }
+
+            if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p)
+            {
+                state = MENU;
+                menu.playMusic();
+            }
+            if (state == PLAY || state == CONTINUE)
+            {
+                character.move(event, map);
+                if (map.isGameover())
                 {
-                    showmap = false;
+                    state = MENU;
                     menu.playMusic();
-                }
-                else
-                {
-                    character.move(event);
                 }
             }
             else
             {
-                MenuState state = menu.handleEvents(event);
-                if (state == EXIT)
-                    running = false;
-                else if (state == PLAY)
+                state = menu.handleEvents(event);
+                if ((state == PLAY || (state == CONTINUE && map.isGameover())) && map.LoadMap("map.txt"))
                 {
-                    if (map.LoadMap("map.txt"))
-                        showmap = true;
+                    state = PLAY;
+                    map.setGameover(false);
+                    character.resetPosition();
                 }
             }
         }
-
         SDL_RenderClear(renderer);
-        if (showmap)
+        if ((state == PLAY) || (state == CONTINUE && !map.isGameover()))
         {
             map.render();
             character.render();
@@ -97,6 +100,7 @@ int main(int argc, char *argv[])
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }
+
     cleanup();
     return 0;
 }
