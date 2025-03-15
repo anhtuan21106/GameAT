@@ -16,6 +16,7 @@ private:
     SDL_Texture *backgroundTexture;
     Mix_Music *backgroundMusic;
     Mix_Chunk *buttonSound;
+    Mix_Chunk *winGame;
     SDL_Rect playButton;
     SDL_Rect continueButton;
     SDL_Rect exitButton;
@@ -27,6 +28,8 @@ public:
     MenuState handleEvents(SDL_Event &event); // xử lý sự kiện
     void playMusic();
     void playMusicButton();
+    void winGameMusic();
     void stopMusic();
+    bool isMusicPlaying();
 };
 #endif

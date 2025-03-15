@@ -61,7 +61,12 @@ int main(int argc, char *argv[])
             {
                 running = false;
             }
-
+            if(event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k){
+                if(menu.isMusicPlaying())
+                    menu.stopMusic();
+                else
+                    menu.playMusic();
+            }
             if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p)
             {
                 state = MENU;
@@ -72,6 +77,8 @@ int main(int argc, char *argv[])
                 character.move(event, map);
                 if (map.isGameover())
                 {
+                    menu.winGameMusic();
+                    SDL_Delay(1000);
                     state = MENU;
                     menu.playMusic();
                 }

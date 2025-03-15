@@ -4,10 +4,10 @@
 #include <SDL2/SDL_image.h>
 using namespace std;
 
-Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr)
+Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr)
 {
     IMG_Init(IMG_INIT_PNG);
-    SDL_Surface *surface = IMG_Load("Menu.png");
+    SDL_Surface *surface = IMG_Load("image/Menu.png");
     if (!surface)
     {
         cerr << "Không thể tải ảnh nền: " << IMG_GetError() << endl;
@@ -26,7 +26,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
     else
     {
-        backgroundMusic = Mix_LoadMUS("menu.mp3");
+        backgroundMusic = Mix_LoadMUS("music/menu.mp3");
         if (!backgroundMusic)
         {
             cerr << "lỗi tải nhạc nền: " << Mix_GetError() << endl;
@@ -36,14 +36,23 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
             playMusic();
         }
     }
-    buttonSound = Mix_LoadWAV("button.wav");
+    buttonSound = Mix_LoadWAV("music/button.wav");
+    winGame = Mix_LoadWAV("music/win.wav");
     if (!buttonSound)
     {
         cerr << "lỗi tải âm thanh nút ấn: " << Mix_GetError() << endl;
     }
     else
     {
-        Mix_VolumeChunk(buttonSound, 10);
+        Mix_VolumeChunk(buttonSound, 20);
+    }
+    if (!winGame)
+    {
+        cerr << "Lỗi tải âm thanh win: " << Mix_GetError() << endl;
+    }
+    else
+    {
+        Mix_VolumeChunk(winGame, 60);
     }
 }
 
@@ -55,6 +64,8 @@ Menu::~Menu()
         Mix_FreeMusic(backgroundMusic);
     if (buttonSound)
         Mix_FreeChunk(buttonSound);
+    if (winGame)
+        Mix_FreeChunk(winGame);
 
     Mix_CloseAudio();
     Mix_Quit();
@@ -95,7 +106,6 @@ MenuState Menu::handleEvents(SDL_Event &event)
             y >= exitButton.y && y <= exitButton.y + exitButton.h)
         {
             playMusicButton();
-            SDL_Delay(300);
             stopMusic();
             return EXIT;
         }
@@ -118,8 +128,18 @@ void Menu::playMusicButton()
         Mix_PlayChannel(-1, buttonSound, 0); // lặp 1 lần
     }
 }
-
+void Menu::winGameMusic()
+{
+    if (winGame)
+    {
+        Mix_PlayChannel(-1, winGame, 0); // lặp 1 lần
+    }
+}
 void Menu::stopMusic()
 {
     Mix_HaltMusic();
+}
+bool Menu::isMusicPlaying()
+{
+    return Mix_PlayingMusic();
 }

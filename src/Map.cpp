@@ -8,10 +8,10 @@ Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(ti
 {
     IMG_Init(IMG_INIT_PNG);
     types.resize(3, nullptr);
-    string fileNames[] = {"grass.png", "wall.png", "treasure.png"};
+    const char *fileNames[] = {"image/grass.png", "image/wall.png", "image/treasure.png"};
     for (int i = 0; i < 3; i++)
     {
-        SDL_Surface *surface = IMG_Load(fileNames[i].c_str());
+        SDL_Surface *surface = IMG_Load(fileNames[i]);
         if (!surface)
         {
             cerr << "Không thể tải ảnh: " << IMG_GetError() << endl;

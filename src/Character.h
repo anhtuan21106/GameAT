@@ -8,7 +8,9 @@ class Character
 {
 private:
     SDL_Renderer *renderer;
+    SDL_Texture *characterTextures[4];
     int x, y, width, height;
+    int currentFrame;
 
 public:
     Character(SDL_Renderer *renderer);
