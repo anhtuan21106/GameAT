@@ -4,11 +4,11 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 using namespace std;
-Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(true)
+Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false)
 {
     IMG_Init(IMG_INIT_PNG);
     types.resize(3, nullptr);
-    const char *fileNames[] = {"image/grass.png", "image/wall.png", "image/treasure.png"};
+    const char *fileNames[] = {"image/grass1.png", "image/wall1.png", "image/treasure.png"};
     for (int i = 0; i < 3; i++)
     {
         SDL_Surface *surface = IMG_Load(fileNames[i]);

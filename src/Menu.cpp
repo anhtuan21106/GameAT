@@ -2,6 +2,7 @@
 #include <iostream>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include "log.h"
 using namespace std;
 
 Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr)
@@ -33,7 +34,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
         }
         else
         {
-            playMusic();
+           // playMusic();
         }
     }
     buttonSound = Mix_LoadWAV("music/button.wav");
@@ -52,7 +53,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
     else
     {
-        Mix_VolumeChunk(winGame, 60);
+        Mix_VolumeChunk(winGame, 80);
     }
 }
 
@@ -85,7 +86,6 @@ MenuState Menu::handleEvents(SDL_Event &event)
     {
         int x = event.button.x;
         int y = event.button.y;
-
         if (x >= playButton.x && x <= playButton.x + playButton.w &&
             y >= playButton.y && y <= playButton.y + playButton.h)
         {
