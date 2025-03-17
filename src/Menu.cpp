@@ -7,69 +7,108 @@ using namespace std;
 
 Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr)
 {
-    IMG_Init(IMG_INIT_PNG);
+    if (IMG_Init(IMG_INIT_PNG) == 0)
+    {
+        cerr << "LỖI KHI KHỞI TẠO SDL_Image: " << IMG_GetError() << endl;
+        writeLog("LỖI KHI KHỞI TẠO SDL_Image: " + string(IMG_GetError()));
+        return;
+    }
     SDL_Surface *surface = IMG_Load("image/Menu.png");
     if (!surface)
     {
-        cerr << "Không thể tải ảnh nền: " << IMG_GetError() << endl;
+        cerr << "KHÔNG THỂ TẢI ẢNH MENU: " << IMG_GetError() << endl;
+        writeLog("KHÔNG THỂ TẢI ẢNH MENU: " + string(IMG_GetError()));
+        backgroundTexture = nullptr; 
     }
     else
     {
-        backgroundTexture = SDL_CreateTextureFromSurface(renderer, surface); // chuyen surface thanh sdl_texture
-        SDL_FreeSurface(surface);                                            // giai phong surface
-        playButton = {740, 431, 416, 172};
-        continueButton = {590, 616, 730, 160};
-        exitButton = {778, 807, 380, 188};
-    }
-    if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
-    {
-        cerr << "Lỗi sdl-mix: " << Mix_GetError() << endl;
-    }
-    else
-    {
-        backgroundMusic = Mix_LoadMUS("music/menu.mp3");
-        if (!backgroundMusic)
+        backgroundTexture = SDL_CreateTextureFromSurface(renderer, surface);
+        SDL_FreeSurface(surface);
+        if (!backgroundTexture)
         {
-            cerr << "lỗi tải nhạc nền: " << Mix_GetError() << endl;
+            cerr << "KHÔNG THỂ TẠO TEXTURE CHO MENU: " << SDL_GetError() << endl;
+            writeLog("KHÔNG THỂ TẠO TEXTURE CHO MENU: " + string(SDL_GetError()));
         }
         else
         {
-           // playMusic();
+            writeLog("BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG");
         }
     }
+    playButton = {740, 431, 416, 172};
+    continueButton = {590, 616, 730, 160};
+    exitButton = {778, 807, 380, 188};
+    if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
+    {
+        cerr << "LỖI SDL-MIX: " << Mix_GetError() << endl;
+        writeLog("LỖI SDL-MIX: " + string(Mix_GetError()));
+        return;
+    }
+    backgroundMusic = Mix_LoadMUS("music/menu.mp3");
+    if (!backgroundMusic)
+    {
+        cerr << "LỖI TẢI NHẠC NỀN: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI NHẠC NỀN: " + string(Mix_GetError()));
+    }
+    else
+    {
+        writeLog("NHẠC NỀN MENU TẢI THÀNH CÔNG");
+    }
     buttonSound = Mix_LoadWAV("music/button.wav");
-    winGame = Mix_LoadWAV("music/win.wav");
     if (!buttonSound)
     {
-        cerr << "lỗi tải âm thanh nút ấn: " << Mix_GetError() << endl;
+        cerr << "LỖI TẢI ÂM THANH NÚT ẤN: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI ÂM THANH NÚT ẤN: " + string(Mix_GetError()));
     }
     else
     {
         Mix_VolumeChunk(buttonSound, 20);
+        writeLog("ÂM THANH NÚT ẤN TẢI THÀNH CÔNG");
     }
+
+    winGame = Mix_LoadWAV("music/win.wav");
     if (!winGame)
     {
-        cerr << "Lỗi tải âm thanh win: " << Mix_GetError() << endl;
+        cerr << "LỖI TẢI ÂM THANH WIN: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI ÂM THANH WIN: " + string(Mix_GetError()));
     }
     else
     {
         Mix_VolumeChunk(winGame, 80);
+        writeLog("ÂM THANH WIN TẢI THÀNH CÔNG");
     }
 }
 
 Menu::~Menu()
 {
     if (backgroundTexture)
+    {
         SDL_DestroyTexture(backgroundTexture);
+        backgroundTexture = nullptr;
+        writeLog("TEXTURE MENU ĐÃ ĐƯỢC GIẢI PHÓNG");
+    }
     if (backgroundMusic)
+    {
         Mix_FreeMusic(backgroundMusic);
+        backgroundMusic = nullptr;
+        writeLog("NHẠC NỀN MENU ĐÃ ĐƯỢC GIẢI PHÓNG");
+    }
     if (buttonSound)
+    {
         Mix_FreeChunk(buttonSound);
+        buttonSound = nullptr;
+        writeLog("ÂM THANH NÚT ẤN ĐÃ ĐƯỢC GIẢI PHÓNG");
+    }
     if (winGame)
+    {
         Mix_FreeChunk(winGame);
+        winGame = nullptr;
+        writeLog("ÂM THANH WIN ĐÃ ĐƯỢC GIẢI PHÓNG");
+    }
 
     Mix_CloseAudio();
+    writeLog("MIXER AUDIO ĐÃ ĐÓNG");
     Mix_Quit();
+    writeLog("SDL_MIXER ĐÃ ĐƯỢC TẮT");
 }
 
 void Menu::render()

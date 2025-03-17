@@ -3,10 +3,16 @@
 #include <fstream>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include "log.h"
 using namespace std;
 Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false)
 {
-    IMG_Init(IMG_INIT_PNG);
+  if(IMG_Init(IMG_INIT_PNG) == 0)
+    {
+        cerr << "Lỗi khi khởi tạo SDL_Image: " << IMG_GetError() << endl;
+        writeLog("Lỗi khi khởi tạo SDL_Image: " + string(IMG_GetError()));
+        return;
+  }
     types.resize(3, nullptr);
     const char *fileNames[] = {"image/grass1.png", "image/wall1.png", "image/treasure.png"};
     for (int i = 0; i < 3; i++)
@@ -15,12 +21,20 @@ Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(ti
         if (!surface)
         {
             cerr << "Không thể tải ảnh: " << IMG_GetError() << endl;
+            writeLog("Không thể tải ảnh [" + to_string(i) + "]: " + string(IMG_GetError()));
+            types[i] = nullptr;
+            continue;
         }
         types[i] = SDL_CreateTextureFromSurface(renderer, surface);
         SDL_FreeSurface(surface);
         if (!types[i])
         {
             cerr << "Không thể tạo texture: " << SDL_GetError() << endl;
+            writeLog("Không thể tạo texture [" + to_string(i) + "]: " + string(SDL_GetError()));
+        }
+        else
+        {
+            writeLog("types[" + to_string(i) + "] created");
         }
     }
 }
@@ -30,7 +44,11 @@ Map::~Map()
     for (int i = 0; i < 3; i++)
     {
         if (types[i])
+        {
             SDL_DestroyTexture(types[i]);
+            types[i] = nullptr;
+            writeLog("Map types[" + to_string(i) + "] deleted");
+        }
     }
     IMG_Quit();
 }
@@ -42,6 +60,7 @@ bool Map::LoadMap(const string &file)
     if (!File.is_open())
     {
         cerr << "Không thể mở file bản đồ: " << file << endl;
+        writeLog("Không thể mở file bản đồ: " + string(file));
         return false;
     }
 

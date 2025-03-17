@@ -58,6 +58,7 @@ int main(int argc, char *argv[])
     MenuState state = MENU;
     Map map(renderer, 22);
     Character character(renderer);
+    bool sdlk_k = false;
     while (running)
     {
         while (SDL_PollEvent(&event))
@@ -66,23 +67,32 @@ int main(int argc, char *argv[])
             {
                 character.setPrePosition("prePosition.txt");
                 running = false;
+                writeLog("EXIT GAME");
             }
             else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k)
             {
+                sdlk_k = true;
                 if (menu.isMusicPlaying())
+                {
                     menu.stopMusic();
+                    writeLog("STOP MUSIC");
+                }
                 else
+                {
                     menu.playMusic();
+                    writeLog("PLAY MUSIC");
+                }
             }
             else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p)
             {
                 character.setPrePosition("prePosition.txt");
                 state = MENU;
+                writeLog("BACK TO MENU");
             }
 
             if ((state == PLAY || state == CONTINUE) && (event.type == SDL_KEYDOWN))
             {
-                int stepX = 0, stepY = 0, currentFrame = 0;
+                int stepX = 0, stepY = 0, currentFrame = -1;
                 switch (event.key.keysym.sym)
                 {
                 case SDLK_UP:
@@ -102,11 +112,12 @@ int main(int argc, char *argv[])
                     currentFrame = 2;
                     break;
                 }
-                character.move(stepX, stepY, currentFrame, map);
+                if (currentFrame != -1)
+                    character.move(stepX, stepY, currentFrame, map);
             }
             else if (state == MENU)
             {
-                if (!menu.isMusicPlaying())
+                if (!menu.isMusicPlaying() && !sdlk_k)
                     menu.playMusic();
                 state = menu.handleEvents(event);
                 if ((state == PLAY || state == CONTINUE) && !map.LoadMap("map.txt"))
@@ -118,13 +129,17 @@ int main(int argc, char *argv[])
                 }
 
                 if (state == PLAY)
+                {
+                    writeLog("PLAY GAME");
                     character.resetPosition();
+                }
                 else if (state == CONTINUE)
                 {
-                    pair<int, int> prePosition = character.getPrePosition("prePosition.txt");
-                    if (prePosition.first != -1 && prePosition.second != -1)
+                    writeLog("CONTINUE GAME");
+                    vector<int> prePosition = character.getPrePosition("prePosition.txt");
+                    if (!prePosition.empty())
                     {
-                        character.setCurrentPosition(prePosition.first, prePosition.second);
+                        character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2]);
                     }
                 }
             }
@@ -132,6 +147,7 @@ int main(int argc, char *argv[])
         SDL_RenderClear(renderer);
         if (map.isGameover())
         {
+            writeLog("WIN GAME");
             map.setGameover(false);
             character.resetPosition();
             character.setPrePosition("prePosition.txt");
@@ -141,6 +157,7 @@ int main(int argc, char *argv[])
         }
         if ((state == PLAY) || (state == CONTINUE))
         {
+            sdlk_k = false;
             map.render();
             character.render();
         }
@@ -151,7 +168,7 @@ int main(int argc, char *argv[])
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }
-
     cleanup();
     return 0;
+    
 }
