@@ -1,6 +1,10 @@
 #ifndef MAP_H
 #define MAP_H
+#include <iostream>
+#include <fstream>
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include "log.h"
 #include <string>
 #include <vector>
 using namespace std;

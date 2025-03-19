@@ -1,9 +1,4 @@
 #include "Map.h"
-#include <iostream>
-#include <fstream>
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_image.h>
-#include "log.h"
 using namespace std;
 Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false)
 {

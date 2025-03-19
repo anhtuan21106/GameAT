@@ -1,9 +1,4 @@
 #include "Character.h"
-#include <SDL2/SDL.h>
-#include <iostream>
-#include "Map.h"
-#include <fstream>
-#include "log.h"
 using namespace std;
 Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(37 * 22), y(22 * 22), width(44), height(44), currentFrame(0)
 {

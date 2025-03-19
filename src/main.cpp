@@ -4,6 +4,7 @@
 #include "Map.h"
 #include "Character.h"
 #include "log.h"
+#include "TimeManager.h"
 using namespace std;
 
 const int SCREEN_WIDTH = 1920;
@@ -19,6 +20,15 @@ void init()
         writeLog("Lỗi khởi tạo SDL: " + string(SDL_GetError()));
         exit(1);
     }
+
+    if (TTF_Init() == -1)
+    {
+        cerr << "LỖI KHỞI TẠO SDL_ttf: " << TTF_GetError() << endl;
+        writeLog("LỖI KHỞI TẠO SDL_ttf: " + string(TTF_GetError()));
+        SDL_Quit();
+        exit(1);
+    }
+
     window = SDL_CreateWindow("JOURNEY IN THE DARK", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
     if (!window)
     {
@@ -36,6 +46,7 @@ void init()
         SDL_Quit();
         exit(1);
     }
+
     writeLog("START GAME");
 }
 
@@ -45,6 +56,7 @@ void cleanup()
         SDL_DestroyRenderer(renderer);
     if (window)
         SDL_DestroyWindow(window);
+    TTF_Quit();
     SDL_Quit();
     writeLog("END GAME");
 }
@@ -58,6 +70,7 @@ int main(int argc, char *argv[])
     MenuState state = MENU;
     Map map(renderer, 22);
     Character character(renderer);
+    TimeManager timeManager(renderer);
     bool sdlk_k = false;
     while (running)
     {
@@ -131,6 +144,7 @@ int main(int argc, char *argv[])
                 if (state == PLAY)
                 {
                     writeLog("PLAY GAME");
+                    timeManager.resetTime();
                     character.resetPosition();
                 }
                 else if (state == CONTINUE)
@@ -147,6 +161,7 @@ int main(int argc, char *argv[])
         SDL_RenderClear(renderer);
         if (map.isGameover())
         {
+            timeManager.resetTime();
             writeLog("WIN GAME");
             map.setGameover(false);
             character.resetPosition();
@@ -155,11 +170,21 @@ int main(int argc, char *argv[])
             SDL_Delay(1000);
             state = MENU;
         }
+        if (timeManager.isTimeUp())
+        {
+            timeManager.resetTime();
+            timeManager.setTimeUp(false);
+            character.resetPosition();
+            character.setPrePosition("prePosition.txt");
+            state = MENU;
+        }
         if ((state == PLAY) || (state == CONTINUE))
         {
             sdlk_k = false;
+            timeManager.update();
             map.render();
             character.render();
+            timeManager.render();
         }
         else
         {
@@ -170,5 +195,4 @@ int main(int argc, char *argv[])
     }
     cleanup();
     return 0;
-    
 }

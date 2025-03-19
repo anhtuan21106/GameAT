@@ -10,462 +10,571 @@ characterTextures[0] created
 characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
+TimeManager created
+STOP MUSIC
 CONTINUE GAME
-getPrePosition x: 1210, y: 594, currentFrame: 0
-setCurrentPosition x: 1210, y: 594, currentFrame: 0
-x: 1199, y: 594, currentFrame: 3
-x: 1188, y: 594, currentFrame: 3
-x: 1177, y: 594, currentFrame: 3
-x: 1166, y: 594, currentFrame: 3
-x: 1155, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1144, y: 594, currentFrame: 3
-x: 1155, y: 594, currentFrame: 2
-x: 1166, y: 594, currentFrame: 2
-x: 1177, y: 594, currentFrame: 2
-x: 1188, y: 594, currentFrame: 2
-x: 1199, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 594, currentFrame: 2
-x: 1199, y: 594, currentFrame: 3
-x: 1199, y: 594, currentFrame: 1
-x: 1210, y: 594, currentFrame: 2
-x: 1210, y: 583, currentFrame: 1
-x: 1210, y: 572, currentFrame: 1
-x: 1210, y: 561, currentFrame: 1
-x: 1210, y: 550, currentFrame: 1
-x: 1210, y: 539, currentFrame: 1
-x: 1210, y: 528, currentFrame: 1
-x: 1210, y: 528, currentFrame: 1
-x: 1210, y: 528, currentFrame: 1
-x: 1210, y: 528, currentFrame: 1
-x: 1210, y: 528, currentFrame: 1
-x: 1221, y: 528, currentFrame: 2
-x: 1232, y: 528, currentFrame: 2
-x: 1243, y: 528, currentFrame: 2
-x: 1254, y: 528, currentFrame: 2
-x: 1265, y: 528, currentFrame: 2
-x: 1276, y: 528, currentFrame: 2
-x: 1287, y: 528, currentFrame: 2
-x: 1298, y: 528, currentFrame: 2
-x: 1309, y: 528, currentFrame: 2
-x: 1320, y: 528, currentFrame: 2
-x: 1331, y: 528, currentFrame: 2
-x: 1342, y: 528, currentFrame: 2
-x: 1353, y: 528, currentFrame: 2
-x: 1364, y: 528, currentFrame: 2
-x: 1375, y: 528, currentFrame: 2
-x: 1386, y: 528, currentFrame: 2
-x: 1397, y: 528, currentFrame: 2
-x: 1408, y: 528, currentFrame: 2
-x: 1419, y: 528, currentFrame: 2
-x: 1430, y: 528, currentFrame: 2
-x: 1441, y: 528, currentFrame: 2
-x: 1452, y: 528, currentFrame: 2
-x: 1463, y: 528, currentFrame: 2
-x: 1474, y: 528, currentFrame: 2
-x: 1474, y: 528, currentFrame: 2
-x: 1474, y: 528, currentFrame: 2
-x: 1474, y: 528, currentFrame: 2
-x: 1474, y: 517, currentFrame: 1
-x: 1474, y: 506, currentFrame: 1
-x: 1474, y: 495, currentFrame: 1
-x: 1474, y: 484, currentFrame: 1
-x: 1474, y: 473, currentFrame: 1
-x: 1474, y: 462, currentFrame: 1
-x: 1474, y: 462, currentFrame: 1
-x: 1474, y: 462, currentFrame: 1
-x: 1474, y: 462, currentFrame: 1
-x: 1474, y: 462, currentFrame: 1
-x: 1463, y: 462, currentFrame: 3
-x: 1452, y: 462, currentFrame: 3
-x: 1441, y: 462, currentFrame: 3
-x: 1430, y: 462, currentFrame: 3
-x: 1419, y: 462, currentFrame: 3
-x: 1408, y: 462, currentFrame: 3
-x: 1397, y: 462, currentFrame: 3
-x: 1386, y: 462, currentFrame: 3
-x: 1375, y: 462, currentFrame: 3
-x: 1364, y: 462, currentFrame: 3
-x: 1353, y: 462, currentFrame: 3
-x: 1342, y: 462, currentFrame: 3
-x: 1342, y: 462, currentFrame: 3
-x: 1342, y: 462, currentFrame: 3
-x: 1342, y: 462, currentFrame: 3
-x: 1342, y: 462, currentFrame: 3
-x: 1342, y: 451, currentFrame: 1
-x: 1342, y: 440, currentFrame: 1
-x: 1342, y: 429, currentFrame: 1
-x: 1342, y: 418, currentFrame: 1
-x: 1342, y: 407, currentFrame: 1
-x: 1342, y: 396, currentFrame: 1
-x: 1342, y: 396, currentFrame: 1
-x: 1342, y: 396, currentFrame: 1
-x: 1342, y: 396, currentFrame: 1
-x: 1342, y: 396, currentFrame: 1
-x: 1331, y: 396, currentFrame: 3
-x: 1320, y: 396, currentFrame: 3
-x: 1309, y: 396, currentFrame: 3
-x: 1298, y: 396, currentFrame: 3
-x: 1287, y: 396, currentFrame: 3
-x: 1276, y: 396, currentFrame: 3
-x: 1265, y: 396, currentFrame: 3
-x: 1254, y: 396, currentFrame: 3
-x: 1243, y: 396, currentFrame: 3
-x: 1232, y: 396, currentFrame: 3
-x: 1221, y: 396, currentFrame: 3
-x: 1210, y: 396, currentFrame: 3
-x: 1210, y: 396, currentFrame: 3
-x: 1210, y: 396, currentFrame: 3
-x: 1210, y: 385, currentFrame: 1
-x: 1210, y: 374, currentFrame: 1
-x: 1210, y: 363, currentFrame: 1
-x: 1210, y: 352, currentFrame: 1
-x: 1210, y: 341, currentFrame: 1
-x: 1210, y: 330, currentFrame: 1
-x: 1210, y: 319, currentFrame: 1
-x: 1210, y: 308, currentFrame: 1
-x: 1210, y: 297, currentFrame: 1
-x: 1210, y: 286, currentFrame: 1
-x: 1210, y: 275, currentFrame: 1
-x: 1210, y: 264, currentFrame: 1
-x: 1210, y: 253, currentFrame: 1
-x: 1210, y: 242, currentFrame: 1
-x: 1210, y: 231, currentFrame: 1
-x: 1210, y: 220, currentFrame: 1
-x: 1210, y: 209, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1210, y: 198, currentFrame: 1
-x: 1221, y: 198, currentFrame: 2
-x: 1232, y: 198, currentFrame: 2
-x: 1243, y: 198, currentFrame: 2
-x: 1254, y: 198, currentFrame: 2
-x: 1265, y: 198, currentFrame: 2
-x: 1276, y: 198, currentFrame: 2
-x: 1287, y: 198, currentFrame: 2
-x: 1298, y: 198, currentFrame: 2
-x: 1309, y: 198, currentFrame: 2
-x: 1320, y: 198, currentFrame: 2
-x: 1331, y: 198, currentFrame: 2
-x: 1342, y: 198, currentFrame: 2
-x: 1342, y: 198, currentFrame: 2
-x: 1342, y: 198, currentFrame: 2
-x: 1342, y: 198, currentFrame: 2
-x: 1342, y: 198, currentFrame: 2
-x: 1342, y: 209, currentFrame: 0
-x: 1342, y: 220, currentFrame: 0
-x: 1342, y: 231, currentFrame: 0
-x: 1342, y: 242, currentFrame: 0
-x: 1342, y: 253, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1342, y: 264, currentFrame: 0
-x: 1331, y: 264, currentFrame: 3
-x: 1320, y: 264, currentFrame: 3
-x: 1309, y: 264, currentFrame: 3
-x: 1298, y: 264, currentFrame: 3
-x: 1287, y: 264, currentFrame: 3
-x: 1276, y: 264, currentFrame: 3
-x: 1276, y: 264, currentFrame: 3
-x: 1276, y: 264, currentFrame: 3
-x: 1276, y: 264, currentFrame: 3
-x: 1276, y: 275, currentFrame: 0
-x: 1276, y: 286, currentFrame: 0
-x: 1276, y: 297, currentFrame: 0
-x: 1276, y: 308, currentFrame: 0
-x: 1276, y: 319, currentFrame: 0
-x: 1276, y: 330, currentFrame: 0
-x: 1276, y: 330, currentFrame: 0
-x: 1276, y: 330, currentFrame: 0
-x: 1276, y: 330, currentFrame: 0
-x: 1276, y: 330, currentFrame: 0
-x: 1287, y: 330, currentFrame: 2
-x: 1298, y: 330, currentFrame: 2
-x: 1309, y: 330, currentFrame: 2
-x: 1320, y: 330, currentFrame: 2
-x: 1331, y: 330, currentFrame: 2
-x: 1342, y: 330, currentFrame: 2
-x: 1353, y: 330, currentFrame: 2
-x: 1364, y: 330, currentFrame: 2
-x: 1375, y: 330, currentFrame: 2
-x: 1386, y: 330, currentFrame: 2
-x: 1397, y: 330, currentFrame: 2
-x: 1408, y: 330, currentFrame: 2
-x: 1419, y: 330, currentFrame: 2
-x: 1430, y: 330, currentFrame: 2
-x: 1441, y: 330, currentFrame: 2
-x: 1452, y: 330, currentFrame: 2
-x: 1463, y: 330, currentFrame: 2
-x: 1474, y: 330, currentFrame: 2
-x: 1485, y: 330, currentFrame: 2
-x: 1496, y: 330, currentFrame: 2
-x: 1507, y: 330, currentFrame: 2
-x: 1518, y: 330, currentFrame: 2
-x: 1529, y: 330, currentFrame: 2
-x: 1540, y: 330, currentFrame: 2
-x: 1540, y: 330, currentFrame: 2
-x: 1540, y: 341, currentFrame: 0
-x: 1540, y: 352, currentFrame: 0
-x: 1540, y: 363, currentFrame: 0
-x: 1540, y: 374, currentFrame: 0
-x: 1540, y: 385, currentFrame: 0
-x: 1540, y: 396, currentFrame: 0
-x: 1540, y: 396, currentFrame: 0
-x: 1540, y: 396, currentFrame: 0
-x: 1540, y: 396, currentFrame: 0
-x: 1540, y: 396, currentFrame: 0
-x: 1551, y: 396, currentFrame: 2
-x: 1562, y: 396, currentFrame: 2
-x: 1573, y: 396, currentFrame: 2
-x: 1584, y: 396, currentFrame: 2
-x: 1595, y: 396, currentFrame: 2
-x: 1606, y: 396, currentFrame: 2
-x: 1606, y: 396, currentFrame: 2
-x: 1606, y: 396, currentFrame: 2
-x: 1606, y: 396, currentFrame: 2
-x: 1606, y: 385, currentFrame: 1
-x: 1606, y: 374, currentFrame: 1
-x: 1606, y: 363, currentFrame: 1
-x: 1606, y: 352, currentFrame: 1
-x: 1606, y: 341, currentFrame: 1
-x: 1606, y: 330, currentFrame: 1
-x: 1606, y: 330, currentFrame: 1
-x: 1606, y: 330, currentFrame: 1
-x: 1606, y: 330, currentFrame: 1
-x: 1617, y: 330, currentFrame: 2
-x: 1628, y: 330, currentFrame: 2
-x: 1639, y: 330, currentFrame: 2
-x: 1650, y: 330, currentFrame: 2
-x: 1661, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 330, currentFrame: 2
-x: 1672, y: 319, currentFrame: 1
-x: 1672, y: 308, currentFrame: 1
-x: 1672, y: 297, currentFrame: 1
-x: 1672, y: 286, currentFrame: 1
-x: 1672, y: 275, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1672, y: 264, currentFrame: 1
-x: 1661, y: 264, currentFrame: 3
-x: 1650, y: 264, currentFrame: 3
-x: 1639, y: 264, currentFrame: 3
-x: 1628, y: 264, currentFrame: 3
-x: 1617, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 264, currentFrame: 3
-x: 1606, y: 253, currentFrame: 1
-x: 1606, y: 242, currentFrame: 1
-x: 1606, y: 231, currentFrame: 1
-x: 1606, y: 220, currentFrame: 1
-x: 1606, y: 209, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1606, y: 198, currentFrame: 1
-x: 1595, y: 198, currentFrame: 3
-x: 1584, y: 198, currentFrame: 3
-x: 1573, y: 198, currentFrame: 3
-x: 1562, y: 198, currentFrame: 3
-x: 1551, y: 198, currentFrame: 3
-x: 1540, y: 198, currentFrame: 3
-x: 1540, y: 198, currentFrame: 3
-x: 1540, y: 198, currentFrame: 3
-x: 1540, y: 209, currentFrame: 0
-x: 1540, y: 220, currentFrame: 0
-x: 1540, y: 231, currentFrame: 0
-x: 1540, y: 242, currentFrame: 0
-x: 1540, y: 253, currentFrame: 0
-x: 1540, y: 264, currentFrame: 0
-x: 1540, y: 264, currentFrame: 0
-x: 1540, y: 264, currentFrame: 0
-x: 1540, y: 264, currentFrame: 0
-x: 1529, y: 264, currentFrame: 3
-x: 1518, y: 264, currentFrame: 3
-x: 1507, y: 264, currentFrame: 3
-x: 1496, y: 264, currentFrame: 3
-x: 1485, y: 264, currentFrame: 3
-x: 1474, y: 264, currentFrame: 3
-x: 1474, y: 264, currentFrame: 3
-x: 1474, y: 264, currentFrame: 3
-x: 1474, y: 264, currentFrame: 3
-x: 1474, y: 253, currentFrame: 1
-x: 1474, y: 242, currentFrame: 1
-x: 1474, y: 231, currentFrame: 1
-x: 1474, y: 220, currentFrame: 1
-x: 1474, y: 209, currentFrame: 1
-x: 1474, y: 198, currentFrame: 1
-x: 1474, y: 198, currentFrame: 1
-x: 1474, y: 198, currentFrame: 1
-x: 1474, y: 198, currentFrame: 1
-x: 1463, y: 198, currentFrame: 3
-x: 1452, y: 198, currentFrame: 3
-x: 1441, y: 198, currentFrame: 3
-x: 1430, y: 198, currentFrame: 3
-x: 1419, y: 198, currentFrame: 3
-x: 1408, y: 198, currentFrame: 3
-x: 1408, y: 198, currentFrame: 3
-x: 1408, y: 198, currentFrame: 3
-x: 1408, y: 198, currentFrame: 3
-x: 1408, y: 187, currentFrame: 1
-x: 1408, y: 176, currentFrame: 1
-x: 1408, y: 165, currentFrame: 1
-x: 1408, y: 154, currentFrame: 1
-x: 1408, y: 143, currentFrame: 1
-x: 1408, y: 132, currentFrame: 1
-x: 1408, y: 132, currentFrame: 1
-x: 1408, y: 132, currentFrame: 1
-x: 1408, y: 132, currentFrame: 1
-x: 1397, y: 132, currentFrame: 3
-x: 1386, y: 132, currentFrame: 3
-x: 1375, y: 132, currentFrame: 3
-x: 1364, y: 132, currentFrame: 3
-x: 1353, y: 132, currentFrame: 3
-x: 1342, y: 132, currentFrame: 3
-x: 1331, y: 132, currentFrame: 3
-x: 1320, y: 132, currentFrame: 3
-x: 1309, y: 132, currentFrame: 3
-x: 1298, y: 132, currentFrame: 3
-x: 1287, y: 132, currentFrame: 3
-x: 1276, y: 132, currentFrame: 3
-x: 1276, y: 132, currentFrame: 3
-x: 1276, y: 132, currentFrame: 3
-x: 1276, y: 132, currentFrame: 3
-x: 1276, y: 121, currentFrame: 1
-x: 1276, y: 110, currentFrame: 1
-x: 1276, y: 99, currentFrame: 1
-x: 1276, y: 88, currentFrame: 1
-x: 1276, y: 77, currentFrame: 1
-x: 1276, y: 66, currentFrame: 1
-x: 1276, y: 66, currentFrame: 1
-x: 1276, y: 66, currentFrame: 1
-x: 1276, y: 66, currentFrame: 1
-x: 1265, y: 66, currentFrame: 3
-x: 1254, y: 66, currentFrame: 3
-x: 1243, y: 66, currentFrame: 3
-x: 1232, y: 66, currentFrame: 3
-x: 1221, y: 66, currentFrame: 3
-x: 1210, y: 66, currentFrame: 3
-x: 1199, y: 66, currentFrame: 3
-x: 1188, y: 66, currentFrame: 3
-x: 1177, y: 66, currentFrame: 3
-x: 1166, y: 66, currentFrame: 3
-x: 1155, y: 66, currentFrame: 3
-x: 1144, y: 66, currentFrame: 3
-x: 1144, y: 66, currentFrame: 3
-x: 1144, y: 66, currentFrame: 3
-x: 1144, y: 77, currentFrame: 0
-x: 1144, y: 88, currentFrame: 0
-x: 1144, y: 99, currentFrame: 0
-x: 1144, y: 110, currentFrame: 0
-x: 1144, y: 121, currentFrame: 0
-x: 1144, y: 132, currentFrame: 0
-x: 1144, y: 132, currentFrame: 0
-x: 1133, y: 132, currentFrame: 3
-x: 1122, y: 132, currentFrame: 3
-x: 1111, y: 132, currentFrame: 3
-x: 1100, y: 132, currentFrame: 3
-x: 1089, y: 132, currentFrame: 3
-x: 1078, y: 132, currentFrame: 3
-x: 1078, y: 132, currentFrame: 3
-x: 1078, y: 132, currentFrame: 3
-x: 1078, y: 132, currentFrame: 3
-x: 1078, y: 132, currentFrame: 3
-x: 1078, y: 143, currentFrame: 0
-x: 1078, y: 154, currentFrame: 0
-x: 1078, y: 165, currentFrame: 0
-x: 1078, y: 176, currentFrame: 0
-x: 1078, y: 187, currentFrame: 0
-x: 1078, y: 198, currentFrame: 0
-x: 1078, y: 209, currentFrame: 0
-x: 1078, y: 220, currentFrame: 0
-x: 1078, y: 231, currentFrame: 0
-x: 1078, y: 242, currentFrame: 0
-x: 1078, y: 253, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1078, y: 264, currentFrame: 0
-x: 1089, y: 264, currentFrame: 2
-x: 1100, y: 264, currentFrame: 2
-x: 1111, y: 264, currentFrame: 2
-x: 1122, y: 264, currentFrame: 2
-x: 1133, y: 264, currentFrame: 2
-x: 1144, y: 264, currentFrame: 2
-x: 1144, y: 264, currentFrame: 2
-x: 1144, y: 264, currentFrame: 2
-x: 1144, y: 264, currentFrame: 2
-x: 1144, y: 264, currentFrame: 2
-x: 1144, y: 275, currentFrame: 0
-x: 1144, y: 286, currentFrame: 0
-x: 1144, y: 297, currentFrame: 0
-x: 1144, y: 308, currentFrame: 0
-x: 1144, y: 319, currentFrame: 0
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+setPrePosition x: 814, y: 396, currentFrame: 1
+BACK TO MENU
+CONTINUE GAME
+getPrePosition x: 814, y: 396, currentFrame: 1
+setCurrentPosition x: 814, y: 396, currentFrame: 1
+setPrePosition x: 814, y: 396, currentFrame: 1
+BACK TO MENU
+PLAY GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 616, currentFrame: 0
+x: 946, y: 627, currentFrame: 0
+x: 946, y: 638, currentFrame: 0
+x: 946, y: 649, currentFrame: 0
+x: 946, y: 660, currentFrame: 0
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 660, currentFrame: 3
+x: 946, y: 649, currentFrame: 1
+x: 946, y: 638, currentFrame: 1
+x: 946, y: 627, currentFrame: 1
+x: 946, y: 616, currentFrame: 1
+x: 946, y: 605, currentFrame: 1
+x: 946, y: 594, currentFrame: 1
+x: 946, y: 583, currentFrame: 1
+x: 946, y: 572, currentFrame: 1
+x: 946, y: 561, currentFrame: 1
+x: 946, y: 550, currentFrame: 1
+x: 946, y: 539, currentFrame: 1
+x: 946, y: 528, currentFrame: 1
+x: 946, y: 517, currentFrame: 1
+x: 946, y: 506, currentFrame: 1
+x: 946, y: 495, currentFrame: 1
+x: 946, y: 484, currentFrame: 1
+x: 946, y: 473, currentFrame: 1
+x: 946, y: 462, currentFrame: 1
+x: 946, y: 451, currentFrame: 1
+x: 946, y: 440, currentFrame: 1
+x: 946, y: 429, currentFrame: 1
+x: 946, y: 418, currentFrame: 1
+x: 946, y: 407, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 935, y: 396, currentFrame: 3
+x: 924, y: 396, currentFrame: 3
+x: 913, y: 396, currentFrame: 3
+x: 902, y: 396, currentFrame: 3
+x: 891, y: 396, currentFrame: 3
+x: 880, y: 396, currentFrame: 3
+x: 869, y: 396, currentFrame: 3
+x: 858, y: 396, currentFrame: 3
+x: 847, y: 396, currentFrame: 3
+x: 836, y: 396, currentFrame: 3
+x: 825, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 407, currentFrame: 0
+x: 814, y: 418, currentFrame: 0
+x: 814, y: 429, currentFrame: 0
+x: 814, y: 440, currentFrame: 0
+x: 814, y: 451, currentFrame: 0
+x: 814, y: 462, currentFrame: 0
+x: 814, y: 473, currentFrame: 0
+x: 814, y: 484, currentFrame: 0
+x: 814, y: 495, currentFrame: 0
+x: 814, y: 506, currentFrame: 0
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+WIN GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+STOP MUSIC
+setPrePosition x: 814, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+PLAY GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+x: 979, y: 594, currentFrame: 2
+x: 990, y: 594, currentFrame: 2
+x: 1001, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 583, currentFrame: 1
+x: 1012, y: 572, currentFrame: 1
+x: 1012, y: 561, currentFrame: 1
+x: 1012, y: 550, currentFrame: 1
+x: 1012, y: 539, currentFrame: 1
+x: 1012, y: 528, currentFrame: 1
+x: 1012, y: 517, currentFrame: 1
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 495, currentFrame: 1
+x: 1012, y: 484, currentFrame: 1
+x: 1012, y: 473, currentFrame: 1
+x: 1012, y: 462, currentFrame: 1
+x: 1012, y: 451, currentFrame: 1
+x: 1012, y: 440, currentFrame: 1
+x: 1012, y: 429, currentFrame: 1
+x: 1012, y: 418, currentFrame: 1
+x: 1012, y: 407, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1023, y: 396, currentFrame: 2
+x: 1034, y: 396, currentFrame: 2
+x: 1045, y: 396, currentFrame: 2
+x: 1056, y: 396, currentFrame: 2
+x: 1067, y: 396, currentFrame: 2
+x: 1078, y: 396, currentFrame: 2
+x: 1089, y: 396, currentFrame: 2
+x: 1100, y: 396, currentFrame: 2
+x: 1111, y: 396, currentFrame: 2
+x: 1122, y: 396, currentFrame: 2
+x: 1133, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 385, currentFrame: 1
+x: 1144, y: 374, currentFrame: 1
+x: 1144, y: 363, currentFrame: 1
+x: 1144, y: 352, currentFrame: 1
+x: 1144, y: 341, currentFrame: 1
+x: 1144, y: 330, currentFrame: 1
+x: 1144, y: 319, currentFrame: 1
+x: 1144, y: 319, currentFrame: 3
 x: 1144, y: 330, currentFrame: 0
-x: 1144, y: 341, currentFrame: 0
-x: 1144, y: 352, currentFrame: 0
-x: 1144, y: 363, currentFrame: 0
-x: 1144, y: 374, currentFrame: 0
-x: 1144, y: 385, currentFrame: 0
-x: 1144, y: 396, currentFrame: 0
-x: 1144, y: 396, currentFrame: 0
-x: 1133, y: 396, currentFrame: 3
-x: 1122, y: 396, currentFrame: 3
-x: 1111, y: 396, currentFrame: 3
-x: 1100, y: 396, currentFrame: 3
-x: 1089, y: 396, currentFrame: 3
-x: 1078, y: 396, currentFrame: 3
-x: 1067, y: 396, currentFrame: 3
-x: 1056, y: 396, currentFrame: 3
-x: 1045, y: 396, currentFrame: 3
-x: 1034, y: 396, currentFrame: 3
-x: 1023, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
-x: 1012, y: 396, currentFrame: 3
+x: 1133, y: 330, currentFrame: 3
+x: 1122, y: 330, currentFrame: 3
+x: 1111, y: 330, currentFrame: 3
+x: 1100, y: 330, currentFrame: 3
+x: 1089, y: 330, currentFrame: 3
+x: 1078, y: 330, currentFrame: 3
+x: 1067, y: 330, currentFrame: 3
+x: 1056, y: 330, currentFrame: 3
+x: 1045, y: 330, currentFrame: 3
+x: 1034, y: 330, currentFrame: 3
+x: 1023, y: 330, currentFrame: 3
+x: 1012, y: 330, currentFrame: 3
+x: 1001, y: 330, currentFrame: 3
+x: 990, y: 330, currentFrame: 3
+x: 979, y: 330, currentFrame: 3
+x: 968, y: 330, currentFrame: 3
+x: 957, y: 330, currentFrame: 3
+x: 946, y: 330, currentFrame: 3
+x: 935, y: 330, currentFrame: 3
+x: 935, y: 330, currentFrame: 0
+x: 946, y: 330, currentFrame: 2
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 583, currentFrame: 2
+x: 946, y: 594, currentFrame: 0
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+x: 979, y: 594, currentFrame: 2
+x: 990, y: 594, currentFrame: 2
+x: 1001, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 583, currentFrame: 1
+x: 1012, y: 572, currentFrame: 1
+x: 1012, y: 561, currentFrame: 1
+x: 1012, y: 550, currentFrame: 1
+x: 1012, y: 539, currentFrame: 1
+x: 1012, y: 528, currentFrame: 1
+x: 1012, y: 517, currentFrame: 1
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 495, currentFrame: 1
+x: 1012, y: 484, currentFrame: 1
+x: 1012, y: 473, currentFrame: 1
+x: 1012, y: 462, currentFrame: 1
+x: 1012, y: 451, currentFrame: 1
+x: 1012, y: 440, currentFrame: 1
+x: 1012, y: 429, currentFrame: 1
+x: 1012, y: 418, currentFrame: 1
+x: 1012, y: 407, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1023, y: 396, currentFrame: 2
+x: 1034, y: 396, currentFrame: 2
+x: 1045, y: 396, currentFrame: 2
+x: 1056, y: 396, currentFrame: 2
+x: 1067, y: 396, currentFrame: 2
+x: 1078, y: 396, currentFrame: 2
+x: 1089, y: 396, currentFrame: 2
+x: 1100, y: 396, currentFrame: 2
+x: 1111, y: 396, currentFrame: 2
+x: 1122, y: 396, currentFrame: 2
+x: 1133, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 385, currentFrame: 1
+x: 1144, y: 374, currentFrame: 1
+x: 1144, y: 363, currentFrame: 1
+x: 1144, y: 352, currentFrame: 1
+x: 1144, y: 341, currentFrame: 1
+x: 1144, y: 330, currentFrame: 1
+x: 1144, y: 319, currentFrame: 1
+x: 1144, y: 308, currentFrame: 1
+x: 1144, y: 297, currentFrame: 1
+x: 1144, y: 286, currentFrame: 1
+x: 1144, y: 275, currentFrame: 1
+x: 1144, y: 264, currentFrame: 1
+x: 1144, y: 253, currentFrame: 1
+x: 1144, y: 242, currentFrame: 1
+setPrePosition x: 1144, y: 242, currentFrame: 1
+EXIT GAME
+END GAME
+TimeManager destroyed
+timeTexture deleted
+characterTextures[0] deleted
+characterTextures[1] deleted
+characterTextures[2] deleted
+characterTextures[3] deleted
+Map types[0] deleted
+Map types[1] deleted
+Map types[2] deleted
+TEXTURE MENU ĐÃ ĐƯỢC GIẢI PHÓNG
+NHẠC NỀN MENU ĐÃ ĐƯỢC GIẢI PHÓNG
+ÂM THANH NÚT ẤN ĐÃ ĐƯỢC GIẢI PHÓNG
+ÂM THANH WIN ĐÃ ĐƯỢC GIẢI PHÓNG
+MIXER AUDIO ĐÃ ĐÓNG
+SDL_MIXER ĐÃ ĐƯỢC TẮT
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+STOP MUSIC
+PLAY GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 495, currentFrame: 0
+x: 814, y: 506, currentFrame: 0
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 517, currentFrame: 1
+x: 814, y: 506, currentFrame: 1
+x: 814, y: 495, currentFrame: 1
+x: 814, y: 484, currentFrame: 1
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 594, currentFrame: 1
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+x: 979, y: 594, currentFrame: 2
+x: 990, y: 594, currentFrame: 2
+x: 1001, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 583, currentFrame: 1
+x: 1012, y: 572, currentFrame: 1
+x: 1012, y: 561, currentFrame: 1
+x: 1012, y: 550, currentFrame: 1
+x: 1012, y: 539, currentFrame: 1
+x: 1012, y: 528, currentFrame: 1
+x: 1012, y: 517, currentFrame: 1
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 495, currentFrame: 1
+x: 1012, y: 484, currentFrame: 1
+x: 1012, y: 473, currentFrame: 1
+x: 1012, y: 462, currentFrame: 1
+x: 1012, y: 451, currentFrame: 1
+x: 1012, y: 440, currentFrame: 1
+x: 1012, y: 429, currentFrame: 1
+x: 1012, y: 418, currentFrame: 1
+x: 1012, y: 407, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+setPrePosition x: 1012, y: 396, currentFrame: 1
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+CONTINUE GAME
+getPrePosition x: 1012, y: 396, currentFrame: 1
+setCurrentPosition x: 1012, y: 396, currentFrame: 1
+setPrePosition x: 1012, y: 396, currentFrame: 1
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 1012, y: 396, currentFrame: 1
+setCurrentPosition x: 1012, y: 396, currentFrame: 1
 x: 1012, y: 407, currentFrame: 0
 x: 1012, y: 418, currentFrame: 0
 x: 1012, y: 429, currentFrame: 0
@@ -494,6 +603,207 @@ x: 968, y: 594, currentFrame: 3
 x: 957, y: 594, currentFrame: 3
 x: 946, y: 594, currentFrame: 3
 x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 616, currentFrame: 0
+x: 946, y: 616, currentFrame: 3
+x: 946, y: 605, currentFrame: 1
+x: 946, y: 594, currentFrame: 1
+x: 946, y: 583, currentFrame: 1
+x: 946, y: 572, currentFrame: 1
+x: 946, y: 572, currentFrame: 2
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 616, currentFrame: 0
+x: 946, y: 627, currentFrame: 0
+x: 946, y: 627, currentFrame: 2
+x: 946, y: 627, currentFrame: 2
+x: 946, y: 627, currentFrame: 2
+x: 946, y: 627, currentFrame: 2
+x: 946, y: 616, currentFrame: 1
+x: 946, y: 605, currentFrame: 1
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 594, currentFrame: 1
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+x: 979, y: 594, currentFrame: 2
+x: 990, y: 594, currentFrame: 2
+x: 1001, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+resetPosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 1012, y: 396, currentFrame: 1
+setCurrentPosition x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 407, currentFrame: 0
+x: 1012, y: 418, currentFrame: 0
+x: 1012, y: 429, currentFrame: 0
+x: 1012, y: 440, currentFrame: 0
+x: 1012, y: 451, currentFrame: 0
+x: 1012, y: 462, currentFrame: 0
+x: 1012, y: 473, currentFrame: 0
+x: 1012, y: 484, currentFrame: 0
+setPrePosition x: 1012, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 1012, y: 484, currentFrame: 0
+setCurrentPosition x: 1012, y: 484, currentFrame: 0
+x: 1012, y: 484, currentFrame: 3
+x: 1012, y: 473, currentFrame: 1
+x: 1012, y: 462, currentFrame: 1
+x: 1012, y: 451, currentFrame: 1
+x: 1012, y: 440, currentFrame: 1
+x: 1012, y: 429, currentFrame: 1
+x: 1012, y: 418, currentFrame: 1
+x: 1012, y: 429, currentFrame: 0
+x: 1012, y: 440, currentFrame: 0
+x: 1012, y: 451, currentFrame: 0
+x: 1012, y: 462, currentFrame: 0
+x: 1012, y: 473, currentFrame: 0
+x: 1012, y: 484, currentFrame: 0
+x: 1012, y: 495, currentFrame: 0
+x: 1012, y: 506, currentFrame: 0
+x: 1012, y: 495, currentFrame: 1
+x: 1012, y: 506, currentFrame: 0
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 528, currentFrame: 0
+x: 1012, y: 517, currentFrame: 1
+x: 1012, y: 528, currentFrame: 0
+resetPosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 1012, y: 484, currentFrame: 0
+setCurrentPosition x: 1012, y: 484, currentFrame: 0
+setPrePosition x: 1012, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+PLAY GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+resetPosition x: 814, y: 484, currentFrame: 0
+getPrePosition x: 1012, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 1012, y: 484, currentFrame: 0
+setCurrentPosition x: 1012, y: 484, currentFrame: 0
+setPrePosition x: 1012, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 1012, y: 484, currentFrame: 0
+setCurrentPosition x: 1012, y: 484, currentFrame: 0
+x: 1012, y: 495, currentFrame: 0
+x: 1012, y: 506, currentFrame: 0
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 528, currentFrame: 0
+x: 1012, y: 539, currentFrame: 0
+x: 1012, y: 550, currentFrame: 0
+x: 1012, y: 561, currentFrame: 0
+x: 1012, y: 572, currentFrame: 0
+x: 1012, y: 583, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1001, y: 594, currentFrame: 3
+x: 990, y: 594, currentFrame: 3
+x: 979, y: 594, currentFrame: 3
+x: 968, y: 594, currentFrame: 3
+x: 957, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
 x: 946, y: 583, currentFrame: 1
 x: 946, y: 572, currentFrame: 1
 x: 946, y: 561, currentFrame: 1
@@ -512,20 +822,123 @@ x: 946, y: 429, currentFrame: 1
 x: 946, y: 418, currentFrame: 1
 x: 946, y: 407, currentFrame: 1
 x: 946, y: 396, currentFrame: 1
-x: 946, y: 396, currentFrame: 1
 x: 935, y: 396, currentFrame: 3
-x: 924, y: 396, currentFrame: 3
-x: 913, y: 396, currentFrame: 3
-x: 902, y: 396, currentFrame: 3
-x: 891, y: 396, currentFrame: 3
-x: 880, y: 396, currentFrame: 3
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 594, currentFrame: 1
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+x: 979, y: 594, currentFrame: 2
+x: 990, y: 594, currentFrame: 2
+x: 1001, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 594, currentFrame: 2
+x: 1012, y: 583, currentFrame: 1
+x: 1012, y: 572, currentFrame: 1
+x: 1012, y: 561, currentFrame: 1
+x: 1012, y: 550, currentFrame: 1
+x: 1012, y: 539, currentFrame: 1
+x: 1012, y: 528, currentFrame: 1
+x: 1012, y: 517, currentFrame: 1
+x: 1012, y: 506, currentFrame: 1
+x: 1012, y: 495, currentFrame: 1
+x: 1012, y: 484, currentFrame: 1
+x: 1012, y: 473, currentFrame: 1
+x: 1012, y: 462, currentFrame: 1
+x: 1012, y: 451, currentFrame: 1
+x: 1012, y: 440, currentFrame: 1
+x: 1012, y: 429, currentFrame: 1
+x: 1012, y: 418, currentFrame: 1
+x: 1012, y: 407, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1012, y: 396, currentFrame: 1
+x: 1023, y: 396, currentFrame: 2
+x: 1034, y: 396, currentFrame: 2
+x: 1045, y: 396, currentFrame: 2
+x: 1056, y: 396, currentFrame: 2
+x: 1067, y: 396, currentFrame: 2
+x: 1078, y: 396, currentFrame: 2
+x: 1089, y: 396, currentFrame: 2
+x: 1100, y: 396, currentFrame: 2
+x: 1111, y: 396, currentFrame: 2
+x: 1122, y: 396, currentFrame: 2
+x: 1133, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 396, currentFrame: 2
+x: 1144, y: 385, currentFrame: 1
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+BACK TO MENU
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+BACK TO MENU
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
 x: 869, y: 396, currentFrame: 3
 x: 858, y: 396, currentFrame: 3
 x: 847, y: 396, currentFrame: 3
 x: 836, y: 396, currentFrame: 3
 x: 825, y: 396, currentFrame: 3
-x: 814, y: 396, currentFrame: 3
-x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
@@ -538,11 +951,192 @@ x: 814, y: 429, currentFrame: 0
 x: 814, y: 440, currentFrame: 0
 x: 814, y: 451, currentFrame: 0
 x: 814, y: 462, currentFrame: 0
-x: 814, y: 473, currentFrame: 0
-x: 814, y: 484, currentFrame: 0
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+PLAY GAME
+resetPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 0
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 484, currentFrame: 2
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 605, currentFrame: 2
+x: 946, y: 594, currentFrame: 1
+x: 957, y: 594, currentFrame: 2
+x: 968, y: 594, currentFrame: 2
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+STOP MUSIC
+PLAY MUSIC
+STOP MUSIC
+PLAY MUSIC
+STOP MUSIC
+PLAY MUSIC
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 935, y: 396, currentFrame: 0
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 407, currentFrame: 2
+x: 946, y: 396, currentFrame: 1
+x: 935, y: 396, currentFrame: 3
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+x: 946, y: 583, currentFrame: 0
+x: 946, y: 594, currentFrame: 0
+x: 946, y: 605, currentFrame: 0
+x: 946, y: 616, currentFrame: 0
+x: 946, y: 627, currentFrame: 0
+x: 946, y: 638, currentFrame: 0
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0
+setCurrentPosition x: 814, y: 484, currentFrame: 0
 x: 814, y: 495, currentFrame: 0
 x: 814, y: 506, currentFrame: 0
 x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 825, y: 528, currentFrame: 2
@@ -550,6 +1144,7 @@ x: 836, y: 528, currentFrame: 2
 x: 847, y: 528, currentFrame: 2
 x: 858, y: 528, currentFrame: 2
 x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
@@ -567,33 +1162,6 @@ x: 814, y: 495, currentFrame: 0
 x: 814, y: 506, currentFrame: 0
 x: 814, y: 517, currentFrame: 0
 x: 814, y: 517, currentFrame: 2
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-WIN GAME
-resetPosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 517, currentFrame: 2
 EXIT GAME
 END GAME
-characterTextures[0] deleted
-characterTextures[1] deleted
-characterTextures[2] deleted
-characterTextures[3] deleted
-Map types[0] deleted
-Map types[1] deleted
-Map types[2] deleted
-TEXTURE MENU ĐÃ ĐƯỢC GIẢI PHÓNG
-NHẠC NỀN MENU ĐÃ ĐƯỢC GIẢI PHÓNG
-ÂM THANH NÚT ẤN ĐÃ ĐƯỢC GIẢI PHÓNG
-ÂM THANH WIN ĐÃ ĐƯỢC GIẢI PHÓNG
-MIXER AUDIO ĐÃ ĐÓNG
-SDL_MIXER ĐÃ ĐƯỢC TẮT

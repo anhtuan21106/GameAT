@@ -2,8 +2,11 @@
 #define CHARACTER_H
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <iostream>
+#include <fstream>
 #include "Map.h"
 #include "Menu.h"
+#include "log.h"
 class Character
 {
 private:
