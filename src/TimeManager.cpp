@@ -4,7 +4,7 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), timeTexture(NULL), time(10), timeOver(false),lastTime(SDL_GetTicks())
+    : renderer(renderer), timeTexture(NULL), time(100), timeOver(false), lastTime(SDL_GetTicks())
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -60,9 +60,17 @@ void TimeManager::setTimeUp(bool value)
     timeOver = value;
 }
 
-
-void TimeManager::resetTime(){
-    time = 10;
+int TimeManager::getTime()
+{
+    return time;
+}
+void TimeManager::setTime(int value)
+{
+    time = value;
+}
+void TimeManager::resetTime()
+{
+    time = 100;
     lastTime = SDL_GetTicks();
 }
 void TimeManager::render()

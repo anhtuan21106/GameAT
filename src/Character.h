@@ -7,6 +7,7 @@
 #include "Map.h"
 #include "Menu.h"
 #include "log.h"
+#include "TimeManager.h"
 class Character
 {
 private:
@@ -20,9 +21,9 @@ public:
     ~Character();
     void render();
     void move(int newX, int newY, int newFrame, Map &map);
-    void setCurrentPosition(int x, int y, int frame);
+    void setCurrentPosition(int x, int y, int frame,int time,TimeManager &timeManager);
     void resetPosition();
-    vector<int> getPrePosition(const char *filename);
-    void setPrePosition(const char *filename);
+    vector<int> getPrePosition(const char *filename,TimeManager &timeManager);
+    void setPrePosition(const char *filename,TimeManager &timeManager);
 };
 #endif

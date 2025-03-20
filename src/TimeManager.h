@@ -12,8 +12,11 @@ public:
     void update();
     void render();
     bool isTimeUp();
-    void setTimeUp(bool value); 
+    void setTimeUp(bool value);
     void resetTime();
+    int getTime();
+    void setTime(int value);
+
 private:
     SDL_Renderer *renderer;
     SDL_Texture *timeTexture;

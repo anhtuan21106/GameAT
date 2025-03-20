@@ -9,8 +9,8 @@ using namespace std;
 
 const int SCREEN_WIDTH = 1920;
 const int SCREEN_HEIGHT = 1080;
-SDL_Window *window = NULL;
-SDL_Renderer *renderer = NULL;
+SDL_Window *window = nullptr;
+SDL_Renderer *renderer = nullptr;
 
 void init()
 {
@@ -71,34 +71,27 @@ int main(int argc, char *argv[])
     Map map(renderer, 22);
     Character character(renderer);
     TimeManager timeManager(renderer);
-    bool sdlk_k = false;
+    bool musicPlaying = true;
+
     while (running)
     {
         while (SDL_PollEvent(&event))
         {
             if ((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || state == EXIT)
             {
-                character.setPrePosition("prePosition.txt");
+                character.setPrePosition("prePosition.txt", timeManager);
                 running = false;
                 writeLog("EXIT GAME");
             }
-            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k)
+            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k && state == MENU)
             {
-                sdlk_k = true;
-                if (menu.isMusicPlaying())
-                {
-                    menu.stopMusic();
-                    writeLog("STOP MUSIC");
-                }
-                else
-                {
-                    menu.playMusic();
-                    writeLog("PLAY MUSIC");
-                }
+                musicPlaying = !musicPlaying;
+                musicPlaying ? menu.playMusic() : menu.stopMusic();
+                writeLog(musicPlaying ? "PLAY MUSIC" : "STOP MUSIC");
             }
             else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p)
             {
-                character.setPrePosition("prePosition.txt");
+                character.setPrePosition("prePosition.txt", timeManager);
                 state = MENU;
                 writeLog("BACK TO MENU");
             }
@@ -130,7 +123,7 @@ int main(int argc, char *argv[])
             }
             else if (state == MENU)
             {
-                if (!menu.isMusicPlaying() && !sdlk_k)
+                if (!menu.isMusicPlaying() && musicPlaying)
                     menu.playMusic();
                 state = menu.handleEvents(event);
                 if ((state == PLAY || state == CONTINUE) && !map.LoadMap("map.txt"))
@@ -150,37 +143,33 @@ int main(int argc, char *argv[])
                 else if (state == CONTINUE)
                 {
                     writeLog("CONTINUE GAME");
-                    vector<int> prePosition = character.getPrePosition("prePosition.txt");
-                    if (!prePosition.empty())
-                    {
-                        character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2]);
-                    }
+                    vector<int> prePosition = character.getPrePosition("prePosition.txt", timeManager);
+                    character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2], prePosition[3], timeManager);
                 }
             }
         }
         SDL_RenderClear(renderer);
-        if (map.isGameover())
+        if (map.isGameover() || timeManager.isTimeUp())
         {
             timeManager.resetTime();
+            character.resetPosition();
+            character.setPrePosition("prePosition.txt", timeManager);
+            state = MENU;
+        }
+        if (map.isGameover())
+        {
             writeLog("WIN GAME");
             map.setGameover(false);
-            character.resetPosition();
-            character.setPrePosition("prePosition.txt");
             menu.winGameMusic();
             SDL_Delay(1000);
-            state = MENU;
         }
         if (timeManager.isTimeUp())
         {
-            timeManager.resetTime();
+            writeLog("LOSE GAME");
             timeManager.setTimeUp(false);
-            character.resetPosition();
-            character.setPrePosition("prePosition.txt");
-            state = MENU;
         }
         if ((state == PLAY) || (state == CONTINUE))
         {
-            sdlk_k = false;
             timeManager.update();
             map.render();
             character.render();
