@@ -50,7 +50,6 @@ Map::~Map()
 
 bool Map::LoadMap(const string &file)
 {
-    Gameover = false;
     ifstream File(file);
     if (!File.is_open())
     {

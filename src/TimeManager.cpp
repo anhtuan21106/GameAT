@@ -72,6 +72,9 @@ bool TimeManager::isTimeUp()
 {
     return timeOver;
 }
+bool TimeManager::isTimeUpStart(){
+    return timeBegin;
+}
 void TimeManager::setTimeUp(bool value)
 {
     timeOver = value;

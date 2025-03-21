@@ -109,7 +109,7 @@ Menu::~Menu()
 
 void Menu::render()
 {
-    if (renderer && backgroundTexture)
+    if (backgroundTexture)
     {
         SDL_RenderCopy(renderer, backgroundTexture, NULL, NULL);
     }

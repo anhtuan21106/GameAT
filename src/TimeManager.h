@@ -12,6 +12,7 @@ public:
     void update();
     void render();
     bool isTimeUp();
+    bool isTimeUpStart();
     void setTimeUp(bool value);
     void setTimeUpStart(bool value);
     void resetTime();

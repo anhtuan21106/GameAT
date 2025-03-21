@@ -152,6 +152,10 @@ int main(int argc, char *argv[])
             }
         }
         SDL_RenderClear(renderer);
+        if (!timeManager.isTimeUpStart())
+            map.setShowMap(false);
+        else
+            map.setShowMap(true);
         if (map.isGameover() || timeManager.isTimeUp())
         {
             timeManager.setTimeUpStart(true);
