@@ -36,12 +36,12 @@
 #### *Menu.cpp*:
 -  **Xử lý trạng thái game:** Kiểm tra va chạm chuột với các nút (Play, Continue, Exit). 
 -  **Phát nhạc nền:** Chạy nhạc nền khi vào menu và tắt khi vào game. 
-- **Phát âm thanh nút bấm**: hiệu ứng âm thanh khi nhấn nút.
+- **Phát âm thanh nút bấm**: Hiệu ứng âm thanh khi nhấn nút.
 #### *Character.cpp*:
 - **Di chuyển nhân vật:** Cập nhật vị trí dựa vào phím điều khiển.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
-- **Cập nhật và reset vị trí:** cập nhật vị trí nhân vật sau mỗi lần di chuyển và thiết lập lại khi người chơi thua hoặc restart.
-- **Đọc và ghi dữ liệu nhân vật :** lưu dữ liệu nhân vật khi thoát
+- **Cập nhật và reset vị trí:** Cập nhật vị trí nhân vật sau mỗi lần di chuyển và thiết lập lại khi người chơi thua hoặc restart.
+- **Đọc và ghi dữ liệu nhân vật :** Lưu dữ liệu nhân vật khi thoát
 #### *map.cpp*:
 - **Vẽ bản đồ:** Đọc dữ liệu từ file và vẽ map.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
@@ -49,10 +49,12 @@
 #### *timeManager.cpp*:
 -  **Đếm ngược thời gian:** 
 -  **kiểm tra trạng thái thời gian:** Sau thời gian ghi nhớ, bản đồ sẽ ẩn đi và người chơi phải dựa vào trí nhớ để tìm kho báu.
+#### *main.cpp*:
+- Xử lý logic game
 ## V. Nguồn Tham Khảo  
 - **hình ảnh:** 
-+ *Menu: * https://images.gamebanana.com/img/ss/mods/6302c5e6c248d.jpg  
-+ *Nhân vật: * https://i.pinimg.com/originals/4a/6c/06/4a6c064c30d2346481000e1cf07ce952.png
++ *Menu:* https://images.gamebanana.com/img/ss/mods/6302c5e6c248d.jpg  
++ *Nhân vật:* https://i.pinimg.com/originals/4a/6c/06/4a6c064c30d2346481000e1cf07ce952.png
 - **âm thanh:** https://pixabay.com/vi/sound-effects/search/game/
 
 ## VI. Điểm Nổi Bật  
