@@ -12,9 +12,10 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 STOP MUSIC
-PLAY MUSIC
-PLAY GAME
-resetPosition x: 814, y: 484, currentFrame: 0
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0, timeStart: 1, time: 10
+setCurrentPosition x: 814, y: 484, currentFrame: 0, timeStart: 1, time: 10
+Countdown timeout
 x: 814, y: 473, currentFrame: 1
 x: 814, y: 462, currentFrame: 1
 x: 814, y: 451, currentFrame: 1
@@ -26,117 +27,6 @@ x: 814, y: 396, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
-x: 825, y: 396, currentFrame: 2
-x: 836, y: 396, currentFrame: 2
-x: 847, y: 396, currentFrame: 2
-x: 858, y: 396, currentFrame: 2
-x: 869, y: 396, currentFrame: 2
-x: 880, y: 396, currentFrame: 2
-x: 869, y: 396, currentFrame: 3
-x: 858, y: 396, currentFrame: 3
-x: 847, y: 396, currentFrame: 3
-x: 836, y: 396, currentFrame: 3
-x: 825, y: 396, currentFrame: 3
-x: 814, y: 396, currentFrame: 3
-x: 814, y: 407, currentFrame: 0
-setPrePosition x: 814, y: 407, currentFrame: 0, time: 92
-BACK TO MENU
-STOP MUSIC
-CONTINUE GAME
-getPrePosition x: 814, y: 407, currentFrame: 0, time: 92
-setCurrentPosition x: 814, y: 407, currentFrame: 0, time: 92
-x: 814, y: 407, currentFrame: 2
-setPrePosition x: 814, y: 407, currentFrame: 2, time: 90
-BACK TO MENU
-setPrePosition x: 814, y: 407, currentFrame: 2, time: 90
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 814, y: 407, currentFrame: 2, time: 90
-setCurrentPosition x: 814, y: 407, currentFrame: 2, time: 90
-x: 814, y: 418, currentFrame: 0
-x: 814, y: 429, currentFrame: 0
-x: 814, y: 440, currentFrame: 0
-x: 814, y: 451, currentFrame: 0
-x: 814, y: 462, currentFrame: 0
-x: 814, y: 473, currentFrame: 0
-x: 814, y: 484, currentFrame: 0
-x: 814, y: 495, currentFrame: 0
-x: 814, y: 506, currentFrame: 0
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-resetPosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-WIN GAME
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-BACK TO MENU
-STOP MUSIC
-PLAY GAME
-resetPosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-BACK TO MENU
-PLAY MUSIC
-PLAY GAME
-resetPosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-BACK TO MENU
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-resetPosition x: 814, y: 484, currentFrame: 0
-x: 814, y: 484, currentFrame: 3
-x: 814, y: 484, currentFrame: 3
-x: 814, y: 484, currentFrame: 3
-x: 814, y: 484, currentFrame: 3
-x: 814, y: 473, currentFrame: 1
-x: 814, y: 462, currentFrame: 1
-x: 814, y: 451, currentFrame: 1
-x: 814, y: 440, currentFrame: 1
-x: 814, y: 429, currentFrame: 1
-x: 814, y: 418, currentFrame: 1
-x: 814, y: 407, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
 x: 814, y: 396, currentFrame: 1
@@ -155,148 +45,7 @@ x: 935, y: 396, currentFrame: 2
 x: 946, y: 396, currentFrame: 2
 x: 946, y: 396, currentFrame: 2
 x: 946, y: 396, currentFrame: 2
-x: 946, y: 407, currentFrame: 0
-x: 946, y: 418, currentFrame: 0
-x: 946, y: 429, currentFrame: 0
-x: 946, y: 440, currentFrame: 0
-x: 946, y: 451, currentFrame: 0
-x: 946, y: 462, currentFrame: 0
-x: 946, y: 473, currentFrame: 0
-x: 946, y: 484, currentFrame: 0
-x: 946, y: 495, currentFrame: 0
-x: 946, y: 506, currentFrame: 0
-x: 946, y: 517, currentFrame: 0
-x: 946, y: 528, currentFrame: 0
-x: 946, y: 539, currentFrame: 0
-x: 946, y: 550, currentFrame: 0
-x: 946, y: 561, currentFrame: 0
-x: 946, y: 572, currentFrame: 0
-x: 946, y: 583, currentFrame: 0
-x: 946, y: 594, currentFrame: 0
-x: 957, y: 594, currentFrame: 2
-x: 968, y: 594, currentFrame: 2
-x: 979, y: 594, currentFrame: 2
-x: 990, y: 594, currentFrame: 2
-x: 1001, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 594, currentFrame: 2
-x: 1012, y: 583, currentFrame: 1
-x: 1012, y: 572, currentFrame: 1
-x: 1012, y: 561, currentFrame: 1
-x: 1012, y: 550, currentFrame: 1
-x: 1012, y: 539, currentFrame: 1
-x: 1012, y: 528, currentFrame: 1
-x: 1012, y: 517, currentFrame: 1
-x: 1012, y: 506, currentFrame: 1
-x: 1012, y: 495, currentFrame: 1
-x: 1012, y: 484, currentFrame: 1
-x: 1012, y: 473, currentFrame: 1
-x: 1012, y: 462, currentFrame: 1
-x: 1012, y: 451, currentFrame: 1
-x: 1012, y: 440, currentFrame: 1
-x: 1012, y: 429, currentFrame: 1
-x: 1012, y: 418, currentFrame: 1
-x: 1012, y: 407, currentFrame: 1
-x: 1012, y: 396, currentFrame: 1
-x: 1012, y: 396, currentFrame: 1
-x: 1012, y: 396, currentFrame: 1
-x: 1023, y: 396, currentFrame: 2
-x: 1034, y: 396, currentFrame: 2
-x: 1045, y: 396, currentFrame: 2
-x: 1056, y: 396, currentFrame: 2
-x: 1067, y: 396, currentFrame: 2
-x: 1078, y: 396, currentFrame: 2
-x: 1089, y: 396, currentFrame: 2
-x: 1100, y: 396, currentFrame: 2
-x: 1111, y: 396, currentFrame: 2
-x: 1122, y: 396, currentFrame: 2
-x: 1133, y: 396, currentFrame: 2
-x: 1144, y: 396, currentFrame: 2
-x: 1144, y: 396, currentFrame: 2
-x: 1144, y: 396, currentFrame: 2
-x: 1144, y: 396, currentFrame: 2
-x: 1144, y: 396, currentFrame: 2
-x: 1144, y: 385, currentFrame: 1
-x: 1144, y: 374, currentFrame: 1
-x: 1144, y: 363, currentFrame: 1
-x: 1144, y: 352, currentFrame: 1
-x: 1144, y: 341, currentFrame: 1
-x: 1144, y: 330, currentFrame: 1
-x: 1144, y: 319, currentFrame: 1
-x: 1144, y: 308, currentFrame: 1
-x: 1144, y: 297, currentFrame: 1
-x: 1144, y: 286, currentFrame: 1
-x: 1144, y: 286, currentFrame: 3
-x: 1144, y: 275, currentFrame: 1
-x: 1144, y: 275, currentFrame: 3
-x: 1144, y: 264, currentFrame: 1
-x: 1133, y: 264, currentFrame: 3
-x: 1122, y: 264, currentFrame: 3
-x: 1111, y: 264, currentFrame: 3
-x: 1100, y: 264, currentFrame: 3
-x: 1089, y: 264, currentFrame: 3
-x: 1078, y: 264, currentFrame: 3
-x: 1078, y: 253, currentFrame: 1
-x: 1078, y: 242, currentFrame: 1
-x: 1078, y: 231, currentFrame: 1
-x: 1078, y: 220, currentFrame: 1
-x: 1078, y: 209, currentFrame: 1
-x: 1078, y: 198, currentFrame: 1
-x: 1078, y: 187, currentFrame: 1
-x: 1078, y: 176, currentFrame: 1
-x: 1078, y: 165, currentFrame: 1
-x: 1078, y: 154, currentFrame: 1
-x: 1078, y: 143, currentFrame: 1
-x: 1078, y: 132, currentFrame: 1
-x: 1078, y: 132, currentFrame: 1
-x: 1078, y: 132, currentFrame: 1
-x: 1078, y: 132, currentFrame: 1
-x: 1089, y: 132, currentFrame: 2
-x: 1100, y: 132, currentFrame: 2
-x: 1111, y: 132, currentFrame: 2
-x: 1122, y: 132, currentFrame: 2
-x: 1133, y: 132, currentFrame: 2
-x: 1144, y: 132, currentFrame: 2
-x: 1133, y: 132, currentFrame: 3
-setPrePosition x: 1133, y: 132, currentFrame: 3, time: 87
-BACK TO MENU
-STOP MUSIC
-PLAY GAME
-resetPosition x: 814, y: 484, currentFrame: 0
-x: 814, y: 473, currentFrame: 1
-x: 814, y: 484, currentFrame: 0
-x: 814, y: 473, currentFrame: 1
-x: 814, y: 462, currentFrame: 1
-x: 814, y: 451, currentFrame: 1
-x: 814, y: 440, currentFrame: 1
-x: 814, y: 429, currentFrame: 1
-x: 814, y: 418, currentFrame: 1
-x: 814, y: 407, currentFrame: 1
-x: 814, y: 396, currentFrame: 1
-x: 814, y: 396, currentFrame: 1
-x: 814, y: 396, currentFrame: 1
-x: 825, y: 396, currentFrame: 2
-x: 836, y: 396, currentFrame: 2
-x: 847, y: 396, currentFrame: 2
-x: 858, y: 396, currentFrame: 2
-x: 869, y: 396, currentFrame: 2
-x: 880, y: 396, currentFrame: 2
-x: 891, y: 396, currentFrame: 2
-x: 902, y: 396, currentFrame: 2
-x: 913, y: 396, currentFrame: 2
-x: 924, y: 396, currentFrame: 2
-x: 935, y: 396, currentFrame: 2
 x: 946, y: 396, currentFrame: 2
-x: 946, y: 396, currentFrame: 2
-setPrePosition x: 946, y: 396, currentFrame: 2, time: 96
-BACK TO MENU
-CONTINUE GAME
-getPrePosition x: 946, y: 396, currentFrame: 2, time: 96
-setCurrentPosition x: 946, y: 396, currentFrame: 2, time: 96
 x: 946, y: 407, currentFrame: 0
 x: 946, y: 418, currentFrame: 0
 x: 946, y: 429, currentFrame: 0
@@ -317,50 +66,17 @@ x: 946, y: 583, currentFrame: 0
 x: 946, y: 594, currentFrame: 0
 x: 946, y: 605, currentFrame: 0
 x: 946, y: 616, currentFrame: 0
-x: 946, y: 616, currentFrame: 2
+x: 946, y: 627, currentFrame: 0
+x: 946, y: 638, currentFrame: 0
+x: 946, y: 649, currentFrame: 0
+x: 946, y: 660, currentFrame: 0
+x: 946, y: 660, currentFrame: 0
+x: 946, y: 649, currentFrame: 1
+x: 946, y: 638, currentFrame: 1
+x: 946, y: 627, currentFrame: 1
+x: 946, y: 616, currentFrame: 1
 x: 946, y: 605, currentFrame: 1
 x: 946, y: 594, currentFrame: 1
-x: 946, y: 583, currentFrame: 1
-x: 946, y: 572, currentFrame: 1
-x: 946, y: 561, currentFrame: 1
-x: 946, y: 550, currentFrame: 1
-x: 946, y: 550, currentFrame: 2
-x: 946, y: 561, currentFrame: 0
-x: 946, y: 572, currentFrame: 0
-x: 946, y: 583, currentFrame: 0
-x: 946, y: 594, currentFrame: 0
-x: 946, y: 605, currentFrame: 0
-setPrePosition x: 946, y: 605, currentFrame: 0, time: 91
-BACK TO MENU
-setPrePosition x: 946, y: 605, currentFrame: 0, time: 91
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 946, y: 605, currentFrame: 0, time: 91
-setCurrentPosition x: 946, y: 605, currentFrame: 0, time: 91
-x: 946, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 2
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 957, y: 594, currentFrame: 1
-x: 946, y: 594, currentFrame: 3
 x: 946, y: 583, currentFrame: 1
 x: 946, y: 572, currentFrame: 1
 x: 946, y: 561, currentFrame: 1
@@ -381,6 +97,7 @@ x: 946, y: 407, currentFrame: 1
 x: 946, y: 396, currentFrame: 1
 x: 946, y: 396, currentFrame: 1
 x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
 x: 935, y: 396, currentFrame: 3
 x: 924, y: 396, currentFrame: 3
 x: 913, y: 396, currentFrame: 3
@@ -392,6 +109,7 @@ x: 858, y: 396, currentFrame: 3
 x: 847, y: 396, currentFrame: 3
 x: 836, y: 396, currentFrame: 3
 x: 825, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
 x: 814, y: 396, currentFrame: 3
@@ -410,22 +128,75 @@ x: 814, y: 517, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+timeStart : 3 time : 10
 resetPosition x: 814, y: 484, currentFrame: 0
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
-WIN GAME
-setPrePosition x: 814, y: 484, currentFrame: 0, time: 100
+setPrePosition x: 814, y: 484, currentFrame: 0, timeStart: 3, time: 10
+LOSE GAME
+CONTINUE GAME
+getPrePosition x: 814, y: 484, currentFrame: 0, timeStart: 3, time: 10
+setCurrentPosition x: 814, y: 484, currentFrame: 0, timeStart: 3, time: 10
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 418, currentFrame: 1
+x: 814, y: 407, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 814, y: 396, currentFrame: 1
+x: 825, y: 396, currentFrame: 2
+x: 836, y: 396, currentFrame: 2
+x: 847, y: 396, currentFrame: 2
+x: 858, y: 396, currentFrame: 2
+x: 869, y: 396, currentFrame: 2
+x: 880, y: 396, currentFrame: 2
+x: 891, y: 396, currentFrame: 2
+x: 902, y: 396, currentFrame: 2
+x: 913, y: 396, currentFrame: 2
+x: 924, y: 396, currentFrame: 2
+x: 935, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 396, currentFrame: 2
+x: 946, y: 407, currentFrame: 0
+x: 946, y: 418, currentFrame: 0
+x: 946, y: 429, currentFrame: 0
+x: 946, y: 440, currentFrame: 0
+x: 946, y: 451, currentFrame: 0
+x: 946, y: 462, currentFrame: 0
+x: 946, y: 473, currentFrame: 0
+x: 946, y: 484, currentFrame: 0
+x: 946, y: 495, currentFrame: 0
+Countdown timeout
+x: 946, y: 506, currentFrame: 0
+x: 946, y: 517, currentFrame: 0
+x: 946, y: 528, currentFrame: 0
+x: 946, y: 539, currentFrame: 0
+x: 946, y: 550, currentFrame: 0
+x: 946, y: 561, currentFrame: 0
+x: 946, y: 572, currentFrame: 0
+setPrePosition x: 946, y: 572, currentFrame: 0, timeStart: 0, time: 9
+BACK TO MENU
+CONTINUE GAME
+getPrePosition x: 946, y: 572, currentFrame: 0, timeStart: 0, time: 9
+setCurrentPosition x: 946, y: 572, currentFrame: 0, timeStart: 0, time: 9
+setPrePosition x: 946, y: 572, currentFrame: 0, timeStart: 0, time: 9
+BACK TO MENU
+PLAY GAME
+timeStart : 3 time : 10
+resetPosition x: 814, y: 484, currentFrame: 0
+setPrePosition x: 814, y: 484, currentFrame: 0, timeStart: 0, time: 10
+BACK TO MENU
+setPrePosition x: 814, y: 484, currentFrame: 0, timeStart: 0, time: 10
 EXIT GAME
 END GAME

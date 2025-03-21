@@ -4,7 +4,7 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), timeTexture(NULL), time(100), timeOver(false), lastTime(SDL_GetTicks())
+    : renderer(renderer), timeTexture(NULL), time(10), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(3)
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -38,31 +38,61 @@ void TimeManager::update()
 {
     if (timeOver)
         return;
+
     Uint32 currentTime = SDL_GetTicks();
 
     if (currentTime - lastTime >= 1000)
     {
-        if (time > 0)
-            time--;
-        else
-            timeOver = true;
+        if (timeBegin)
+        {
+            if (timeStart > 0)
+                timeStart--;
+            else
+            {
+                timeBegin = false;
+                writeLog("Countdown timeout");
+            }
+        }
+
+        if (!timeBegin)
+        {
+            if (time > 0)
+                time--;
+            else
+                timeOver = true;
+        }
         lastTime = currentTime;
     }
 }
-
+void TimeManager::rsLastTime()
+{
+    lastTime = SDL_GetTicks();
+}
 bool TimeManager::isTimeUp()
 {
     return timeOver;
 }
-
 void TimeManager::setTimeUp(bool value)
 {
     timeOver = value;
 }
 
+void TimeManager::setTimeUpStart(bool value)
+{
+    timeBegin = value;
+}
+int TimeManager::getTimeStart()
+{
+    return timeStart;
+}
+
 int TimeManager::getTime()
 {
     return time;
+}
+void TimeManager::setTimeStart(int value)
+{
+    timeStart = value;
 }
 void TimeManager::setTime(int value)
 {
@@ -70,8 +100,9 @@ void TimeManager::setTime(int value)
 }
 void TimeManager::resetTime()
 {
-    time = 100;
-    lastTime = SDL_GetTicks();
+    timeStart = 3;
+    time = 10;
+    writeLog("timeStart : " + to_string(timeStart) + " time : " + to_string(time));
 }
 void TimeManager::render()
 {
@@ -81,7 +112,15 @@ void TimeManager::render()
         timeTexture = nullptr;
     }
 
-    string timeString = "Time: " + to_string(time / 60) + ":" + to_string(time % 60);
+    string timeString;
+    if (timeBegin)
+    {
+        timeString = "TimeStart: " + to_string(timeStart / 60) + ":" + to_string(timeStart % 60);
+    }
+    else
+    {
+        timeString = "Time: " + to_string(time / 60) + ":" + to_string(time % 60);
+    }
     SDL_Surface *textSurface = TTF_RenderText_Solid(font, timeString.c_str(), textColor);
     if (!textSurface)
         return;

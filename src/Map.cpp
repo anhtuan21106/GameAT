@@ -1,13 +1,13 @@
 #include "Map.h"
 using namespace std;
-Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false)
+Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false), ShowMap(true)
 {
-  if(IMG_Init(IMG_INIT_PNG) == 0)
+    if (IMG_Init(IMG_INIT_PNG) == 0)
     {
         cerr << "Lỗi khi khởi tạo SDL_Image: " << IMG_GetError() << endl;
         writeLog("Lỗi khi khởi tạo SDL_Image: " + string(IMG_GetError()));
         return;
-  }
+    }
     types.resize(3, nullptr);
     const char *fileNames[] = {"image/grass1.png", "image/wall1.png", "image/treasure.png"};
     for (int i = 0; i < 3; i++)
@@ -109,10 +109,8 @@ int Map::getTile(int x, int y, int width, int height)
 
 void Map::render()
 {
-    if (Gameover)
-    {
+    if (!ShowMap)
         return;
-    }
     else
     {
         int rows = tileMap.size();
@@ -134,4 +132,8 @@ void Map::render()
 void Map::setGameover(bool value)
 {
     Gameover = value;
+}
+void Map::setShowMap(bool value)
+{
+    ShowMap = value;
 }

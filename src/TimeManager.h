@@ -13,10 +13,13 @@ public:
     void render();
     bool isTimeUp();
     void setTimeUp(bool value);
+    void setTimeUpStart(bool value);
     void resetTime();
+    int getTimeStart();
     int getTime();
+    void setTimeStart(int value);
     void setTime(int value);
-
+    void rsLastTime();
 private:
     SDL_Renderer *renderer;
     SDL_Texture *timeTexture;
@@ -25,6 +28,8 @@ private:
     SDL_Rect timeRect;
     Uint32 lastTime;
     int time;
+    int timeStart;
     bool timeOver;
+    bool timeBegin;
 };
 #endif

@@ -23,7 +23,7 @@ private:
     vector<SDL_Texture *> types;
     vector<vector<int>> tileMap;
     bool Gameover;
-
+    bool ShowMap;
 public:
     Map(SDL_Renderer *renderer, int tileSize);
     ~Map();
@@ -32,6 +32,7 @@ public:
     int getTile(int x, int y, int width, int height);
     bool isGameover() const;
     void setGameover(bool value);
+    void setShowMap(bool value);
 };
 
 #endif

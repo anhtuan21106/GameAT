@@ -136,21 +136,25 @@ int main(int argc, char *argv[])
 
                 if (state == PLAY)
                 {
+                    timeManager.rsLastTime();
                     writeLog("PLAY GAME");
+                    timeManager.setTimeUpStart(true);
                     timeManager.resetTime();
                     character.resetPosition();
                 }
                 else if (state == CONTINUE)
                 {
+                    timeManager.rsLastTime();
                     writeLog("CONTINUE GAME");
                     vector<int> prePosition = character.getPrePosition("prePosition.txt", timeManager);
-                    character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2], prePosition[3], timeManager);
+                    character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2], prePosition[3], prePosition[4], timeManager);
                 }
             }
         }
         SDL_RenderClear(renderer);
         if (map.isGameover() || timeManager.isTimeUp())
         {
+            timeManager.setTimeUpStart(true);
             timeManager.resetTime();
             character.resetPosition();
             character.setPrePosition("prePosition.txt", timeManager);

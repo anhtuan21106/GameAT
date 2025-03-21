@@ -72,13 +72,14 @@ void Character::move(int stepX, int stepY, int newFrame, Map &map)
     writeLog("x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
 
-void Character::setCurrentPosition(int newX, int newY, int newFrame, int time, TimeManager &timeManager)
+void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeStart, int time, TimeManager &timeManager)
 {
     x = newX;
     y = newY;
     currentFrame = newFrame;
+    timeManager.setTimeStart(timeStart);
     timeManager.setTime(time);
-    writeLog("setCurrentPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", time: " + to_string(time));
+    writeLog("setCurrentPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeStart) + ", time: " + to_string(time));
 }
 void Character::resetPosition()
 {
@@ -89,7 +90,7 @@ void Character::resetPosition()
 }
 vector<int> Character::getPrePosition(const char *filename, TimeManager &timeManager)
 {
-    vector<int> prePosition = {x, y, currentFrame, timeManager.getTime()};
+    vector<int> prePosition = {x, y, currentFrame, timeManager.getTimeStart(), timeManager.getTime()};
     ifstream File(filename);
     if (!File.is_open())
     {
@@ -97,8 +98,8 @@ vector<int> Character::getPrePosition(const char *filename, TimeManager &timeMan
         writeLog("Không thể mở file: " + string(filename));
         return prePosition;
     }
-    File >> prePosition[0] >> prePosition[1] >> prePosition[2] >> prePosition[3];
-    writeLog("getPrePosition x: " + to_string(prePosition[0]) + ", y: " + to_string(prePosition[1]) + ", currentFrame: " + to_string(prePosition[2]) + ", time: " + to_string(prePosition[3]));
+    File >> prePosition[0] >> prePosition[1] >> prePosition[2] >> prePosition[3] >> prePosition[4];
+    writeLog("getPrePosition x: " + to_string(prePosition[0]) + ", y: " + to_string(prePosition[1]) + ", currentFrame: " + to_string(prePosition[2]) + ", timeStart: " + to_string(prePosition[3]) + ", time: " + to_string(prePosition[4]));
     File.close();
     return prePosition;
 }
@@ -112,7 +113,7 @@ void Character::setPrePosition(const char *filename, TimeManager &timeManager)
         writeLog("Không thể mở file: " + string(filename));
         return;
     }
-    File << x << " " << y << " " << currentFrame << " " << timeManager.getTime();
-    writeLog("setPrePosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", time: " + to_string(timeManager.getTime()));
+    File << x << " " << y << " " << currentFrame << " " << timeManager.getTimeStart() << " " << timeManager.getTime();
+    writeLog("setPrePosition x: "+ to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeManager.getTimeStart()) + ", time: " + to_string(timeManager.getTime()));
     File.close();
 }

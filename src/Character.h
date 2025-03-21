@@ -21,7 +21,7 @@ public:
     ~Character();
     void render();
     void move(int newX, int newY, int newFrame, Map &map);
-    void setCurrentPosition(int x, int y, int frame,int time,TimeManager &timeManager);
+    void setCurrentPosition(int x, int y, int frame,int timeStart,int time,TimeManager &timeManager);
     void resetPosition();
     vector<int> getPrePosition(const char *filename,TimeManager &timeManager);
     void setPrePosition(const char *filename,TimeManager &timeManager);
