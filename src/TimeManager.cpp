@@ -4,7 +4,7 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), timeTexture(NULL), time(10), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(3)
+    : renderer(renderer), timeTexture(NULL), time(120), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(90)
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -14,7 +14,7 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
     }
     else
     {
-        textColor = {255, 0, 0, 255};
+        // textColor = {255, 0, 0, 255};
         timeRect = {30, 11, 100, 100};
         writeLog("TimeManager created");
     }
@@ -72,7 +72,8 @@ bool TimeManager::isTimeUp()
 {
     return timeOver;
 }
-bool TimeManager::isTimeUpStart(){
+bool TimeManager::isTimeUpStart()
+{
     return timeBegin;
 }
 void TimeManager::setTimeUp(bool value)
@@ -103,27 +104,32 @@ void TimeManager::setTime(int value)
 }
 void TimeManager::resetTime()
 {
-    timeStart = 3;
-    time = 10;
+    timeStart = 90;
+    time = 120;
     writeLog("timeStart : " + to_string(timeStart) + " time : " + to_string(time));
 }
 void TimeManager::render()
 {
+    if (timeStart >= 90 * 0.15 && timeBegin || time >= 120 * 0.15 && !timeBegin)
+    {
+        textColor = {255, 0, 0, 255};
+    }
+    else
+    {
+        textColor = {static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), 255};
+    }
     if (timeTexture)
     {
         SDL_DestroyTexture(timeTexture);
         timeTexture = nullptr;
     }
 
-    string timeString;
-    if (timeBegin)
-    {
-        timeString = "TimeStart: " + to_string(timeStart / 60) + ":" + to_string(timeStart % 60);
-    }
-    else
-    {
-        timeString = "Time: " + to_string(time / 60) + ":" + to_string(time % 60);
-    }
+    stringstream timeStream;
+    timeStream << "Time" << (timeBegin ? "Start: " : ": ")
+               << setw(2) << setfill('0') << (timeBegin ? timeStart / 60 : time / 60) << ":"
+               << setw(2) << setfill('0') << (timeBegin ? timeStart % 60 : time % 60);
+
+    string timeString = timeStream.str();
     SDL_Surface *textSurface = TTF_RenderText_Solid(font, timeString.c_str(), textColor);
     if (!textSurface)
         return;

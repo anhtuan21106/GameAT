@@ -4,6 +4,9 @@
 #include <SDL2/SDL_ttf.h>
 #include <string>
 #include "log.h"
+#include <cstdlib>
+#include<sstream>
+#include <iomanip>
 class TimeManager
 {
 public:

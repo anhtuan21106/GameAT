@@ -1,6 +1,6 @@
 #include "Character.h"
 using namespace std;
-Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(37 * 22), y(22 * 22), width(44), height(44), currentFrame(0)
+Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(4 * 22), width(44), height(44), currentFrame(0)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
     {
@@ -83,8 +83,8 @@ void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeSta
 }
 void Character::resetPosition()
 {
-    x = 37 * 22;
-    y = 22 * 22;
+    x = 4 * 22;
+    y = 4 * 22;
     currentFrame = 0;
     writeLog("resetPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
@@ -114,6 +114,6 @@ void Character::setPrePosition(const char *filename, TimeManager &timeManager)
         return;
     }
     File << x << " " << y << " " << currentFrame << " " << timeManager.getTimeStart() << " " << timeManager.getTime();
-    writeLog("setPrePosition x: "+ to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeManager.getTimeStart()) + ", time: " + to_string(timeManager.getTime()));
+    writeLog("setPrePosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeManager.getTimeStart()) + ", time: " + to_string(timeManager.getTime()));
     File.close();
 }

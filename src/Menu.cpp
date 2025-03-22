@@ -1,7 +1,7 @@
 #include "Menu.h"
 using namespace std;
 
-Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr)
+Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr), loseGame(nullptr)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
     {
@@ -14,7 +14,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     {
         cerr << "KHÔNG THỂ TẢI ẢNH MENU: " << IMG_GetError() << endl;
         writeLog("KHÔNG THỂ TẢI ẢNH MENU: " + string(IMG_GetError()));
-        backgroundTexture = nullptr; 
+        backgroundTexture = nullptr;
     }
     else
     {
@@ -30,9 +30,11 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
             writeLog("BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG");
         }
     }
+
     playButton = {740, 431, 416, 172};
     continueButton = {590, 616, 730, 160};
     exitButton = {778, 807, 380, 188};
+
     if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
     {
         cerr << "LỖI SDL-MIX: " << Mix_GetError() << endl;
@@ -62,6 +64,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
 
     winGame = Mix_LoadWAV("music/win.wav");
+    loseGame = Mix_LoadWAV("music/lose.wav");
     if (!winGame)
     {
         cerr << "LỖI TẢI ÂM THANH WIN: " << Mix_GetError() << endl;
@@ -71,6 +74,17 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     {
         Mix_VolumeChunk(winGame, 80);
         writeLog("ÂM THANH WIN TẢI THÀNH CÔNG");
+    }
+
+    if (!loseGame)
+    {
+        cerr << "LỖI TẢIÂM THANH LOSE: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI ÂM THANH LOSE: " + string(Mix_GetError()));
+    }
+    else
+    {
+        Mix_VolumeChunk(loseGame, 80);
+        writeLog("ÂM THANH LOSE TẢI THÀNH CÔNG");
     }
 }
 
@@ -168,6 +182,13 @@ void Menu::winGameMusic()
     if (winGame)
     {
         Mix_PlayChannel(-1, winGame, 0); // lặp 1 lần
+    }
+}
+void Menu::loseGameMusic()
+{
+    if (loseGame)
+    {
+        Mix_PlayChannel(-1, loseGame, 0); // lặp 1 lần
     }
 }
 void Menu::stopMusic()

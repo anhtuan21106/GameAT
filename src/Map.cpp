@@ -114,7 +114,6 @@ void Map::render()
     {
         int rows = tileMap.size();
         int cols = tileMap[0].size();
-
         for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < cols; j++)

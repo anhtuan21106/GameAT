@@ -19,6 +19,7 @@
 - Màu trắng là cỏ, màu đen là tường, kho báu ở giữa map
 - Nhấn phím UP để đi lên, DOWN để đi xuống, LEFT để đi sang trái, RIGHT để đi sang phải.
 - Phím P: Để quay lại menu
+- Exit: Thoát game
 ## III. Ngưỡng Điểm Đề Xuất  
 **Mức điểm mong muốn:** *9 - 10*  
 
@@ -30,7 +31,7 @@
 ### **2. Các tính năng đã hoàn thiện**  
 -  **Âm thanh:** Nhạc nền, âm thanh click nút, âm thanh khi thắng/thua
 -  **Hình ảnh:** Menu, nhân vật, các vật phẩm (màu đen,trắng,kho báu)
--  **Hiệu ứng:**  nút ấn
+-  **Hiệu ứng:**  Nút ấn , thời gian
 
 ### **3. Các thuật toán đã cài đặt**  
 #### *Menu.cpp*:
@@ -54,8 +55,10 @@
 ## V. Nguồn Tham Khảo  
 - **hình ảnh:** 
 + *Menu:* https://images.gamebanana.com/img/ss/mods/6302c5e6c248d.jpg  
++ *Kho báu:* https://vi.pngtree.com/freepng/old-rusty-closed-treasure-chest-side-view-transparent_8864712.html
 + *Nhân vật:* https://i.pinimg.com/originals/4a/6c/06/4a6c064c30d2346481000e1cf07ce952.png
-- **âm thanh:** https://pixabay.com/vi/sound-effects/search/game/
+- **âm thanh:** https://pixabay.com/vi/sound-effects/search/game/ . 
+                https://pixabay.com/vi/sound-effects/search/defeat/?duration=0-30
 
 ## VI. Điểm Nổi Bật  
 - **Cơ chế ẩn/hiện bản đồ:** Người chơi phải ghi nhớ đường đi trước khi màn hình tối lại.  

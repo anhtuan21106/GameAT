@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
                 writeLog("BACK TO MENU");
             }
 
-            if ((state == PLAY || state == CONTINUE) && (event.type == SDL_KEYDOWN))
+            if ((state == PLAY || state == CONTINUE) && event.type == SDL_KEYDOWN && !timeManager.isTimeUpStart())
             {
                 int stepX = 0, stepY = 0, currentFrame = -1;
                 switch (event.key.keysym.sym)
@@ -126,6 +126,7 @@ int main(int argc, char *argv[])
                 if (!menu.isMusicPlaying() && musicPlaying)
                     menu.playMusic();
                 state = menu.handleEvents(event);
+
                 if ((state == PLAY || state == CONTINUE) && !map.LoadMap("map.txt"))
                 {
                     cerr << "Lỗi tạo map" << endl;
@@ -133,7 +134,6 @@ int main(int argc, char *argv[])
                     cleanup();
                     return -1;
                 }
-
                 if (state == PLAY)
                 {
                     timeManager.rsLastTime();
@@ -148,14 +148,16 @@ int main(int argc, char *argv[])
                     writeLog("CONTINUE GAME");
                     vector<int> prePosition = character.getPrePosition("prePosition.txt", timeManager);
                     character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2], prePosition[3], prePosition[4], timeManager);
+                    if (timeManager.getTimeStart() <= 0)
+                    {
+                        timeManager.setTimeUpStart(false);
+                    }
                 }
             }
         }
         SDL_RenderClear(renderer);
-        if (!timeManager.isTimeUpStart())
-            map.setShowMap(false);
-        else
-            map.setShowMap(true);
+
+        map.setShowMap(timeManager.isTimeUpStart());
         if (map.isGameover() || timeManager.isTimeUp())
         {
             timeManager.setTimeUpStart(true);
@@ -175,6 +177,8 @@ int main(int argc, char *argv[])
         {
             writeLog("LOSE GAME");
             timeManager.setTimeUp(false);
+            menu.loseGameMusic();
+            SDL_Delay(2500);
         }
         if ((state == PLAY) || (state == CONTINUE))
         {

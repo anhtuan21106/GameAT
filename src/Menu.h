@@ -20,6 +20,7 @@ private:
     Mix_Music *backgroundMusic;
     Mix_Chunk *buttonSound;
     Mix_Chunk *winGame;
+    Mix_Chunk *loseGame;
     SDL_Rect playButton;
     SDL_Rect continueButton;
     SDL_Rect exitButton;
@@ -32,6 +33,7 @@ public:
     void playMusic();
     void playMusicButton();
     void winGameMusic();
+    void loseGameMusic();
     void stopMusic();
     bool isMusicPlaying();
 };
