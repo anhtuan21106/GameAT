@@ -109,7 +109,10 @@ int Map::getTile(int x, int y, int width, int height)
 void Map::render()
 {
     if (!ShowMap)
-        return;
+    {
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+        SDL_RenderClear(renderer);
+    }
     else
     {
         int rows = tileMap.size();

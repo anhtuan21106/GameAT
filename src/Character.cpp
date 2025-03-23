@@ -72,14 +72,14 @@ void Character::move(int stepX, int stepY, int newFrame, Map &map)
     writeLog("x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
 
-void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeStart, int time, TimeManager &timeManager)
+void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeStart, int Time, TimeManager &timeManager)
 {
     x = newX;
     y = newY;
     currentFrame = newFrame;
     timeManager.setTimeStart(timeStart);
-    timeManager.setTime(time);
-    writeLog("setCurrentPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeStart) + ", time: " + to_string(time));
+    timeManager.setTime(Time);
+    writeLog("setCurrentPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeStart) + ", time: " + to_string(Time));
 }
 void Character::resetPosition()
 {

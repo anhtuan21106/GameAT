@@ -4,9 +4,8 @@
 #include <SDL2/SDL_ttf.h>
 #include <string>
 #include "log.h"
-#include <cstdlib>
-#include<sstream>
 #include <iomanip>
+#include <ctime>
 class TimeManager
 {
 public:
@@ -24,14 +23,17 @@ public:
     void setTimeStart(int value);
     void setTime(int value);
     void rsLastTime();
+    void TimeGame();
+
 private:
     SDL_Renderer *renderer;
     SDL_Texture *timeTexture;
-    TTF_Font *font;
-    SDL_Color textColor;
+    SDL_Texture *timeTexture1;
     SDL_Rect timeRect;
+    SDL_Rect timeRect1;
+    TTF_Font *font;
     Uint32 lastTime;
-    int time;
+    int Time;
     int timeStart;
     bool timeOver;
     bool timeBegin;

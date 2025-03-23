@@ -24,6 +24,7 @@ private:
     SDL_Rect playButton;
     SDL_Rect continueButton;
     SDL_Rect exitButton;
+    SDL_Rect *effectButton;
 
 public:
     Menu(SDL_Renderer *renderer);

@@ -185,12 +185,14 @@ int main(int argc, char *argv[])
             timeManager.update();
             map.render();
             character.render();
-            timeManager.render();
+            timeManager.TimeGame();
         }
         else
         {
             menu.render();
         }
+        timeManager.render();
+        
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }

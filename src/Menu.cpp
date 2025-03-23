@@ -1,7 +1,7 @@
 #include "Menu.h"
 using namespace std;
 
-Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr), loseGame(nullptr)
+Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr), loseGame(nullptr), effectButton(nullptr)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
     {
@@ -127,10 +127,28 @@ void Menu::render()
     {
         SDL_RenderCopy(renderer, backgroundTexture, NULL, NULL);
     }
+    if (effectButton)
+    {
+        SDL_SetRenderDrawColor(renderer, rand() % 256, rand() % 256, rand() % 256, 100);
+        SDL_RenderDrawRect(renderer, effectButton);
+    }
 }
 
 MenuState Menu::handleEvents(SDL_Event &event)
 {
+    if (event.type == SDL_MOUSEMOTION)
+    {
+        SDL_Point mousePos = {event.motion.x, event.motion.y};
+        effectButton = nullptr;
+
+        if (SDL_PointInRect(&mousePos, &playButton))
+            effectButton = &playButton;
+        else if (SDL_PointInRect(&mousePos, &continueButton))
+            effectButton = &continueButton;
+        else if (SDL_PointInRect(&mousePos, &exitButton))
+            effectButton = &exitButton;
+    }
+
     if (event.type == SDL_MOUSEBUTTONDOWN)
     {
         int x = event.button.x;
