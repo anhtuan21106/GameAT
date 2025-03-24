@@ -78,7 +78,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
 
     if (!loseGame)
     {
-        cerr << "LỖI TẢIÂM THANH LOSE: " << Mix_GetError() << endl;
+        cerr << "LỖI TẢI ÂM THANH LOSE: " << Mix_GetError() << endl;
         writeLog("LỖI TẢI ÂM THANH LOSE: " + string(Mix_GetError()));
     }
     else
@@ -116,9 +116,8 @@ Menu::~Menu()
     }
 
     Mix_CloseAudio();
-    writeLog("MIXER AUDIO ĐÃ ĐÓNG");
     Mix_Quit();
-    writeLog("SDL_MIXER ĐÃ ĐƯỢC TẮT");
+    IMG_Quit();
 }
 
 void Menu::render()
@@ -129,7 +128,7 @@ void Menu::render()
     }
     if (effectButton)
     {
-        SDL_SetRenderDrawColor(renderer, rand() % 256, rand() % 256, rand() % 256, 100);
+        SDL_SetRenderDrawColor(renderer, rand() % 256, rand() % 256, rand() % 256, 150);
         SDL_RenderDrawRect(renderer, effectButton);
     }
 }
@@ -149,7 +148,7 @@ MenuState Menu::handleEvents(SDL_Event &event)
             effectButton = &exitButton;
     }
 
-    if (event.type == SDL_MOUSEBUTTONDOWN)
+    if (event.type == SDL_MOUSEBUTTONUP)
     {
         int x = event.button.x;
         int y = event.button.y;
@@ -182,7 +181,7 @@ MenuState Menu::handleEvents(SDL_Event &event)
 
 void Menu::playMusic()
 {
-    if (backgroundMusic)
+    if (backgroundMusic && !Mix_PlayingMusic())
     {
         Mix_PlayMusic(backgroundMusic, -1); // lặp vô hạn
     }
@@ -211,9 +210,6 @@ void Menu::loseGameMusic()
 }
 void Menu::stopMusic()
 {
-    Mix_HaltMusic();
-}
-bool Menu::isMusicPlaying()
-{
-    return Mix_PlayingMusic();
+    if (Mix_PlayingMusic() && backgroundMusic)
+        Mix_HaltMusic();
 }

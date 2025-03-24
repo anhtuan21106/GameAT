@@ -25,7 +25,6 @@ private:
     SDL_Rect continueButton;
     SDL_Rect exitButton;
     SDL_Rect *effectButton;
-
 public:
     Menu(SDL_Renderer *renderer);
     ~Menu();
@@ -36,6 +35,5 @@ public:
     void winGameMusic();
     void loseGameMusic();
     void stopMusic();
-    bool isMusicPlaying();
 };
 #endif

@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
             }
             else if (state == MENU)
             {
-                if (!menu.isMusicPlaying() && musicPlaying)
+                if (musicPlaying)
                     menu.playMusic();
                 state = menu.handleEvents(event);
 
@@ -149,8 +149,11 @@ int main(int argc, char *argv[])
                     vector<int> prePosition = character.getPrePosition("prePosition.txt", timeManager);
                     character.setCurrentPosition(prePosition[0], prePosition[1], prePosition[2], prePosition[3], prePosition[4], timeManager);
                     if (timeManager.getTimeStart() <= 0)
-                    {
                         timeManager.setTimeUpStart(false);
+                    else
+                    {
+                        timeManager.setTimeUpStart(true);
+                        timeManager.setTime(120);
                     }
                 }
             }
@@ -160,39 +163,47 @@ int main(int argc, char *argv[])
         map.setShowMap(timeManager.isTimeUpStart());
         if (map.isGameover() || timeManager.isTimeUp())
         {
+            timeManager.stopMusicTime();
+            if (map.isGameover())
+            {
+                timeManager.bxh("bxh.txt");
+                writeLog("WIN GAME");
+                map.setGameover(false);
+                menu.winGameMusic();
+                state = MENU;
+                SDL_Delay(1000);
+            }
+
+            if (timeManager.isTimeUp())
+            {
+                writeLog("LOSE GAME");
+                timeManager.setTimeUp(false);
+                menu.loseGameMusic();
+                SDL_Delay(2500);
+            }
+
             timeManager.setTimeUpStart(true);
             timeManager.resetTime();
             character.resetPosition();
             character.setPrePosition("prePosition.txt", timeManager);
             state = MENU;
         }
-        if (map.isGameover())
-        {
-            writeLog("WIN GAME");
-            map.setGameover(false);
-            menu.winGameMusic();
-            SDL_Delay(1000);
-        }
-        if (timeManager.isTimeUp())
-        {
-            writeLog("LOSE GAME");
-            timeManager.setTimeUp(false);
-            menu.loseGameMusic();
-            SDL_Delay(2500);
-        }
+
         if ((state == PLAY) || (state == CONTINUE))
         {
             timeManager.update();
             map.render();
             character.render();
             timeManager.TimeGame();
+            timeManager.playMusicTime();
         }
         else
         {
+            timeManager.stopMusicTime();
             menu.render();
         }
         timeManager.render();
-        
+
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }

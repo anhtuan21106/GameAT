@@ -12,599 +12,12 @@ characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
 TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-BACK TO MENU
+Musictime loaded
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 81, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 82, time: 120
-BACK TO MENU
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 82, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 82, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 78, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 84, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 85, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 75, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 20, time: 20
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 20, time: 20
+getPrePosition x: 814, y: 5066, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 5066, currentFrame: 0, timeStart: 2, time: 120
 Countdown timeout
-x: 88, y: 99, currentFrame: 0
-x: 88, y: 110, currentFrame: 0
-x: 88, y: 121, currentFrame: 0
-x: 88, y: 132, currentFrame: 0
-x: 88, y: 143, currentFrame: 0
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 165, currentFrame: 0
-x: 88, y: 176, currentFrame: 0
-x: 88, y: 187, currentFrame: 0
-x: 88, y: 198, currentFrame: 0
-x: 88, y: 209, currentFrame: 0
-x: 88, y: 220, currentFrame: 0
-x: 88, y: 231, currentFrame: 0
-x: 88, y: 242, currentFrame: 0
-x: 88, y: 253, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 99, y: 264, currentFrame: 2
-x: 110, y: 264, currentFrame: 2
-x: 121, y: 264, currentFrame: 2
-x: 132, y: 264, currentFrame: 2
-x: 143, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 253, currentFrame: 1
-x: 154, y: 242, currentFrame: 1
-x: 154, y: 231, currentFrame: 1
-x: 154, y: 220, currentFrame: 1
-x: 154, y: 209, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 154, y: 198, currentFrame: 1
-x: 165, y: 198, currentFrame: 2
-x: 176, y: 198, currentFrame: 2
-x: 187, y: 198, currentFrame: 2
-x: 198, y: 198, currentFrame: 2
-x: 209, y: 198, currentFrame: 2
-x: 220, y: 198, currentFrame: 2
-x: 231, y: 198, currentFrame: 2
-x: 242, y: 198, currentFrame: 2
-x: 253, y: 198, currentFrame: 2
-x: 264, y: 198, currentFrame: 2
-x: 275, y: 198, currentFrame: 2
-x: 286, y: 198, currentFrame: 2
-x: 297, y: 198, currentFrame: 2
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 297, y: 198, currentFrame: 0
-x: 308, y: 198, currentFrame: 2
-x: 319, y: 198, currentFrame: 2
-x: 330, y: 198, currentFrame: 2
-x: 341, y: 198, currentFrame: 2
-x: 352, y: 198, currentFrame: 2
-x: 363, y: 198, currentFrame: 2
-x: 374, y: 198, currentFrame: 2
-x: 385, y: 198, currentFrame: 2
-x: 396, y: 198, currentFrame: 2
-x: 407, y: 198, currentFrame: 2
-x: 418, y: 198, currentFrame: 2
-x: 429, y: 198, currentFrame: 2
-x: 440, y: 198, currentFrame: 2
-x: 451, y: 198, currentFrame: 2
-x: 462, y: 198, currentFrame: 2
-x: 473, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 2
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 198, currentFrame: 0
-x: 484, y: 187, currentFrame: 1
-x: 484, y: 176, currentFrame: 1
-x: 484, y: 165, currentFrame: 1
-x: 484, y: 154, currentFrame: 1
-x: 484, y: 143, currentFrame: 1
-x: 484, y: 132, currentFrame: 1
-x: 484, y: 132, currentFrame: 1
-x: 484, y: 132, currentFrame: 1
-x: 484, y: 132, currentFrame: 1
-x: 484, y: 132, currentFrame: 1
-x: 495, y: 132, currentFrame: 2
-x: 506, y: 132, currentFrame: 2
-x: 517, y: 132, currentFrame: 2
-x: 528, y: 132, currentFrame: 2
-x: 539, y: 132, currentFrame: 2
-x: 550, y: 132, currentFrame: 2
-x: 561, y: 132, currentFrame: 2
-x: 572, y: 132, currentFrame: 2
-x: 583, y: 132, currentFrame: 2
-x: 594, y: 132, currentFrame: 2
-x: 605, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 132, currentFrame: 2
-x: 616, y: 121, currentFrame: 1
-x: 616, y: 110, currentFrame: 1
-x: 616, y: 99, currentFrame: 1
-x: 616, y: 88, currentFrame: 1
-x: 616, y: 77, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 616, y: 66, currentFrame: 1
-x: 627, y: 66, currentFrame: 2
-x: 638, y: 66, currentFrame: 2
-x: 649, y: 66, currentFrame: 2
-x: 660, y: 66, currentFrame: 2
-x: 671, y: 66, currentFrame: 2
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-LOSE GAME
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:814, y: 5066, currentFrame: 0, timeStart: 0, time: 118
 EXIT GAME
 END GAME
 START GAME
@@ -621,50 +34,54 @@ characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
 TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 75, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
+Musictime loaded
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 75, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 75, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 65, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 118
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 118
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+setPrePosition bxh.txt x:880, y: 506, currentFrame: 1, timeStart: 0, time: 113
+BXH
+MusicTime stopped
 timeStart : 90 time : 120
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 81, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+WIN GAME
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
 EXIT GAME
 END GAME
 START GAME
@@ -681,50 +98,68 @@ characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
 TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
+Musictime loaded
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 78, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 506, currentFrame: 2
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 114
+BXH
+MusicTime stopped
 timeStart : 90 time : 120
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+setPrePositionbxh.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+WIN GAME
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
 EXIT GAME
 END GAME
 START GAME
@@ -741,70 +176,56 @@ characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
 TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 82, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 73, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 79, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
+Musictime loaded
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 79, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 79, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 55, time: 120
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 116
+BXH
+MusicTime stopped
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+WIN GAME
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
 EXIT GAME
 END GAME
 START GAME
@@ -821,565 +242,805 @@ characterTextures[1] created
 characterTextures[2] created
 characterTextures[3] created
 TimeManager created
+Musictime loaded
+STOP MUSIC
+PLAY MUSIC
 PLAY GAME
 timeStart : 90 time : 120
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 75, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 80, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
 BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 80, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 82, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 64, time: 120
-BACK TO MENU
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 64, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 64, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 63, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 63, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 63, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 52, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-BACK TO MENU
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 88, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 84, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-PLAY GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 87, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 20, time: 20
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 20, time: 20
-Countdown timeout
-x: 88, y: 99, currentFrame: 0
-x: 88, y: 110, currentFrame: 0
-x: 88, y: 121, currentFrame: 0
-x: 88, y: 132, currentFrame: 0
-x: 88, y: 143, currentFrame: 0
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 143, currentFrame: 1
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 143, currentFrame: 1
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 143, currentFrame: 1
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 143, currentFrame: 1
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 165, currentFrame: 0
-x: 88, y: 176, currentFrame: 0
-x: 88, y: 187, currentFrame: 0
-x: 88, y: 198, currentFrame: 0
-x: 88, y: 209, currentFrame: 0
-x: 88, y: 220, currentFrame: 0
-x: 88, y: 231, currentFrame: 0
-x: 88, y: 242, currentFrame: 0
-x: 88, y: 253, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-LOSE GAME
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 78, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 0, time: 30
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 0, time: 30
-x: 88, y: 99, currentFrame: 0
-x: 88, y: 110, currentFrame: 0
-x: 88, y: 121, currentFrame: 0
-x: 88, y: 132, currentFrame: 0
-x: 88, y: 143, currentFrame: 0
-x: 88, y: 154, currentFrame: 0
-x: 88, y: 165, currentFrame: 0
-x: 88, y: 176, currentFrame: 0
-x: 88, y: 187, currentFrame: 0
-x: 88, y: 198, currentFrame: 0
-x: 88, y: 209, currentFrame: 0
-x: 88, y: 220, currentFrame: 0
-x: 88, y: 231, currentFrame: 0
-x: 88, y: 242, currentFrame: 0
-x: 88, y: 253, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 88, y: 264, currentFrame: 0
-x: 99, y: 264, currentFrame: 2
-x: 110, y: 264, currentFrame: 2
-x: 121, y: 264, currentFrame: 2
-x: 132, y: 264, currentFrame: 2
-x: 143, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 2
-x: 154, y: 264, currentFrame: 0
-x: 154, y: 264, currentFrame: 0
-x: 154, y: 264, currentFrame: 0
-setPrePosition x: 154, y: 264, currentFrame: 0, timeStart: 0, time: 16
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
+MusicTime stopped
 STOP MUSIC
 PLAY GAME
 timeStart : 90 time : 120
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 65, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
 BACK TO MENU
+MusicTime stopped
+PLAY MUSIC
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+STOP MUSIC
+PLAY MUSIC
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 65, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 65, time: 120
-setPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 63, time: 120
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 117
+BXH
+MusicTime stopped
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+WIN GAME
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+BACK TO MENU
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 3
+x: 858, y: 528, currentFrame: 3
+x: 847, y: 528, currentFrame: 3
+x: 836, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 3
+x: 858, y: 528, currentFrame: 3
+x: 847, y: 528, currentFrame: 3
+x: 836, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 113
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+STOP MUSIC
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 9, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 9, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+Countdown timeout
+x: 814, y: 495, currentFrame: 1
+x: 814, y: 484, currentFrame: 1
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 451, currentFrame: 1
+x: 814, y: 440, currentFrame: 1
+x: 814, y: 429, currentFrame: 1
+x: 814, y: 440, currentFrame: 0
+x: 814, y: 451, currentFrame: 0
+x: 814, y: 462, currentFrame: 0
+x: 814, y: 473, currentFrame: 0
+x: 814, y: 484, currentFrame: 0
+x: 814, y: 495, currentFrame: 0
+x: 814, y: 506, currentFrame: 0
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 517, currentFrame: 1
+x: 814, y: 506, currentFrame: 1
+x: 814, y: 495, currentFrame: 1
+x: 814, y: 484, currentFrame: 1
+x: 814, y: 473, currentFrame: 1
+x: 814, y: 462, currentFrame: 1
+x: 814, y: 473, currentFrame: 0
+x: 814, y: 484, currentFrame: 0
+x: 814, y: 495, currentFrame: 0
+x: 814, y: 506, currentFrame: 0
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 3
+x: 858, y: 528, currentFrame: 3
+x: 847, y: 528, currentFrame: 3
+x: 836, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 814, y: 528, currentFrame: 3
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+STOP MUSIC
+PLAY MUSIC
+STOP MUSIC
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+PLAY GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+BACK TO MENU
+MusicTime stopped
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+BACK TO MENU
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
+Countdown timeout
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 814, y: 528, currentFrame: 0
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 836, y: 528, currentFrame: 1
+x: 847, y: 528, currentFrame: 2
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 528, currentFrame: 2
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+x: 880, y: 506, currentFrame: 1
+MusicTime stopped
+WIN GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+BACK TO MENU
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 83, time: 120
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 83, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+PLAY GAME
+timeStart : 90 time : 120
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
 EXIT GAME
 END GAME

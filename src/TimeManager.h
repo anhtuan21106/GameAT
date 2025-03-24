@@ -2,10 +2,12 @@
 #define TIMEMANAGER_H
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
+#include <SDL2/SDL_mixer.h>
 #include <string>
 #include "log.h"
 #include <iomanip>
 #include <ctime>
+#include <fstream>
 class TimeManager
 {
 public:
@@ -24,7 +26,9 @@ public:
     void setTime(int value);
     void rsLastTime();
     void TimeGame();
-
+    void playMusicTime();
+    void stopMusicTime();
+    void bxh(const char *filename);
 private:
     SDL_Renderer *renderer;
     SDL_Texture *timeTexture;
@@ -33,9 +37,11 @@ private:
     SDL_Rect timeRect1;
     TTF_Font *font;
     Uint32 lastTime;
+    Mix_Music *musicTime;
     int Time;
     int timeStart;
     bool timeOver;
     bool timeBegin;
+    bool musicTimePlaying;
 };
 #endif

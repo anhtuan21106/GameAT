@@ -4,7 +4,7 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), font(nullptr), timeTexture(NULL), timeTexture1(NULL), Time(120), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(90)
+    : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), timeTexture1(nullptr), Time(120), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(90), musicTimePlaying(false)
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -18,6 +18,20 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
         timeRect1 = {1800, 11, 100, 100};
         writeLog("TimeManager created");
     }
+    if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 4048) < 0)
+    {
+        cerr << "LỖI SDL-MIX: " << Mix_GetError() << endl;
+        writeLog("LỖI SDL-MIX: " + string(Mix_GetError()));
+        return;
+    }
+    musicTime = Mix_LoadMUS("music/time.mp3");
+    if (!musicTime)
+    {
+        cerr << "LỖI TẢI NHẠC THOiGIAN: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI NHẠC THOiGIAN: " + string(Mix_GetError()));
+    }
+    else
+        writeLog("Musictime loaded");
 }
 
 TimeManager::~TimeManager()
@@ -25,7 +39,7 @@ TimeManager::~TimeManager()
     if (font)
     {
         TTF_CloseFont(font);
-        font == nullptr;
+        font = nullptr;
         writeLog("TimeManager destroyed");
     }
     if (timeTexture)
@@ -40,7 +54,36 @@ TimeManager::~TimeManager()
         timeTexture1 = nullptr;
         writeLog("timeTexture1 deleted");
     }
+    if (musicTime)
+    {
+        Mix_FreeMusic(musicTime);
+        musicTime = nullptr;
+        writeLog("MusicTime freed");
+    }
+    Mix_CloseAudio();
+    Mix_Quit();
+    TTF_Quit();
 }
+void TimeManager::playMusicTime()
+{
+
+    if (musicTime && !Mix_PlayingMusic() && !musicTimePlaying)
+    {
+        musicTimePlaying = true;
+        Mix_PlayMusic(musicTime, -1);
+    }
+}
+
+void TimeManager::stopMusicTime()
+{
+    if (Mix_PlayingMusic() && musicTime && musicTimePlaying)
+    {
+        musicTimePlaying = false;
+        Mix_HaltMusic();
+        writeLog("MusicTime stopped");
+    }
+}
+
 void TimeManager::update()
 {
     if (timeOver)
@@ -183,4 +226,24 @@ void TimeManager::TimeGame()
 
     if (timeTexture)
         SDL_RenderCopy(renderer, timeTexture, NULL, &timeRect);
+}
+void TimeManager::bxh(const char *filename)
+{
+    time_t now = time(0);
+    ofstream file(filename, ios::app);
+    if (!file.is_open())
+    {
+        cerr << "Không thể mở file: " << filename << endl;
+        writeLog("Không thể mở file: " + string(filename));
+        return;
+    }
+    file << setfill('0')
+         << setw(2) << localtime(&now)->tm_mday << "/"
+         << setw(2) << localtime(&now)->tm_mon + 1 << "/"
+         << localtime(&now)->tm_year + 1900 << " "
+         << setw(2) << localtime(&now)->tm_hour << ":"
+         << setw(2) << localtime(&now)->tm_min << ":"
+         << setw(2) << localtime(&now)->tm_sec << " "
+         << 120 - Time << endl;
+    file.close();
 }
