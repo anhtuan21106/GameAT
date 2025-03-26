@@ -72,9 +72,11 @@ int main(int argc, char *argv[])
     Character character(renderer);
     TimeManager timeManager(renderer);
     bool musicPlaying = true;
-
+    Uint32 waitStart = 0;
+    bool waiting = false;
     while (running)
     {
+        Uint32 currentTime = SDL_GetTicks();
         while (SDL_PollEvent(&event))
         {
             if ((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || state == EXIT)
@@ -153,7 +155,7 @@ int main(int argc, char *argv[])
                     else
                     {
                         timeManager.setTimeUpStart(true);
-                        timeManager.setTime(120);
+                        timeManager.setTime(300);
                     }
                 }
             }
@@ -161,7 +163,16 @@ int main(int argc, char *argv[])
         SDL_RenderClear(renderer);
 
         map.setShowMap(timeManager.isTimeUpStart());
-        if (map.isGameover() || timeManager.isTimeUp())
+        
+        if (waiting)
+        {
+            if (currentTime - waitStart >= 2000)
+            {
+                waiting = false;
+                state = MENU;
+            }
+        }
+        else if (map.isGameover() || timeManager.isTimeUp())
         {
             timeManager.stopMusicTime();
             if (map.isGameover())
@@ -170,32 +181,27 @@ int main(int argc, char *argv[])
                 writeLog("WIN GAME");
                 map.setGameover(false);
                 menu.winGameMusic();
-                state = MENU;
-                SDL_Delay(1000);
             }
-
             if (timeManager.isTimeUp())
             {
                 writeLog("LOSE GAME");
                 timeManager.setTimeUp(false);
                 menu.loseGameMusic();
-                SDL_Delay(2500);
             }
-
+            waitStart = currentTime;
+            waiting = true;
             timeManager.setTimeUpStart(true);
             timeManager.resetTime();
             character.resetPosition();
             character.setPrePosition("prePosition.txt", timeManager);
-            state = MENU;
         }
 
         if ((state == PLAY) || (state == CONTINUE))
         {
-            timeManager.update();
             map.render();
             character.render();
             timeManager.TimeGame();
-            timeManager.playMusicTime();
+            timeManager.update();
         }
         else
         {

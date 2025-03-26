@@ -13,253 +13,213 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
-CONTINUE GAME
-getPrePosition x: 814, y: 5066, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 5066, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-setPrePositionprePosition.txtx:814, y: 5066, currentFrame: 0, timeStart: 0, time: 118
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 118
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 118
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-setPrePosition bxh.txt x:880, y: 506, currentFrame: 1, timeStart: 0, time: 113
-BXH
-MusicTime stopped
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-WIN GAME
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 506, currentFrame: 2
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 114
-BXH
-MusicTime stopped
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionbxh.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-WIN GAME
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 0, time: 120
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 116
-BXH
-MusicTime stopped
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-WIN GAME
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-STOP MUSIC
-PLAY MUSIC
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
 PLAY GAME
-timeStart : 90 time : 120
+timeStart : 120 time : 300
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
 BACK TO MENU
 MusicTime stopped
+NHẠC NỀN CHẠY
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 10, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 10, time: 300
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 88, y: 99, currentFrame: 0
+MusicTime played
+x: 88, y: 110, currentFrame: 0
+x: 88, y: 121, currentFrame: 0
+x: 88, y: 132, currentFrame: 0
+x: 88, y: 143, currentFrame: 0
+x: 88, y: 154, currentFrame: 0
+x: 88, y: 165, currentFrame: 0
+x: 88, y: 176, currentFrame: 0
+x: 88, y: 187, currentFrame: 0
+x: 88, y: 198, currentFrame: 0
+x: 88, y: 209, currentFrame: 0
+x: 88, y: 220, currentFrame: 0
+x: 88, y: 231, currentFrame: 0
+x: 88, y: 242, currentFrame: 0
+x: 88, y: 253, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 2
+x: 110, y: 264, currentFrame: 2
+x: 121, y: 264, currentFrame: 2
+x: 132, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 253, currentFrame: 1
+x: 154, y: 242, currentFrame: 1
+x: 154, y: 231, currentFrame: 1
+x: 154, y: 220, currentFrame: 1
+x: 154, y: 209, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 165, y: 198, currentFrame: 2
+x: 176, y: 198, currentFrame: 2
+x: 187, y: 198, currentFrame: 2
+x: 198, y: 198, currentFrame: 2
+x: 209, y: 198, currentFrame: 2
+x: 220, y: 198, currentFrame: 2
+x: 231, y: 198, currentFrame: 2
+x: 242, y: 198, currentFrame: 2
+x: 253, y: 198, currentFrame: 2
+x: 264, y: 198, currentFrame: 2
+x: 275, y: 198, currentFrame: 2
+x: 286, y: 198, currentFrame: 2
+x: 297, y: 198, currentFrame: 2
+x: 308, y: 198, currentFrame: 2
+x: 319, y: 198, currentFrame: 2
+x: 330, y: 198, currentFrame: 2
+x: 341, y: 198, currentFrame: 2
+x: 352, y: 198, currentFrame: 2
+x: 363, y: 198, currentFrame: 2
+x: 374, y: 198, currentFrame: 2
+x: 385, y: 198, currentFrame: 2
+x: 396, y: 198, currentFrame: 2
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 396, y: 198, currentFrame: 0
+x: 407, y: 198, currentFrame: 2
+x: 418, y: 198, currentFrame: 2
+x: 429, y: 198, currentFrame: 2
+x: 440, y: 198, currentFrame: 2
+x: 451, y: 198, currentFrame: 2
+x: 462, y: 198, currentFrame: 2
+x: 473, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+setPrePositionprePosition.txtx:484, y: 198, currentFrame: 2, timeStart: 0, time: 96
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 484, y: 198, currentFrame: 2, timeStart: 0, time: 300
+setCurrentPosition x: 484, y: 198, currentFrame: 2, timeStart: 0, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:484, y: 198, currentFrame: 2, timeStart: 0, time: 298
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+PLAY GAME
+timeStart : 120 time : 300
+resetPosition x: 88, y: 88, currentFrame: 0
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 115, time: 120
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
 STOP MUSIC
 PLAY GAME
-timeStart : 90 time : 120
+timeStart : 120 time : 300
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
 BACK TO MENU
 MusicTime stopped
-PLAY MUSIC
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 120
+BACK TO MENU
+MusicTime stopped
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 120
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 118, time: 120
+BACK TO MENU
+MusicTime stopped
+PLAY GAME
+timeStart : 120 time : 300
+resetPosition x: 88, y: 88, currentFrame: 0
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+BACK TO MENU
+MusicTime stopped
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 120, time: 120
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 120, time: 120
 EXIT GAME
 END GAME
 START GAME
@@ -277,69 +237,1485 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 120
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 117, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 117, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 117, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 117, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 2, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 2, time: 300
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 88, y: 99, currentFrame: 0
+MusicTime played
+x: 88, y: 110, currentFrame: 0
+x: 88, y: 121, currentFrame: 0
+x: 88, y: 132, currentFrame: 0
+x: 88, y: 143, currentFrame: 0
+x: 88, y: 154, currentFrame: 0
+x: 88, y: 165, currentFrame: 0
+x: 88, y: 176, currentFrame: 0
+x: 88, y: 187, currentFrame: 0
+x: 88, y: 198, currentFrame: 0
+x: 88, y: 209, currentFrame: 0
+x: 88, y: 220, currentFrame: 0
+x: 88, y: 231, currentFrame: 0
+x: 88, y: 242, currentFrame: 0
+x: 88, y: 253, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 2
+x: 110, y: 264, currentFrame: 2
+x: 121, y: 264, currentFrame: 2
+x: 132, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 253, currentFrame: 1
+x: 154, y: 242, currentFrame: 1
+x: 154, y: 231, currentFrame: 1
+x: 154, y: 220, currentFrame: 1
+x: 154, y: 209, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 165, y: 198, currentFrame: 2
+x: 176, y: 198, currentFrame: 2
+x: 187, y: 198, currentFrame: 2
+x: 198, y: 198, currentFrame: 2
+x: 209, y: 198, currentFrame: 2
+x: 220, y: 198, currentFrame: 2
+x: 231, y: 198, currentFrame: 2
+x: 242, y: 198, currentFrame: 2
+x: 253, y: 198, currentFrame: 2
+x: 264, y: 198, currentFrame: 2
+x: 275, y: 198, currentFrame: 2
+x: 286, y: 198, currentFrame: 2
+x: 297, y: 198, currentFrame: 2
+x: 308, y: 198, currentFrame: 2
+x: 319, y: 198, currentFrame: 2
+x: 330, y: 198, currentFrame: 2
+x: 341, y: 198, currentFrame: 2
+x: 352, y: 198, currentFrame: 2
+x: 363, y: 198, currentFrame: 2
+x: 374, y: 198, currentFrame: 2
+x: 385, y: 198, currentFrame: 2
+x: 396, y: 198, currentFrame: 2
+x: 407, y: 198, currentFrame: 2
+x: 418, y: 198, currentFrame: 2
+x: 429, y: 198, currentFrame: 2
+x: 440, y: 198, currentFrame: 2
+x: 451, y: 198, currentFrame: 2
+x: 462, y: 198, currentFrame: 2
+x: 473, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 0
+x: 484, y: 187, currentFrame: 1
+x: 484, y: 176, currentFrame: 1
+x: 484, y: 165, currentFrame: 1
+x: 484, y: 154, currentFrame: 1
+x: 484, y: 143, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 495, y: 132, currentFrame: 2
+x: 506, y: 132, currentFrame: 2
+x: 517, y: 132, currentFrame: 2
+x: 528, y: 132, currentFrame: 2
+x: 539, y: 132, currentFrame: 2
+x: 550, y: 132, currentFrame: 2
+x: 561, y: 132, currentFrame: 2
+x: 572, y: 132, currentFrame: 2
+x: 583, y: 132, currentFrame: 2
+x: 594, y: 132, currentFrame: 2
+x: 605, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 0
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 121, currentFrame: 1
+x: 616, y: 110, currentFrame: 1
+x: 616, y: 99, currentFrame: 1
+x: 616, y: 88, currentFrame: 1
+x: 616, y: 77, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 627, y: 66, currentFrame: 2
+x: 638, y: 66, currentFrame: 2
+x: 649, y: 66, currentFrame: 2
+x: 660, y: 66, currentFrame: 2
+x: 671, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 77, currentFrame: 0
+x: 682, y: 88, currentFrame: 0
+x: 682, y: 99, currentFrame: 0
+x: 682, y: 110, currentFrame: 0
+x: 682, y: 121, currentFrame: 0
+x: 682, y: 132, currentFrame: 0
+x: 682, y: 143, currentFrame: 0
+x: 682, y: 154, currentFrame: 0
+x: 682, y: 165, currentFrame: 0
+x: 682, y: 176, currentFrame: 0
+x: 682, y: 187, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+setPrePositionprePosition.txtx:682, y: 198, currentFrame: 0, timeStart: 0, time: 288
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 682, y: 198, currentFrame: 0, timeStart: 0, time: 288
+setCurrentPosition x: 682, y: 198, currentFrame: 0, timeStart: 0, time: 288
+MusicTime played
+setPrePositionprePosition.txtx:682, y: 198, currentFrame: 0, timeStart: 0, time: 287
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+PLAY GAME
+timeStart : 120 time : 300
+resetPosition x: 88, y: 88, currentFrame: 0
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 119, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 44, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 44, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 44, time: 300
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 43, time: 300
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
 STOP MUSIC
-PLAY MUSIC
 CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 89, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 89, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 43, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 43, time: 300
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 88, y: 99, currentFrame: 0
+MusicTime played
+x: 88, y: 110, currentFrame: 0
+x: 88, y: 121, currentFrame: 0
+x: 88, y: 132, currentFrame: 0
+x: 88, y: 143, currentFrame: 0
+x: 88, y: 154, currentFrame: 0
+x: 88, y: 165, currentFrame: 0
+x: 88, y: 176, currentFrame: 0
+x: 88, y: 187, currentFrame: 0
+x: 88, y: 198, currentFrame: 0
+x: 88, y: 209, currentFrame: 0
+x: 88, y: 220, currentFrame: 0
+x: 88, y: 231, currentFrame: 0
+x: 88, y: 242, currentFrame: 0
+x: 88, y: 253, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 2
+x: 110, y: 264, currentFrame: 2
+x: 121, y: 264, currentFrame: 2
+x: 132, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 253, currentFrame: 1
+x: 154, y: 242, currentFrame: 1
+x: 154, y: 231, currentFrame: 1
+x: 154, y: 220, currentFrame: 1
+x: 154, y: 209, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 154, y: 198, currentFrame: 1
+x: 165, y: 198, currentFrame: 2
+x: 176, y: 198, currentFrame: 2
+x: 187, y: 198, currentFrame: 2
+x: 198, y: 198, currentFrame: 2
+x: 209, y: 198, currentFrame: 2
+x: 220, y: 198, currentFrame: 2
+x: 231, y: 198, currentFrame: 2
+x: 242, y: 198, currentFrame: 2
+x: 253, y: 198, currentFrame: 2
+x: 264, y: 198, currentFrame: 2
+x: 275, y: 198, currentFrame: 2
+x: 286, y: 198, currentFrame: 2
+x: 297, y: 198, currentFrame: 2
+x: 308, y: 198, currentFrame: 2
+x: 319, y: 198, currentFrame: 2
+x: 330, y: 198, currentFrame: 2
+x: 341, y: 198, currentFrame: 2
+x: 352, y: 198, currentFrame: 2
+x: 363, y: 198, currentFrame: 2
+x: 374, y: 198, currentFrame: 2
+x: 385, y: 198, currentFrame: 2
+x: 396, y: 198, currentFrame: 2
+x: 407, y: 198, currentFrame: 2
+x: 418, y: 198, currentFrame: 2
+x: 429, y: 198, currentFrame: 2
+x: 440, y: 198, currentFrame: 2
+x: 451, y: 198, currentFrame: 2
+x: 462, y: 198, currentFrame: 2
+x: 473, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 198, currentFrame: 2
+x: 484, y: 187, currentFrame: 1
+x: 484, y: 176, currentFrame: 1
+x: 484, y: 165, currentFrame: 1
+x: 484, y: 154, currentFrame: 1
+x: 484, y: 143, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 484, y: 132, currentFrame: 1
+x: 495, y: 132, currentFrame: 2
+x: 506, y: 132, currentFrame: 2
+x: 517, y: 132, currentFrame: 2
+x: 528, y: 132, currentFrame: 2
+x: 539, y: 132, currentFrame: 2
+x: 550, y: 132, currentFrame: 2
+x: 561, y: 132, currentFrame: 2
+x: 572, y: 132, currentFrame: 2
+x: 583, y: 132, currentFrame: 2
+x: 594, y: 132, currentFrame: 2
+x: 605, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 132, currentFrame: 2
+x: 616, y: 121, currentFrame: 1
+x: 616, y: 110, currentFrame: 1
+x: 616, y: 99, currentFrame: 1
+x: 616, y: 88, currentFrame: 1
+x: 616, y: 77, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 616, y: 66, currentFrame: 1
+x: 627, y: 66, currentFrame: 2
+x: 638, y: 66, currentFrame: 2
+x: 649, y: 66, currentFrame: 2
+x: 660, y: 66, currentFrame: 2
+x: 671, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 66, currentFrame: 2
+x: 682, y: 77, currentFrame: 0
+x: 682, y: 88, currentFrame: 0
+x: 682, y: 99, currentFrame: 0
+x: 682, y: 110, currentFrame: 0
+x: 682, y: 121, currentFrame: 0
+x: 682, y: 132, currentFrame: 0
+x: 682, y: 143, currentFrame: 0
+x: 682, y: 154, currentFrame: 0
+x: 682, y: 165, currentFrame: 0
+x: 682, y: 176, currentFrame: 0
+x: 682, y: 187, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 682, y: 198, currentFrame: 0
+x: 671, y: 198, currentFrame: 3
+x: 660, y: 198, currentFrame: 3
+x: 649, y: 198, currentFrame: 3
+x: 638, y: 198, currentFrame: 3
+x: 627, y: 198, currentFrame: 3
+x: 616, y: 198, currentFrame: 3
+x: 605, y: 198, currentFrame: 3
+x: 594, y: 198, currentFrame: 3
+x: 583, y: 198, currentFrame: 3
+x: 572, y: 198, currentFrame: 3
+x: 561, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 209, currentFrame: 0
+x: 550, y: 220, currentFrame: 0
+x: 550, y: 231, currentFrame: 0
+x: 550, y: 242, currentFrame: 0
+x: 550, y: 253, currentFrame: 0
+x: 550, y: 264, currentFrame: 0
+x: 550, y: 275, currentFrame: 0
+x: 550, y: 286, currentFrame: 0
+x: 550, y: 297, currentFrame: 0
+x: 550, y: 308, currentFrame: 0
+x: 550, y: 319, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 319, currentFrame: 1
+x: 550, y: 308, currentFrame: 1
+x: 550, y: 297, currentFrame: 1
+x: 550, y: 286, currentFrame: 1
+x: 550, y: 275, currentFrame: 1
+x: 550, y: 264, currentFrame: 1
+x: 550, y: 253, currentFrame: 1
+x: 550, y: 242, currentFrame: 1
+x: 550, y: 231, currentFrame: 1
+x: 550, y: 220, currentFrame: 1
+x: 550, y: 209, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 1
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 198, currentFrame: 3
+x: 550, y: 209, currentFrame: 0
+x: 550, y: 220, currentFrame: 0
+x: 550, y: 231, currentFrame: 0
+x: 550, y: 242, currentFrame: 0
+x: 550, y: 253, currentFrame: 0
+x: 550, y: 264, currentFrame: 0
+x: 550, y: 275, currentFrame: 0
+x: 550, y: 286, currentFrame: 0
+x: 550, y: 297, currentFrame: 0
+x: 550, y: 308, currentFrame: 0
+x: 550, y: 319, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 550, y: 330, currentFrame: 0
+x: 561, y: 330, currentFrame: 2
+x: 572, y: 330, currentFrame: 2
+x: 583, y: 330, currentFrame: 2
+x: 594, y: 330, currentFrame: 2
+x: 605, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 616, y: 330, currentFrame: 0
+x: 605, y: 330, currentFrame: 3
+x: 594, y: 330, currentFrame: 3
+x: 583, y: 330, currentFrame: 3
+x: 572, y: 330, currentFrame: 3
+x: 561, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+x: 550, y: 330, currentFrame: 3
+setPrePositionprePosition.txtx:550, y: 330, currentFrame: 3, timeStart: 0, time: 281
 BACK TO MENU
 MusicTime stopped
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 117
-BXH
+getPrePosition x: 550, y: 330, currentFrame: 3, timeStart: 1, time: 281
+setCurrentPosition x: 550, y: 330, currentFrame: 3, timeStart: 1, time: 281
+MusicTime played
 MusicTime stopped
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-WIN GAME
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+Countdown timeout, playing letgo sound
+x: 561, y: 330, currentFrame: 2
+MusicTime played
+x: 572, y: 330, currentFrame: 2
+x: 583, y: 330, currentFrame: 2
+x: 594, y: 330, currentFrame: 2
+x: 605, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 330, currentFrame: 2
+x: 616, y: 319, currentFrame: 1
+x: 616, y: 308, currentFrame: 1
+x: 616, y: 297, currentFrame: 1
+x: 616, y: 286, currentFrame: 1
+x: 616, y: 275, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 616, y: 264, currentFrame: 1
+x: 627, y: 264, currentFrame: 2
+x: 638, y: 264, currentFrame: 2
+x: 649, y: 264, currentFrame: 2
+x: 660, y: 264, currentFrame: 2
+x: 671, y: 264, currentFrame: 2
+x: 682, y: 264, currentFrame: 2
+x: 693, y: 264, currentFrame: 2
+x: 704, y: 264, currentFrame: 2
+x: 715, y: 264, currentFrame: 2
+x: 726, y: 264, currentFrame: 2
+x: 737, y: 264, currentFrame: 2
+x: 748, y: 264, currentFrame: 2
+x: 759, y: 264, currentFrame: 2
+x: 770, y: 264, currentFrame: 2
+x: 781, y: 264, currentFrame: 2
+x: 792, y: 264, currentFrame: 2
+x: 803, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 264, currentFrame: 2
+x: 814, y: 275, currentFrame: 0
+x: 814, y: 286, currentFrame: 0
+x: 814, y: 297, currentFrame: 0
+x: 814, y: 308, currentFrame: 0
+x: 814, y: 319, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 814, y: 330, currentFrame: 0
+x: 803, y: 330, currentFrame: 3
+x: 792, y: 330, currentFrame: 3
+x: 781, y: 330, currentFrame: 3
+x: 770, y: 330, currentFrame: 3
+x: 759, y: 330, currentFrame: 3
+x: 748, y: 330, currentFrame: 3
+x: 737, y: 330, currentFrame: 3
+x: 726, y: 330, currentFrame: 3
+x: 715, y: 330, currentFrame: 3
+x: 704, y: 330, currentFrame: 3
+x: 693, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 330, currentFrame: 3
+x: 682, y: 341, currentFrame: 0
+x: 682, y: 352, currentFrame: 0
+x: 682, y: 363, currentFrame: 0
+x: 682, y: 374, currentFrame: 0
+x: 682, y: 385, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 682, y: 396, currentFrame: 0
+x: 671, y: 396, currentFrame: 3
+x: 660, y: 396, currentFrame: 3
+x: 649, y: 396, currentFrame: 3
+x: 638, y: 396, currentFrame: 3
+x: 627, y: 396, currentFrame: 3
+x: 616, y: 396, currentFrame: 3
+x: 605, y: 396, currentFrame: 3
+x: 594, y: 396, currentFrame: 3
+x: 583, y: 396, currentFrame: 3
+x: 572, y: 396, currentFrame: 3
+x: 561, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 1
+x: 550, y: 396, currentFrame: 3
+x: 550, y: 407, currentFrame: 0
+x: 550, y: 418, currentFrame: 0
+x: 550, y: 429, currentFrame: 0
+x: 550, y: 440, currentFrame: 0
+x: 550, y: 451, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 550, y: 462, currentFrame: 0
+x: 539, y: 462, currentFrame: 3
+x: 528, y: 462, currentFrame: 3
+x: 517, y: 462, currentFrame: 3
+x: 506, y: 462, currentFrame: 3
+x: 495, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 451, currentFrame: 1
+x: 484, y: 440, currentFrame: 1
+x: 484, y: 429, currentFrame: 1
+x: 484, y: 418, currentFrame: 1
+x: 484, y: 407, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 473, y: 396, currentFrame: 3
+x: 462, y: 396, currentFrame: 3
+x: 451, y: 396, currentFrame: 3
+x: 440, y: 396, currentFrame: 3
+x: 429, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 429, y: 396, currentFrame: 2
+x: 440, y: 396, currentFrame: 2
+x: 451, y: 396, currentFrame: 2
+x: 462, y: 396, currentFrame: 2
+x: 473, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 396, currentFrame: 2
+x: 484, y: 407, currentFrame: 0
+x: 484, y: 418, currentFrame: 0
+x: 484, y: 429, currentFrame: 0
+x: 484, y: 440, currentFrame: 0
+x: 484, y: 451, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 0
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 462, currentFrame: 3
+x: 484, y: 451, currentFrame: 1
+x: 484, y: 440, currentFrame: 1
+x: 484, y: 429, currentFrame: 1
+x: 484, y: 418, currentFrame: 1
+x: 484, y: 407, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 484, y: 396, currentFrame: 1
+x: 473, y: 396, currentFrame: 3
+x: 462, y: 396, currentFrame: 3
+x: 451, y: 396, currentFrame: 3
+x: 440, y: 396, currentFrame: 3
+x: 429, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 3
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+x: 418, y: 396, currentFrame: 0
+setPrePositionprePosition.txtx:418, y: 396, currentFrame: 0, timeStart: 0, time: 279
 BACK TO MENU
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+MusicTime stopped
+CONTINUE GAME
+getPrePosition x: 418, y: 396, currentFrame: 0, timeStart: 1, time: 279
+setCurrentPosition x: 418, y: 396, currentFrame: 0, timeStart: 1, time: 279
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 418, y: 385, currentFrame: 1
+x: 418, y: 374, currentFrame: 1
+x: 418, y: 363, currentFrame: 1
+x: 418, y: 352, currentFrame: 1
+x: 418, y: 341, currentFrame: 1
+x: 418, y: 330, currentFrame: 1
+x: 418, y: 319, currentFrame: 1
+x: 418, y: 308, currentFrame: 1
+x: 418, y: 297, currentFrame: 1
+x: 418, y: 286, currentFrame: 1
+MusicTime played
+x: 418, y: 275, currentFrame: 1
+x: 418, y: 264, currentFrame: 1
+x: 418, y: 264, currentFrame: 1
+x: 418, y: 264, currentFrame: 1
+x: 407, y: 264, currentFrame: 3
+x: 396, y: 264, currentFrame: 3
+x: 385, y: 264, currentFrame: 3
+x: 374, y: 264, currentFrame: 3
+x: 363, y: 264, currentFrame: 3
+x: 352, y: 264, currentFrame: 3
+x: 341, y: 264, currentFrame: 3
+x: 330, y: 264, currentFrame: 3
+x: 319, y: 264, currentFrame: 3
+x: 308, y: 264, currentFrame: 3
+x: 297, y: 264, currentFrame: 3
+x: 286, y: 264, currentFrame: 3
+x: 286, y: 264, currentFrame: 3
+x: 286, y: 264, currentFrame: 3
+x: 286, y: 264, currentFrame: 3
+x: 286, y: 264, currentFrame: 3
+x: 286, y: 275, currentFrame: 0
+x: 286, y: 286, currentFrame: 0
+x: 286, y: 297, currentFrame: 0
+x: 286, y: 308, currentFrame: 0
+x: 286, y: 319, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 286, y: 330, currentFrame: 0
+x: 297, y: 330, currentFrame: 2
+x: 308, y: 330, currentFrame: 2
+x: 319, y: 330, currentFrame: 2
+x: 330, y: 330, currentFrame: 2
+x: 341, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 330, currentFrame: 2
+x: 352, y: 341, currentFrame: 0
+x: 352, y: 352, currentFrame: 0
+x: 352, y: 363, currentFrame: 0
+x: 352, y: 374, currentFrame: 0
+x: 352, y: 385, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 341, y: 396, currentFrame: 3
+x: 352, y: 396, currentFrame: 2
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 352, y: 396, currentFrame: 0
+x: 341, y: 396, currentFrame: 3
+x: 330, y: 396, currentFrame: 3
+x: 319, y: 396, currentFrame: 3
+x: 308, y: 396, currentFrame: 3
+x: 297, y: 396, currentFrame: 3
+x: 286, y: 396, currentFrame: 3
+x: 275, y: 396, currentFrame: 3
+x: 264, y: 396, currentFrame: 3
+x: 253, y: 396, currentFrame: 3
+x: 242, y: 396, currentFrame: 3
+x: 231, y: 396, currentFrame: 3
+x: 220, y: 396, currentFrame: 3
+x: 209, y: 396, currentFrame: 3
+x: 198, y: 396, currentFrame: 3
+x: 187, y: 396, currentFrame: 3
+x: 176, y: 396, currentFrame: 3
+x: 165, y: 396, currentFrame: 3
+x: 165, y: 396, currentFrame: 0
+x: 165, y: 396, currentFrame: 1
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 396, currentFrame: 3
+x: 154, y: 385, currentFrame: 1
+x: 154, y: 374, currentFrame: 1
+x: 154, y: 363, currentFrame: 1
+x: 154, y: 352, currentFrame: 1
+x: 154, y: 341, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 154, y: 330, currentFrame: 1
+x: 143, y: 330, currentFrame: 3
+x: 132, y: 330, currentFrame: 3
+x: 121, y: 330, currentFrame: 3
+x: 110, y: 330, currentFrame: 3
+x: 99, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 330, currentFrame: 3
+x: 88, y: 341, currentFrame: 0
+x: 88, y: 352, currentFrame: 0
+x: 88, y: 363, currentFrame: 0
+x: 88, y: 374, currentFrame: 0
+x: 88, y: 385, currentFrame: 0
+x: 88, y: 396, currentFrame: 0
+x: 88, y: 407, currentFrame: 0
+x: 88, y: 418, currentFrame: 0
+x: 88, y: 429, currentFrame: 0
+x: 88, y: 440, currentFrame: 0
+x: 88, y: 451, currentFrame: 0
+x: 88, y: 462, currentFrame: 0
+x: 88, y: 473, currentFrame: 0
+x: 88, y: 484, currentFrame: 0
+x: 88, y: 495, currentFrame: 0
+x: 88, y: 506, currentFrame: 0
+x: 88, y: 517, currentFrame: 0
+x: 88, y: 528, currentFrame: 0
+x: 88, y: 539, currentFrame: 0
+x: 88, y: 550, currentFrame: 0
+x: 88, y: 561, currentFrame: 0
+x: 88, y: 572, currentFrame: 0
+x: 88, y: 583, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 88, y: 594, currentFrame: 0
+x: 99, y: 594, currentFrame: 2
+x: 110, y: 594, currentFrame: 2
+x: 121, y: 594, currentFrame: 2
+x: 132, y: 594, currentFrame: 2
+x: 143, y: 594, currentFrame: 2
+x: 154, y: 594, currentFrame: 2
+x: 165, y: 594, currentFrame: 2
+x: 176, y: 594, currentFrame: 2
+x: 187, y: 594, currentFrame: 2
+x: 198, y: 594, currentFrame: 2
+x: 209, y: 594, currentFrame: 2
+x: 220, y: 594, currentFrame: 2
+x: 231, y: 594, currentFrame: 2
+x: 242, y: 594, currentFrame: 2
+x: 253, y: 594, currentFrame: 2
+x: 264, y: 594, currentFrame: 2
+x: 275, y: 594, currentFrame: 2
+x: 286, y: 594, currentFrame: 2
+x: 297, y: 594, currentFrame: 2
+x: 308, y: 594, currentFrame: 2
+x: 319, y: 594, currentFrame: 2
+x: 330, y: 594, currentFrame: 2
+x: 341, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 594, currentFrame: 2
+x: 352, y: 605, currentFrame: 0
+x: 352, y: 616, currentFrame: 0
+x: 352, y: 627, currentFrame: 0
+x: 352, y: 638, currentFrame: 0
+x: 352, y: 649, currentFrame: 0
+x: 352, y: 660, currentFrame: 0
+x: 352, y: 671, currentFrame: 0
+x: 352, y: 682, currentFrame: 0
+x: 352, y: 693, currentFrame: 0
+x: 352, y: 704, currentFrame: 0
+x: 352, y: 715, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 363, y: 726, currentFrame: 2
+x: 374, y: 726, currentFrame: 2
+x: 385, y: 726, currentFrame: 2
+x: 396, y: 726, currentFrame: 2
+x: 407, y: 726, currentFrame: 2
+x: 418, y: 726, currentFrame: 2
+x: 429, y: 726, currentFrame: 2
+x: 440, y: 726, currentFrame: 2
+x: 451, y: 726, currentFrame: 2
+x: 462, y: 726, currentFrame: 2
+x: 473, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 484, y: 726, currentFrame: 0
+x: 473, y: 726, currentFrame: 3
+x: 462, y: 726, currentFrame: 3
+x: 451, y: 726, currentFrame: 3
+x: 440, y: 726, currentFrame: 3
+x: 429, y: 726, currentFrame: 3
+x: 418, y: 726, currentFrame: 3
+x: 407, y: 726, currentFrame: 3
+x: 396, y: 726, currentFrame: 3
+x: 385, y: 726, currentFrame: 3
+x: 374, y: 726, currentFrame: 3
+x: 363, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 352, y: 726, currentFrame: 0
+x: 363, y: 726, currentFrame: 2
+x: 374, y: 726, currentFrame: 2
+x: 385, y: 726, currentFrame: 2
+x: 396, y: 726, currentFrame: 2
+x: 407, y: 726, currentFrame: 2
+x: 418, y: 726, currentFrame: 2
+x: 429, y: 726, currentFrame: 2
+x: 440, y: 726, currentFrame: 2
+x: 451, y: 726, currentFrame: 2
+x: 462, y: 726, currentFrame: 2
+x: 473, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 2
+x: 484, y: 726, currentFrame: 1
+x: 484, y: 726, currentFrame: 0
+setPrePositionprePosition.txtx:484, y: 726, currentFrame: 0, timeStart: 0, time: 278
+BACK TO MENU
+MusicTime stopped
+CONTINUE GAME
+getPrePosition x: 484, y: 726, currentFrame: 0, timeStart: 1, time: 278
+setCurrentPosition x: 484, y: 726, currentFrame: 0, timeStart: 1, time: 278
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 473, y: 726, currentFrame: 3
+MusicTime played
+x: 462, y: 726, currentFrame: 3
+x: 451, y: 726, currentFrame: 3
+x: 440, y: 726, currentFrame: 3
+x: 429, y: 726, currentFrame: 3
+x: 418, y: 726, currentFrame: 3
+x: 407, y: 726, currentFrame: 3
+x: 396, y: 726, currentFrame: 3
+x: 385, y: 726, currentFrame: 3
+x: 374, y: 726, currentFrame: 3
+x: 363, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 726, currentFrame: 3
+x: 352, y: 715, currentFrame: 1
+x: 352, y: 704, currentFrame: 1
+x: 352, y: 693, currentFrame: 1
+x: 352, y: 693, currentFrame: 3
+x: 352, y: 693, currentFrame: 3
+x: 352, y: 693, currentFrame: 3
+x: 352, y: 682, currentFrame: 1
+x: 352, y: 682, currentFrame: 3
+x: 352, y: 682, currentFrame: 3
+x: 352, y: 671, currentFrame: 1
+x: 352, y: 671, currentFrame: 3
+x: 352, y: 660, currentFrame: 1
+x: 341, y: 660, currentFrame: 3
+x: 330, y: 660, currentFrame: 3
+x: 319, y: 660, currentFrame: 3
+x: 308, y: 660, currentFrame: 3
+x: 297, y: 660, currentFrame: 3
+x: 286, y: 660, currentFrame: 3
+x: 275, y: 660, currentFrame: 3
+x: 264, y: 660, currentFrame: 3
+x: 253, y: 660, currentFrame: 3
+x: 242, y: 660, currentFrame: 3
+x: 231, y: 660, currentFrame: 3
+x: 220, y: 660, currentFrame: 3
+x: 209, y: 660, currentFrame: 3
+x: 198, y: 660, currentFrame: 3
+x: 187, y: 660, currentFrame: 3
+x: 176, y: 660, currentFrame: 3
+x: 165, y: 660, currentFrame: 3
+x: 154, y: 660, currentFrame: 3
+x: 143, y: 660, currentFrame: 3
+x: 132, y: 660, currentFrame: 3
+x: 121, y: 660, currentFrame: 3
+x: 110, y: 660, currentFrame: 3
+x: 99, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 660, currentFrame: 3
+x: 88, y: 671, currentFrame: 0
+x: 88, y: 671, currentFrame: 2
+x: 88, y: 682, currentFrame: 0
+x: 88, y: 682, currentFrame: 2
+x: 88, y: 693, currentFrame: 0
+x: 88, y: 693, currentFrame: 2
+x: 88, y: 704, currentFrame: 0
+x: 88, y: 704, currentFrame: 2
+x: 88, y: 715, currentFrame: 0
+x: 88, y: 715, currentFrame: 2
+x: 88, y: 726, currentFrame: 0
+x: 88, y: 726, currentFrame: 2
+x: 88, y: 737, currentFrame: 0
+x: 88, y: 737, currentFrame: 2
+x: 88, y: 748, currentFrame: 0
+x: 88, y: 748, currentFrame: 2
+x: 88, y: 759, currentFrame: 0
+x: 88, y: 759, currentFrame: 2
+x: 88, y: 770, currentFrame: 0
+x: 88, y: 770, currentFrame: 2
+x: 88, y: 781, currentFrame: 0
+x: 88, y: 781, currentFrame: 2
+x: 88, y: 792, currentFrame: 0
+x: 99, y: 792, currentFrame: 2
+x: 110, y: 792, currentFrame: 2
+x: 121, y: 792, currentFrame: 2
+x: 132, y: 792, currentFrame: 2
+x: 143, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 1
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 792, currentFrame: 2
+x: 154, y: 803, currentFrame: 0
+x: 154, y: 814, currentFrame: 0
+x: 154, y: 825, currentFrame: 0
+x: 154, y: 836, currentFrame: 0
+x: 154, y: 847, currentFrame: 0
+x: 154, y: 858, currentFrame: 0
+x: 154, y: 869, currentFrame: 0
+x: 154, y: 880, currentFrame: 0
+x: 154, y: 891, currentFrame: 0
+x: 154, y: 902, currentFrame: 0
+x: 154, y: 913, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 154, y: 924, currentFrame: 0
+x: 165, y: 924, currentFrame: 2
+x: 176, y: 924, currentFrame: 2
+x: 187, y: 924, currentFrame: 2
+x: 198, y: 924, currentFrame: 2
+x: 209, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 924, currentFrame: 2
+x: 220, y: 913, currentFrame: 1
+x: 220, y: 902, currentFrame: 1
+x: 220, y: 891, currentFrame: 1
+x: 220, y: 880, currentFrame: 1
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 880, currentFrame: 2
+x: 220, y: 869, currentFrame: 1
+x: 220, y: 858, currentFrame: 1
+x: 220, y: 847, currentFrame: 1
+x: 220, y: 836, currentFrame: 1
+x: 220, y: 825, currentFrame: 1
+x: 220, y: 825, currentFrame: 2
+x: 220, y: 825, currentFrame: 2
+x: 220, y: 825, currentFrame: 2
+setPrePositionprePosition.txtx:220, y: 825, currentFrame: 2, timeStart: 0, time: 246
+BACK TO MENU
+MusicTime stopped
+setPrePositionprePosition.txtx:220, y: 825, currentFrame: 2, timeStart: 0, time: 246
 EXIT GAME
 END GAME
 START GAME
@@ -357,173 +1733,2339 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 3
-x: 858, y: 528, currentFrame: 3
-x: 847, y: 528, currentFrame: 3
-x: 836, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 3
-x: 858, y: 528, currentFrame: 3
-x: 847, y: 528, currentFrame: 3
-x: 836, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+getPrePosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 246
+setCurrentPosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 246
+MusicTime played
+setPrePositionprePosition.txtx:220, y: 825, currentFrame: 2, timeStart: 0, time: 243
+BACK TO MENU
 MusicTime stopped
-setPrePositionbxh.txtx:880, y: 506, currentFrame: 1, timeStart: 0, time: 113
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-STOP MUSIC
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 9, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 9, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+getPrePosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 243
+setCurrentPosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 243
+MusicTime played
+setPrePositionprePosition.txtx:220, y: 825, currentFrame: 2, timeStart: 0, time: 238
+BACK TO MENU
 MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-x: 814, y: 495, currentFrame: 1
-x: 814, y: 484, currentFrame: 1
-x: 814, y: 473, currentFrame: 1
-x: 814, y: 462, currentFrame: 1
-x: 814, y: 451, currentFrame: 1
-x: 814, y: 440, currentFrame: 1
-x: 814, y: 429, currentFrame: 1
+getPrePosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 238
+setCurrentPosition x: 220, y: 825, currentFrame: 2, timeStart: 0, time: 238
+MusicTime played
+setPrePositionprePosition.txtx:220, y: 825, currentFrame: 2, timeStart: 0, time: 237
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 220, y: 825, currentFrame: 2, timeStart: 2, time: 237
+setCurrentPosition x: 220, y: 825, currentFrame: 2, timeStart: 2, time: 237
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 220, y: 814, currentFrame: 1
+MusicTime played
+x: 220, y: 803, currentFrame: 1
+x: 220, y: 792, currentFrame: 1
+x: 220, y: 781, currentFrame: 1
+x: 220, y: 770, currentFrame: 1
+x: 220, y: 759, currentFrame: 1
+x: 220, y: 748, currentFrame: 1
+x: 220, y: 737, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 220, y: 726, currentFrame: 1
+x: 231, y: 726, currentFrame: 2
+x: 242, y: 726, currentFrame: 2
+x: 253, y: 726, currentFrame: 2
+x: 264, y: 726, currentFrame: 2
+x: 275, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 726, currentFrame: 2
+x: 286, y: 737, currentFrame: 0
+x: 286, y: 748, currentFrame: 0
+x: 286, y: 759, currentFrame: 0
+x: 286, y: 770, currentFrame: 0
+x: 286, y: 781, currentFrame: 0
+x: 286, y: 792, currentFrame: 0
+x: 286, y: 803, currentFrame: 0
+x: 286, y: 814, currentFrame: 0
+x: 286, y: 825, currentFrame: 0
+x: 286, y: 836, currentFrame: 0
+x: 286, y: 847, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 286, y: 858, currentFrame: 0
+x: 297, y: 858, currentFrame: 2
+x: 308, y: 858, currentFrame: 2
+x: 319, y: 858, currentFrame: 2
+x: 330, y: 858, currentFrame: 2
+x: 341, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 858, currentFrame: 2
+x: 352, y: 869, currentFrame: 0
+x: 352, y: 880, currentFrame: 0
+x: 352, y: 891, currentFrame: 0
+x: 352, y: 902, currentFrame: 0
+x: 352, y: 913, currentFrame: 0
+x: 352, y: 924, currentFrame: 0
+x: 352, y: 935, currentFrame: 0
+x: 352, y: 946, currentFrame: 0
+x: 352, y: 957, currentFrame: 0
+x: 352, y: 968, currentFrame: 0
+x: 352, y: 979, currentFrame: 0
+x: 352, y: 990, currentFrame: 0
+x: 352, y: 990, currentFrame: 0
+x: 352, y: 990, currentFrame: 0
+x: 352, y: 990, currentFrame: 0
+x: 352, y: 990, currentFrame: 0
+x: 363, y: 990, currentFrame: 2
+x: 374, y: 990, currentFrame: 2
+x: 385, y: 990, currentFrame: 2
+x: 396, y: 990, currentFrame: 2
+x: 407, y: 990, currentFrame: 2
+x: 418, y: 990, currentFrame: 2
+x: 429, y: 990, currentFrame: 2
+x: 440, y: 990, currentFrame: 2
+x: 451, y: 990, currentFrame: 2
+x: 462, y: 990, currentFrame: 2
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 462, y: 990, currentFrame: 0
+x: 473, y: 990, currentFrame: 2
+x: 484, y: 990, currentFrame: 2
+x: 495, y: 990, currentFrame: 2
+x: 506, y: 990, currentFrame: 2
+x: 517, y: 990, currentFrame: 2
+x: 528, y: 990, currentFrame: 2
+x: 539, y: 990, currentFrame: 2
+x: 550, y: 990, currentFrame: 2
+x: 561, y: 990, currentFrame: 2
+x: 572, y: 990, currentFrame: 2
+x: 583, y: 990, currentFrame: 2
+x: 583, y: 990, currentFrame: 1
+x: 594, y: 990, currentFrame: 2
+x: 605, y: 990, currentFrame: 2
+x: 605, y: 990, currentFrame: 1
+x: 616, y: 990, currentFrame: 2
+x: 627, y: 990, currentFrame: 2
+x: 638, y: 990, currentFrame: 2
+x: 649, y: 990, currentFrame: 2
+x: 660, y: 990, currentFrame: 2
+x: 660, y: 990, currentFrame: 1
+x: 671, y: 990, currentFrame: 2
+x: 682, y: 990, currentFrame: 2
+x: 682, y: 979, currentFrame: 1
+x: 682, y: 979, currentFrame: 2
+x: 682, y: 979, currentFrame: 2
+x: 682, y: 979, currentFrame: 2
+x: 682, y: 979, currentFrame: 2
+x: 682, y: 979, currentFrame: 2
+x: 682, y: 968, currentFrame: 1
+x: 682, y: 968, currentFrame: 2
+x: 682, y: 968, currentFrame: 2
+x: 682, y: 957, currentFrame: 1
+x: 682, y: 957, currentFrame: 2
+x: 682, y: 946, currentFrame: 1
+x: 682, y: 935, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 682, y: 924, currentFrame: 1
+x: 693, y: 924, currentFrame: 2
+x: 704, y: 924, currentFrame: 2
+x: 715, y: 924, currentFrame: 2
+x: 726, y: 924, currentFrame: 2
+x: 737, y: 924, currentFrame: 2
+x: 748, y: 924, currentFrame: 2
+x: 759, y: 924, currentFrame: 2
+x: 770, y: 924, currentFrame: 2
+x: 781, y: 924, currentFrame: 2
+x: 792, y: 924, currentFrame: 2
+x: 803, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 924, currentFrame: 2
+x: 814, y: 913, currentFrame: 1
+x: 814, y: 902, currentFrame: 1
+x: 814, y: 891, currentFrame: 1
+x: 814, y: 880, currentFrame: 1
+x: 814, y: 869, currentFrame: 1
+x: 814, y: 858, currentFrame: 1
+x: 814, y: 847, currentFrame: 1
+x: 814, y: 836, currentFrame: 1
+x: 814, y: 825, currentFrame: 1
+x: 814, y: 814, currentFrame: 1
+x: 814, y: 803, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 814, y: 792, currentFrame: 1
+x: 825, y: 792, currentFrame: 2
+x: 836, y: 792, currentFrame: 2
+x: 847, y: 792, currentFrame: 2
+x: 858, y: 792, currentFrame: 2
+x: 869, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 792, currentFrame: 2
+x: 880, y: 781, currentFrame: 1
+x: 880, y: 770, currentFrame: 1
+x: 880, y: 759, currentFrame: 1
+x: 880, y: 748, currentFrame: 1
+x: 880, y: 737, currentFrame: 1
+x: 880, y: 726, currentFrame: 1
+x: 880, y: 715, currentFrame: 1
+x: 880, y: 704, currentFrame: 1
+x: 880, y: 693, currentFrame: 1
+x: 880, y: 682, currentFrame: 1
+x: 880, y: 671, currentFrame: 1
+x: 880, y: 660, currentFrame: 1
+x: 880, y: 649, currentFrame: 1
+x: 880, y: 638, currentFrame: 1
+x: 880, y: 627, currentFrame: 1
+x: 880, y: 616, currentFrame: 1
+x: 880, y: 605, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 1
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 605, currentFrame: 0
+x: 880, y: 594, currentFrame: 1
+x: 869, y: 594, currentFrame: 3
+x: 858, y: 594, currentFrame: 3
+x: 847, y: 594, currentFrame: 3
+x: 836, y: 594, currentFrame: 3
+x: 825, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 3
+x: 814, y: 594, currentFrame: 1
+x: 814, y: 594, currentFrame: 1
+x: 814, y: 594, currentFrame: 1
+x: 814, y: 594, currentFrame: 1
+x: 825, y: 594, currentFrame: 2
+x: 836, y: 594, currentFrame: 2
+x: 847, y: 594, currentFrame: 2
+x: 858, y: 594, currentFrame: 2
+x: 869, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 594, currentFrame: 2
+x: 880, y: 605, currentFrame: 0
+x: 880, y: 605, currentFrame: 2
+x: 880, y: 616, currentFrame: 0
+x: 880, y: 616, currentFrame: 2
+x: 880, y: 627, currentFrame: 0
+x: 880, y: 627, currentFrame: 2
+x: 880, y: 638, currentFrame: 0
+x: 880, y: 638, currentFrame: 2
+x: 880, y: 649, currentFrame: 0
+x: 880, y: 649, currentFrame: 2
+x: 880, y: 660, currentFrame: 0
+x: 880, y: 660, currentFrame: 2
+x: 880, y: 671, currentFrame: 0
+x: 880, y: 671, currentFrame: 2
+x: 880, y: 682, currentFrame: 0
+x: 880, y: 682, currentFrame: 2
+x: 880, y: 693, currentFrame: 0
+x: 880, y: 693, currentFrame: 2
+x: 880, y: 704, currentFrame: 0
+x: 880, y: 704, currentFrame: 2
+x: 880, y: 715, currentFrame: 0
+x: 880, y: 715, currentFrame: 2
+x: 880, y: 726, currentFrame: 0
+x: 891, y: 726, currentFrame: 2
+x: 891, y: 726, currentFrame: 0
+x: 902, y: 726, currentFrame: 2
+x: 913, y: 726, currentFrame: 2
+x: 924, y: 726, currentFrame: 2
+x: 935, y: 726, currentFrame: 2
+x: 946, y: 726, currentFrame: 2
+x: 957, y: 726, currentFrame: 2
+x: 968, y: 726, currentFrame: 2
+x: 979, y: 726, currentFrame: 2
+x: 990, y: 726, currentFrame: 2
+x: 1001, y: 726, currentFrame: 2
+x: 1012, y: 726, currentFrame: 2
+x: 1023, y: 726, currentFrame: 2
+x: 1034, y: 726, currentFrame: 2
+x: 1045, y: 726, currentFrame: 2
+x: 1056, y: 726, currentFrame: 2
+x: 1067, y: 726, currentFrame: 2
+x: 1078, y: 726, currentFrame: 2
+x: 1089, y: 726, currentFrame: 2
+x: 1100, y: 726, currentFrame: 2
+x: 1111, y: 726, currentFrame: 2
+x: 1122, y: 726, currentFrame: 2
+x: 1133, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 737, currentFrame: 0
+x: 1144, y: 748, currentFrame: 0
+x: 1144, y: 759, currentFrame: 0
+x: 1144, y: 770, currentFrame: 0
+x: 1144, y: 781, currentFrame: 0
+x: 1144, y: 792, currentFrame: 0
+x: 1144, y: 803, currentFrame: 0
+x: 1144, y: 814, currentFrame: 0
+x: 1144, y: 825, currentFrame: 0
+x: 1144, y: 836, currentFrame: 0
+x: 1144, y: 847, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 0
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 847, currentFrame: 1
+x: 1144, y: 858, currentFrame: 0
+x: 1133, y: 858, currentFrame: 3
+x: 1122, y: 858, currentFrame: 3
+x: 1111, y: 858, currentFrame: 3
+x: 1100, y: 858, currentFrame: 3
+x: 1089, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 858, currentFrame: 3
+x: 1078, y: 847, currentFrame: 1
+x: 1078, y: 836, currentFrame: 1
+x: 1078, y: 825, currentFrame: 1
+x: 1078, y: 814, currentFrame: 1
+x: 1078, y: 803, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 1
+x: 1067, y: 792, currentFrame: 3
+x: 1056, y: 792, currentFrame: 3
+x: 1045, y: 792, currentFrame: 3
+x: 1034, y: 792, currentFrame: 3
+x: 1023, y: 792, currentFrame: 3
+x: 1012, y: 792, currentFrame: 3
+x: 1001, y: 792, currentFrame: 3
+x: 990, y: 792, currentFrame: 3
+x: 979, y: 792, currentFrame: 3
+x: 968, y: 792, currentFrame: 3
+x: 957, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 792, currentFrame: 3
+x: 946, y: 803, currentFrame: 0
+x: 946, y: 814, currentFrame: 0
+x: 946, y: 825, currentFrame: 0
+x: 946, y: 836, currentFrame: 0
+x: 946, y: 847, currentFrame: 0
+x: 946, y: 858, currentFrame: 0
+x: 946, y: 869, currentFrame: 0
+x: 946, y: 880, currentFrame: 0
+x: 946, y: 891, currentFrame: 0
+x: 946, y: 902, currentFrame: 0
+x: 946, y: 913, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 913, currentFrame: 1
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 946, y: 924, currentFrame: 0
+x: 935, y: 924, currentFrame: 3
+x: 924, y: 924, currentFrame: 3
+x: 913, y: 924, currentFrame: 3
+x: 902, y: 924, currentFrame: 3
+x: 891, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 924, currentFrame: 3
+x: 880, y: 913, currentFrame: 1
+x: 880, y: 902, currentFrame: 1
+x: 880, y: 891, currentFrame: 1
+x: 880, y: 880, currentFrame: 1
+x: 880, y: 869, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 869, currentFrame: 0
+x: 880, y: 880, currentFrame: 0
+x: 880, y: 891, currentFrame: 0
+x: 880, y: 902, currentFrame: 0
+x: 880, y: 913, currentFrame: 0
+x: 880, y: 924, currentFrame: 0
+x: 880, y: 935, currentFrame: 0
+x: 880, y: 946, currentFrame: 0
+x: 880, y: 957, currentFrame: 0
+x: 880, y: 968, currentFrame: 0
+x: 880, y: 979, currentFrame: 0
+x: 880, y: 990, currentFrame: 0
+x: 891, y: 990, currentFrame: 2
+x: 902, y: 990, currentFrame: 2
+x: 913, y: 990, currentFrame: 2
+x: 924, y: 990, currentFrame: 2
+x: 935, y: 990, currentFrame: 2
+x: 946, y: 990, currentFrame: 2
+x: 957, y: 990, currentFrame: 2
+x: 968, y: 990, currentFrame: 2
+x: 979, y: 990, currentFrame: 2
+x: 990, y: 990, currentFrame: 2
+x: 1001, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 990, currentFrame: 2
+x: 1012, y: 979, currentFrame: 1
+x: 1012, y: 968, currentFrame: 1
+x: 1012, y: 957, currentFrame: 1
+x: 1012, y: 946, currentFrame: 1
+x: 1012, y: 935, currentFrame: 1
+x: 1012, y: 924, currentFrame: 1
+x: 1012, y: 913, currentFrame: 1
+x: 1012, y: 902, currentFrame: 1
+x: 1012, y: 891, currentFrame: 1
+x: 1012, y: 880, currentFrame: 1
+x: 1012, y: 869, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 1
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+x: 1012, y: 858, currentFrame: 2
+setPrePositionprePosition.txtx:1012, y: 858, currentFrame: 2, timeStart: 0, time: 252
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 1012, y: 858, currentFrame: 2, timeStart: 1, time: 252
+setCurrentPosition x: 1012, y: 858, currentFrame: 2, timeStart: 1, time: 252
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+MusicTime played
+x: 1012, y: 869, currentFrame: 0
+x: 1012, y: 880, currentFrame: 0
+x: 1012, y: 891, currentFrame: 0
+x: 1012, y: 902, currentFrame: 0
+x: 1012, y: 913, currentFrame: 0
+x: 1012, y: 924, currentFrame: 0
+x: 1012, y: 935, currentFrame: 0
+x: 1012, y: 946, currentFrame: 0
+x: 1012, y: 957, currentFrame: 0
+x: 1012, y: 968, currentFrame: 0
+x: 1012, y: 979, currentFrame: 0
+x: 1012, y: 990, currentFrame: 0
+x: 1012, y: 990, currentFrame: 0
+x: 1012, y: 990, currentFrame: 0
+x: 1012, y: 990, currentFrame: 0
+x: 1001, y: 990, currentFrame: 3
+x: 1001, y: 990, currentFrame: 0
+x: 990, y: 990, currentFrame: 3
+x: 979, y: 990, currentFrame: 3
+x: 968, y: 990, currentFrame: 3
+x: 957, y: 990, currentFrame: 3
+x: 946, y: 990, currentFrame: 3
+x: 935, y: 990, currentFrame: 3
+x: 935, y: 990, currentFrame: 1
+x: 935, y: 990, currentFrame: 1
+x: 924, y: 990, currentFrame: 3
+x: 924, y: 990, currentFrame: 1
+x: 913, y: 990, currentFrame: 3
+x: 913, y: 990, currentFrame: 1
+x: 902, y: 990, currentFrame: 3
+x: 902, y: 990, currentFrame: 1
+x: 891, y: 990, currentFrame: 3
+x: 891, y: 990, currentFrame: 1
+x: 880, y: 990, currentFrame: 3
+x: 880, y: 979, currentFrame: 1
+x: 880, y: 979, currentFrame: 3
+x: 880, y: 968, currentFrame: 1
+x: 880, y: 957, currentFrame: 1
+x: 880, y: 946, currentFrame: 1
+x: 880, y: 935, currentFrame: 1
+x: 880, y: 924, currentFrame: 1
+x: 880, y: 913, currentFrame: 1
+x: 880, y: 902, currentFrame: 1
+x: 880, y: 891, currentFrame: 1
+x: 880, y: 880, currentFrame: 1
+x: 880, y: 869, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 2
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 858, currentFrame: 1
+x: 880, y: 869, currentFrame: 0
+x: 880, y: 880, currentFrame: 0
+x: 880, y: 891, currentFrame: 0
+x: 880, y: 902, currentFrame: 0
+x: 880, y: 913, currentFrame: 0
+x: 880, y: 924, currentFrame: 0
+x: 891, y: 924, currentFrame: 2
+x: 902, y: 924, currentFrame: 2
+x: 913, y: 924, currentFrame: 2
+x: 924, y: 924, currentFrame: 2
+x: 935, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 924, currentFrame: 2
+x: 946, y: 913, currentFrame: 1
+x: 946, y: 902, currentFrame: 1
+x: 946, y: 891, currentFrame: 1
+x: 946, y: 880, currentFrame: 1
+x: 946, y: 869, currentFrame: 1
+x: 946, y: 858, currentFrame: 1
+x: 946, y: 847, currentFrame: 1
+x: 946, y: 836, currentFrame: 1
+x: 946, y: 825, currentFrame: 1
+x: 946, y: 814, currentFrame: 1
+x: 946, y: 803, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 946, y: 792, currentFrame: 1
+x: 957, y: 792, currentFrame: 2
+x: 968, y: 792, currentFrame: 2
+x: 979, y: 792, currentFrame: 2
+x: 990, y: 792, currentFrame: 2
+x: 1001, y: 792, currentFrame: 2
+x: 1012, y: 792, currentFrame: 2
+x: 1023, y: 792, currentFrame: 2
+x: 1034, y: 792, currentFrame: 2
+x: 1045, y: 792, currentFrame: 2
+x: 1056, y: 792, currentFrame: 2
+x: 1067, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 1
+x: 1078, y: 792, currentFrame: 2
+x: 1078, y: 803, currentFrame: 0
+x: 1078, y: 814, currentFrame: 0
+x: 1078, y: 825, currentFrame: 0
+x: 1078, y: 836, currentFrame: 0
+x: 1078, y: 847, currentFrame: 0
+x: 1078, y: 858, currentFrame: 0
+x: 1078, y: 858, currentFrame: 0
+x: 1078, y: 858, currentFrame: 0
+x: 1089, y: 858, currentFrame: 2
+x: 1100, y: 858, currentFrame: 2
+x: 1111, y: 858, currentFrame: 2
+x: 1122, y: 858, currentFrame: 2
+x: 1133, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 858, currentFrame: 2
+x: 1144, y: 847, currentFrame: 1
+x: 1144, y: 836, currentFrame: 1
+x: 1144, y: 825, currentFrame: 1
+x: 1144, y: 814, currentFrame: 1
+x: 1144, y: 803, currentFrame: 1
+x: 1144, y: 792, currentFrame: 1
+x: 1144, y: 781, currentFrame: 1
+x: 1144, y: 770, currentFrame: 1
+x: 1144, y: 759, currentFrame: 1
+x: 1144, y: 748, currentFrame: 1
+x: 1144, y: 737, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 737, currentFrame: 0
+x: 1144, y: 737, currentFrame: 2
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1144, y: 726, currentFrame: 1
+x: 1133, y: 726, currentFrame: 3
+x: 1122, y: 726, currentFrame: 3
+x: 1111, y: 726, currentFrame: 3
+x: 1100, y: 726, currentFrame: 3
+x: 1089, y: 726, currentFrame: 3
+x: 1078, y: 726, currentFrame: 3
+x: 1067, y: 726, currentFrame: 3
+x: 1056, y: 726, currentFrame: 3
+x: 1045, y: 726, currentFrame: 3
+x: 1034, y: 726, currentFrame: 3
+x: 1023, y: 726, currentFrame: 3
+x: 1012, y: 726, currentFrame: 3
+x: 1001, y: 726, currentFrame: 3
+x: 990, y: 726, currentFrame: 3
+x: 979, y: 726, currentFrame: 3
+x: 968, y: 726, currentFrame: 3
+x: 957, y: 726, currentFrame: 3
+x: 946, y: 726, currentFrame: 3
+x: 935, y: 726, currentFrame: 3
+x: 935, y: 726, currentFrame: 1
+setPrePositionprePosition.txtx:935, y: 726, currentFrame: 1, timeStart: 0, time: 279
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 935, y: 726, currentFrame: 1, timeStart: 1, time: 279
+setCurrentPosition x: 935, y: 726, currentFrame: 1, timeStart: 1, time: 279
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+MusicTime played
+setPrePositionprePosition.txtx:935, y: 726, currentFrame: 1, timeStart: 0, time: 299
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 935, y: 726, currentFrame: 1, timeStart: 3, time: 299
+setCurrentPosition x: 935, y: 726, currentFrame: 1, timeStart: 3, time: 299
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 946, y: 726, currentFrame: 2
+MusicTime played
+x: 957, y: 726, currentFrame: 2
+x: 968, y: 726, currentFrame: 2
+x: 979, y: 726, currentFrame: 2
+x: 990, y: 726, currentFrame: 2
+x: 1001, y: 726, currentFrame: 2
+x: 1012, y: 726, currentFrame: 2
+x: 1023, y: 726, currentFrame: 2
+x: 1034, y: 726, currentFrame: 2
+x: 1045, y: 726, currentFrame: 2
+x: 1056, y: 726, currentFrame: 2
+x: 1067, y: 726, currentFrame: 2
+x: 1078, y: 726, currentFrame: 2
+x: 1089, y: 726, currentFrame: 2
+x: 1100, y: 726, currentFrame: 2
+x: 1111, y: 726, currentFrame: 2
+x: 1122, y: 726, currentFrame: 2
+x: 1133, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 726, currentFrame: 2
+x: 1144, y: 737, currentFrame: 0
+x: 1144, y: 748, currentFrame: 0
+x: 1144, y: 748, currentFrame: 2
+x: 1144, y: 759, currentFrame: 0
+x: 1144, y: 759, currentFrame: 2
+x: 1144, y: 770, currentFrame: 0
+x: 1144, y: 770, currentFrame: 2
+x: 1144, y: 781, currentFrame: 0
+x: 1144, y: 792, currentFrame: 0
+x: 1155, y: 792, currentFrame: 2
+x: 1166, y: 792, currentFrame: 2
+x: 1177, y: 792, currentFrame: 2
+x: 1188, y: 792, currentFrame: 2
+x: 1199, y: 792, currentFrame: 2
+x: 1210, y: 792, currentFrame: 2
+x: 1221, y: 792, currentFrame: 2
+x: 1232, y: 792, currentFrame: 2
+x: 1232, y: 792, currentFrame: 1
+x: 1221, y: 792, currentFrame: 3
+x: 1221, y: 792, currentFrame: 1
+x: 1210, y: 792, currentFrame: 3
+x: 1210, y: 781, currentFrame: 1
+x: 1210, y: 770, currentFrame: 1
+x: 1210, y: 759, currentFrame: 1
+x: 1210, y: 748, currentFrame: 1
+x: 1210, y: 737, currentFrame: 1
+x: 1210, y: 726, currentFrame: 1
+x: 1210, y: 715, currentFrame: 1
+x: 1210, y: 704, currentFrame: 1
+x: 1210, y: 693, currentFrame: 1
+x: 1210, y: 682, currentFrame: 1
+x: 1210, y: 671, currentFrame: 1
+x: 1210, y: 660, currentFrame: 1
+x: 1210, y: 660, currentFrame: 1
+x: 1210, y: 660, currentFrame: 1
+x: 1210, y: 660, currentFrame: 1
+x: 1210, y: 660, currentFrame: 1
+x: 1199, y: 660, currentFrame: 3
+x: 1188, y: 660, currentFrame: 3
+x: 1177, y: 660, currentFrame: 3
+x: 1166, y: 660, currentFrame: 3
+x: 1155, y: 660, currentFrame: 3
+x: 1144, y: 660, currentFrame: 3
+x: 1133, y: 660, currentFrame: 3
+x: 1122, y: 660, currentFrame: 3
+x: 1111, y: 660, currentFrame: 3
+x: 1100, y: 660, currentFrame: 3
+x: 1089, y: 660, currentFrame: 3
+x: 1078, y: 660, currentFrame: 3
+x: 1067, y: 660, currentFrame: 3
+x: 1056, y: 660, currentFrame: 3
+x: 1045, y: 660, currentFrame: 3
+x: 1034, y: 660, currentFrame: 3
+x: 1023, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1023, y: 660, currentFrame: 2
+x: 1023, y: 660, currentFrame: 1
+x: 1034, y: 660, currentFrame: 2
+x: 1045, y: 660, currentFrame: 2
+x: 1056, y: 660, currentFrame: 2
+x: 1067, y: 660, currentFrame: 2
+x: 1078, y: 660, currentFrame: 2
+x: 1089, y: 660, currentFrame: 2
+x: 1100, y: 660, currentFrame: 2
+x: 1111, y: 660, currentFrame: 2
+x: 1111, y: 660, currentFrame: 1
+x: 1111, y: 660, currentFrame: 1
+x: 1111, y: 660, currentFrame: 1
+x: 1122, y: 660, currentFrame: 2
+x: 1133, y: 660, currentFrame: 2
+x: 1144, y: 660, currentFrame: 2
+x: 1155, y: 660, currentFrame: 2
+x: 1166, y: 660, currentFrame: 2
+x: 1166, y: 660, currentFrame: 1
+x: 1155, y: 660, currentFrame: 3
+x: 1144, y: 660, currentFrame: 3
+x: 1133, y: 660, currentFrame: 3
+x: 1122, y: 660, currentFrame: 3
+x: 1111, y: 660, currentFrame: 3
+x: 1100, y: 660, currentFrame: 3
+x: 1089, y: 660, currentFrame: 3
+x: 1078, y: 660, currentFrame: 3
+x: 1067, y: 660, currentFrame: 3
+x: 1056, y: 660, currentFrame: 3
+x: 1045, y: 660, currentFrame: 3
+x: 1034, y: 660, currentFrame: 3
+x: 1023, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 2
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1023, y: 660, currentFrame: 0
+x: 1034, y: 660, currentFrame: 2
+x: 1034, y: 660, currentFrame: 1
+x: 1045, y: 660, currentFrame: 2
+x: 1056, y: 660, currentFrame: 2
+x: 1056, y: 660, currentFrame: 1
+x: 1045, y: 660, currentFrame: 3
+x: 1045, y: 660, currentFrame: 1
+x: 1034, y: 660, currentFrame: 3
+x: 1034, y: 660, currentFrame: 1
+x: 1023, y: 660, currentFrame: 3
+x: 1023, y: 660, currentFrame: 1
+x: 1012, y: 660, currentFrame: 3
+x: 1012, y: 660, currentFrame: 1
+x: 1023, y: 660, currentFrame: 2
+x: 1023, y: 660, currentFrame: 1
+x: 1034, y: 660, currentFrame: 2
+x: 1034, y: 660, currentFrame: 1
+x: 1045, y: 660, currentFrame: 2
+x: 1045, y: 660, currentFrame: 1
+x: 1056, y: 660, currentFrame: 2
+x: 1067, y: 660, currentFrame: 2
+x: 1067, y: 660, currentFrame: 1
+x: 1078, y: 660, currentFrame: 2
+x: 1078, y: 649, currentFrame: 1
+x: 1078, y: 649, currentFrame: 2
+x: 1078, y: 638, currentFrame: 1
+x: 1078, y: 627, currentFrame: 1
+x: 1078, y: 616, currentFrame: 1
+x: 1078, y: 605, currentFrame: 1
+x: 1078, y: 594, currentFrame: 1
+x: 1078, y: 583, currentFrame: 1
+x: 1078, y: 572, currentFrame: 1
+x: 1078, y: 561, currentFrame: 1
+x: 1078, y: 550, currentFrame: 1
+x: 1078, y: 539, currentFrame: 1
+x: 1078, y: 528, currentFrame: 1
+x: 1078, y: 517, currentFrame: 1
+x: 1078, y: 506, currentFrame: 1
+x: 1078, y: 495, currentFrame: 1
+x: 1078, y: 484, currentFrame: 1
+x: 1078, y: 473, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1078, y: 462, currentFrame: 1
+x: 1089, y: 462, currentFrame: 2
+x: 1100, y: 462, currentFrame: 2
+x: 1111, y: 462, currentFrame: 2
+x: 1122, y: 462, currentFrame: 2
+x: 1133, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 1
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 462, currentFrame: 2
+x: 1144, y: 473, currentFrame: 0
+x: 1144, y: 484, currentFrame: 0
+x: 1144, y: 495, currentFrame: 0
+x: 1144, y: 506, currentFrame: 0
+x: 1144, y: 517, currentFrame: 0
+x: 1144, y: 528, currentFrame: 0
+x: 1144, y: 539, currentFrame: 0
+x: 1144, y: 550, currentFrame: 0
+x: 1144, y: 561, currentFrame: 0
+x: 1144, y: 572, currentFrame: 0
+x: 1144, y: 583, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1144, y: 594, currentFrame: 0
+x: 1155, y: 594, currentFrame: 2
+x: 1166, y: 594, currentFrame: 2
+x: 1177, y: 594, currentFrame: 2
+x: 1188, y: 594, currentFrame: 2
+x: 1199, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 0
+x: 1210, y: 594, currentFrame: 2
+x: 1210, y: 583, currentFrame: 1
+x: 1210, y: 572, currentFrame: 1
+x: 1210, y: 561, currentFrame: 1
+x: 1210, y: 550, currentFrame: 1
+x: 1210, y: 539, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 3
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1210, y: 528, currentFrame: 1
+x: 1221, y: 528, currentFrame: 2
+x: 1232, y: 528, currentFrame: 2
+x: 1243, y: 528, currentFrame: 2
+x: 1254, y: 528, currentFrame: 2
+x: 1265, y: 528, currentFrame: 2
+x: 1276, y: 528, currentFrame: 2
+x: 1287, y: 528, currentFrame: 2
+x: 1298, y: 528, currentFrame: 2
+x: 1309, y: 528, currentFrame: 2
+x: 1320, y: 528, currentFrame: 2
+x: 1331, y: 528, currentFrame: 2
+x: 1342, y: 528, currentFrame: 2
+x: 1353, y: 528, currentFrame: 2
+x: 1364, y: 528, currentFrame: 2
+x: 1375, y: 528, currentFrame: 2
+x: 1386, y: 528, currentFrame: 2
+x: 1397, y: 528, currentFrame: 2
+x: 1408, y: 528, currentFrame: 2
+x: 1419, y: 528, currentFrame: 2
+x: 1430, y: 528, currentFrame: 2
+x: 1441, y: 528, currentFrame: 2
+x: 1452, y: 528, currentFrame: 2
+x: 1463, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 528, currentFrame: 2
+x: 1474, y: 517, currentFrame: 1
+x: 1474, y: 506, currentFrame: 1
+x: 1474, y: 495, currentFrame: 1
+x: 1474, y: 484, currentFrame: 1
+x: 1474, y: 473, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1474, y: 462, currentFrame: 1
+x: 1463, y: 462, currentFrame: 3
+x: 1452, y: 462, currentFrame: 3
+x: 1441, y: 462, currentFrame: 3
+x: 1430, y: 462, currentFrame: 3
+x: 1419, y: 462, currentFrame: 3
+x: 1408, y: 462, currentFrame: 3
+x: 1397, y: 462, currentFrame: 3
+x: 1386, y: 462, currentFrame: 3
+x: 1375, y: 462, currentFrame: 3
+x: 1364, y: 462, currentFrame: 3
+x: 1353, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 462, currentFrame: 3
+x: 1342, y: 451, currentFrame: 1
+x: 1342, y: 440, currentFrame: 1
+x: 1342, y: 429, currentFrame: 1
+x: 1342, y: 418, currentFrame: 1
+x: 1342, y: 407, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 2
+x: 1342, y: 396, currentFrame: 1
+x: 1342, y: 396, currentFrame: 2
+x: 1331, y: 396, currentFrame: 3
+x: 1320, y: 396, currentFrame: 3
+x: 1309, y: 396, currentFrame: 3
+x: 1298, y: 396, currentFrame: 3
+x: 1287, y: 396, currentFrame: 3
+x: 1276, y: 396, currentFrame: 3
+x: 1265, y: 396, currentFrame: 3
+x: 1254, y: 396, currentFrame: 3
+x: 1243, y: 396, currentFrame: 3
+x: 1232, y: 396, currentFrame: 3
+x: 1221, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 396, currentFrame: 3
+x: 1210, y: 385, currentFrame: 1
+x: 1210, y: 374, currentFrame: 1
+x: 1210, y: 363, currentFrame: 1
+x: 1210, y: 352, currentFrame: 1
+x: 1210, y: 341, currentFrame: 1
+x: 1210, y: 330, currentFrame: 1
+x: 1210, y: 319, currentFrame: 1
+x: 1210, y: 308, currentFrame: 1
+x: 1210, y: 297, currentFrame: 1
+x: 1210, y: 286, currentFrame: 1
+x: 1210, y: 275, currentFrame: 1
+x: 1210, y: 264, currentFrame: 1
+x: 1210, y: 253, currentFrame: 1
+x: 1210, y: 242, currentFrame: 1
+x: 1210, y: 231, currentFrame: 1
+x: 1210, y: 220, currentFrame: 1
+x: 1210, y: 209, currentFrame: 1
+x: 1210, y: 198, currentFrame: 1
+x: 1210, y: 198, currentFrame: 1
+x: 1221, y: 198, currentFrame: 2
+x: 1232, y: 198, currentFrame: 2
+x: 1243, y: 198, currentFrame: 2
+x: 1254, y: 198, currentFrame: 2
+x: 1265, y: 198, currentFrame: 2
+x: 1276, y: 198, currentFrame: 2
+x: 1287, y: 198, currentFrame: 2
+x: 1298, y: 198, currentFrame: 2
+x: 1309, y: 198, currentFrame: 2
+x: 1320, y: 198, currentFrame: 2
+x: 1331, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 198, currentFrame: 2
+x: 1342, y: 209, currentFrame: 0
+x: 1342, y: 220, currentFrame: 0
+x: 1342, y: 231, currentFrame: 0
+x: 1342, y: 242, currentFrame: 0
+x: 1342, y: 253, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 264, currentFrame: 2
+x: 1342, y: 253, currentFrame: 1
+x: 1342, y: 253, currentFrame: 2
+x: 1342, y: 242, currentFrame: 1
+x: 1342, y: 242, currentFrame: 2
+x: 1342, y: 231, currentFrame: 1
+x: 1342, y: 231, currentFrame: 2
+x: 1342, y: 231, currentFrame: 2
+x: 1342, y: 231, currentFrame: 2
+x: 1342, y: 231, currentFrame: 2
+x: 1342, y: 220, currentFrame: 1
+x: 1342, y: 220, currentFrame: 2
+x: 1342, y: 209, currentFrame: 1
+x: 1342, y: 209, currentFrame: 2
+setPrePositionprePosition.txtx:1342, y: 209, currentFrame: 2, timeStart: 0, time: 256
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 1342, y: 209, currentFrame: 2, timeStart: 2, time: 256
+setCurrentPosition x: 1342, y: 209, currentFrame: 2, timeStart: 2, time: 256
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 1342, y: 220, currentFrame: 0
+MusicTime played
+x: 1342, y: 231, currentFrame: 0
+x: 1342, y: 242, currentFrame: 0
+x: 1342, y: 253, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1342, y: 264, currentFrame: 0
+x: 1331, y: 264, currentFrame: 3
+x: 1320, y: 264, currentFrame: 3
+x: 1309, y: 264, currentFrame: 3
+x: 1298, y: 264, currentFrame: 3
+x: 1287, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 264, currentFrame: 3
+x: 1276, y: 275, currentFrame: 0
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 275, currentFrame: 3
+x: 1276, y: 286, currentFrame: 0
+x: 1276, y: 297, currentFrame: 0
+x: 1276, y: 308, currentFrame: 0
+x: 1276, y: 319, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1276, y: 330, currentFrame: 0
+x: 1287, y: 330, currentFrame: 2
+x: 1298, y: 330, currentFrame: 2
+x: 1309, y: 330, currentFrame: 2
+x: 1320, y: 330, currentFrame: 2
+x: 1331, y: 330, currentFrame: 2
+x: 1342, y: 330, currentFrame: 2
+x: 1353, y: 330, currentFrame: 2
+x: 1364, y: 330, currentFrame: 2
+x: 1375, y: 330, currentFrame: 2
+x: 1386, y: 330, currentFrame: 2
+x: 1397, y: 330, currentFrame: 2
+x: 1408, y: 330, currentFrame: 2
+x: 1419, y: 330, currentFrame: 2
+x: 1430, y: 330, currentFrame: 2
+x: 1441, y: 330, currentFrame: 2
+x: 1452, y: 330, currentFrame: 2
+x: 1463, y: 330, currentFrame: 2
+x: 1474, y: 330, currentFrame: 2
+x: 1485, y: 330, currentFrame: 2
+x: 1496, y: 330, currentFrame: 2
+x: 1507, y: 330, currentFrame: 2
+x: 1518, y: 330, currentFrame: 2
+x: 1529, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 2
+x: 1540, y: 330, currentFrame: 1
+x: 1540, y: 330, currentFrame: 1
+x: 1540, y: 330, currentFrame: 1
+x: 1540, y: 330, currentFrame: 1
+x: 1540, y: 341, currentFrame: 0
+x: 1540, y: 352, currentFrame: 0
+x: 1540, y: 363, currentFrame: 0
+x: 1540, y: 374, currentFrame: 0
+x: 1540, y: 385, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1540, y: 396, currentFrame: 0
+x: 1551, y: 396, currentFrame: 2
+x: 1562, y: 396, currentFrame: 2
+x: 1573, y: 396, currentFrame: 2
+x: 1584, y: 396, currentFrame: 2
+x: 1595, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 396, currentFrame: 2
+x: 1606, y: 385, currentFrame: 1
+x: 1606, y: 374, currentFrame: 1
+x: 1606, y: 363, currentFrame: 1
+x: 1606, y: 352, currentFrame: 1
+x: 1606, y: 341, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1606, y: 330, currentFrame: 1
+x: 1617, y: 330, currentFrame: 2
+x: 1628, y: 330, currentFrame: 2
+x: 1639, y: 330, currentFrame: 2
+x: 1650, y: 330, currentFrame: 2
+x: 1661, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 330, currentFrame: 2
+x: 1672, y: 341, currentFrame: 0
+x: 1672, y: 352, currentFrame: 0
+x: 1672, y: 363, currentFrame: 0
+x: 1672, y: 374, currentFrame: 0
+x: 1672, y: 385, currentFrame: 0
+x: 1672, y: 396, currentFrame: 0
+x: 1672, y: 407, currentFrame: 0
+x: 1672, y: 418, currentFrame: 0
+x: 1672, y: 429, currentFrame: 0
+x: 1672, y: 440, currentFrame: 0
+x: 1672, y: 451, currentFrame: 0
+x: 1672, y: 462, currentFrame: 0
+x: 1672, y: 473, currentFrame: 0
+x: 1672, y: 484, currentFrame: 0
+x: 1672, y: 484, currentFrame: 2
+x: 1672, y: 495, currentFrame: 0
+x: 1672, y: 506, currentFrame: 0
+x: 1672, y: 517, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 0
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 528, currentFrame: 2
+x: 1672, y: 517, currentFrame: 1
+x: 1672, y: 506, currentFrame: 1
+x: 1672, y: 506, currentFrame: 2
+x: 1672, y: 495, currentFrame: 1
+x: 1672, y: 495, currentFrame: 2
+x: 1672, y: 484, currentFrame: 1
+x: 1672, y: 484, currentFrame: 2
+x: 1672, y: 473, currentFrame: 1
+x: 1672, y: 473, currentFrame: 2
+x: 1672, y: 462, currentFrame: 1
+x: 1672, y: 462, currentFrame: 2
+x: 1672, y: 451, currentFrame: 1
+x: 1672, y: 451, currentFrame: 2
+x: 1672, y: 440, currentFrame: 1
+x: 1672, y: 440, currentFrame: 2
+x: 1672, y: 429, currentFrame: 1
+x: 1672, y: 429, currentFrame: 2
+x: 1672, y: 418, currentFrame: 1
+x: 1672, y: 418, currentFrame: 2
+x: 1672, y: 407, currentFrame: 1
+x: 1672, y: 407, currentFrame: 2
+x: 1672, y: 396, currentFrame: 1
+x: 1672, y: 396, currentFrame: 2
+x: 1672, y: 396, currentFrame: 2
+x: 1672, y: 385, currentFrame: 1
+x: 1672, y: 385, currentFrame: 2
+x: 1672, y: 374, currentFrame: 1
+x: 1672, y: 374, currentFrame: 2
+x: 1672, y: 363, currentFrame: 1
+x: 1672, y: 363, currentFrame: 2
+x: 1672, y: 352, currentFrame: 1
+x: 1672, y: 352, currentFrame: 2
+x: 1672, y: 341, currentFrame: 1
+x: 1672, y: 341, currentFrame: 2
+x: 1672, y: 330, currentFrame: 1
+x: 1672, y: 319, currentFrame: 1
+x: 1672, y: 308, currentFrame: 1
+x: 1672, y: 297, currentFrame: 1
+x: 1672, y: 286, currentFrame: 1
+x: 1672, y: 275, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 2
+x: 1672, y: 264, currentFrame: 2
+x: 1672, y: 264, currentFrame: 2
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+x: 1672, y: 264, currentFrame: 1
+setPrePositionprePosition.txtx:1672, y: 264, currentFrame: 1, timeStart: 0, time: 280
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 1672, y: 264, currentFrame: 1, timeStart: 2, time: 280
+setCurrentPosition x: 1672, y: 264, currentFrame: 1, timeStart: 2, time: 280
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 1661, y: 264, currentFrame: 3
+x: 1650, y: 264, currentFrame: 3
+x: 1639, y: 264, currentFrame: 3
+MusicTime played
+x: 1628, y: 264, currentFrame: 3
+x: 1617, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 264, currentFrame: 3
+x: 1606, y: 253, currentFrame: 1
+x: 1606, y: 242, currentFrame: 1
+x: 1606, y: 231, currentFrame: 1
+x: 1606, y: 220, currentFrame: 1
+x: 1606, y: 209, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1606, y: 198, currentFrame: 1
+x: 1595, y: 198, currentFrame: 3
+x: 1584, y: 198, currentFrame: 3
+x: 1573, y: 198, currentFrame: 3
+x: 1562, y: 198, currentFrame: 3
+x: 1551, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 198, currentFrame: 3
+x: 1540, y: 209, currentFrame: 0
+x: 1540, y: 220, currentFrame: 0
+x: 1540, y: 231, currentFrame: 0
+x: 1540, y: 242, currentFrame: 0
+x: 1540, y: 253, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1540, y: 264, currentFrame: 0
+x: 1529, y: 264, currentFrame: 3
+x: 1518, y: 264, currentFrame: 3
+x: 1507, y: 264, currentFrame: 3
+x: 1496, y: 264, currentFrame: 3
+x: 1485, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 264, currentFrame: 3
+x: 1474, y: 253, currentFrame: 1
+x: 1474, y: 242, currentFrame: 1
+x: 1474, y: 231, currentFrame: 1
+x: 1474, y: 220, currentFrame: 1
+x: 1474, y: 209, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1474, y: 198, currentFrame: 1
+x: 1463, y: 198, currentFrame: 3
+x: 1452, y: 198, currentFrame: 3
+x: 1441, y: 198, currentFrame: 3
+x: 1430, y: 198, currentFrame: 3
+x: 1419, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 198, currentFrame: 3
+x: 1408, y: 187, currentFrame: 1
+x: 1408, y: 176, currentFrame: 1
+x: 1408, y: 165, currentFrame: 1
+x: 1408, y: 154, currentFrame: 1
+x: 1408, y: 143, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1408, y: 132, currentFrame: 1
+x: 1397, y: 132, currentFrame: 3
+x: 1386, y: 132, currentFrame: 3
+x: 1375, y: 132, currentFrame: 3
+x: 1364, y: 132, currentFrame: 3
+x: 1353, y: 132, currentFrame: 3
+x: 1342, y: 132, currentFrame: 3
+x: 1331, y: 132, currentFrame: 3
+x: 1320, y: 132, currentFrame: 3
+x: 1309, y: 132, currentFrame: 3
+x: 1298, y: 132, currentFrame: 3
+x: 1287, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 132, currentFrame: 3
+x: 1276, y: 121, currentFrame: 1
+x: 1276, y: 110, currentFrame: 1
+x: 1276, y: 99, currentFrame: 1
+x: 1276, y: 88, currentFrame: 1
+x: 1276, y: 77, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1276, y: 66, currentFrame: 1
+x: 1265, y: 66, currentFrame: 3
+x: 1254, y: 66, currentFrame: 3
+x: 1243, y: 66, currentFrame: 3
+x: 1232, y: 66, currentFrame: 3
+x: 1221, y: 66, currentFrame: 3
+x: 1210, y: 66, currentFrame: 3
+x: 1199, y: 66, currentFrame: 3
+x: 1188, y: 66, currentFrame: 3
+x: 1177, y: 66, currentFrame: 3
+x: 1166, y: 66, currentFrame: 3
+x: 1155, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 66, currentFrame: 3
+x: 1144, y: 77, currentFrame: 0
+x: 1144, y: 88, currentFrame: 0
+x: 1144, y: 99, currentFrame: 0
+x: 1144, y: 110, currentFrame: 0
+x: 1144, y: 121, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 0
+x: 1133, y: 132, currentFrame: 3
+x: 1122, y: 132, currentFrame: 3
+x: 1111, y: 132, currentFrame: 3
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 2
+x: 1122, y: 132, currentFrame: 0
+x: 1133, y: 132, currentFrame: 2
+x: 1133, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 2
+x: 1155, y: 132, currentFrame: 2
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1155, y: 132, currentFrame: 0
+x: 1144, y: 132, currentFrame: 3
+x: 1144, y: 132, currentFrame: 0
+x: 1133, y: 132, currentFrame: 3
+x: 1122, y: 132, currentFrame: 3
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 3
+x: 1100, y: 132, currentFrame: 3
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1100, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 2
+x: 1122, y: 132, currentFrame: 2
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1122, y: 132, currentFrame: 0
+x: 1111, y: 132, currentFrame: 3
+x: 1100, y: 132, currentFrame: 3
+x: 1089, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 132, currentFrame: 3
+x: 1078, y: 143, currentFrame: 0
+x: 1078, y: 154, currentFrame: 0
+x: 1078, y: 165, currentFrame: 0
+x: 1078, y: 176, currentFrame: 0
+x: 1078, y: 187, currentFrame: 0
+x: 1078, y: 198, currentFrame: 0
+x: 1078, y: 209, currentFrame: 0
+x: 1078, y: 220, currentFrame: 0
+x: 1078, y: 231, currentFrame: 0
+x: 1078, y: 242, currentFrame: 0
+x: 1078, y: 253, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 0
+x: 1067, y: 264, currentFrame: 3
+x: 1056, y: 264, currentFrame: 3
+x: 1045, y: 264, currentFrame: 3
+x: 1034, y: 264, currentFrame: 3
+x: 1023, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 3
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1012, y: 264, currentFrame: 0
+x: 1023, y: 264, currentFrame: 2
+x: 1034, y: 264, currentFrame: 2
+x: 1034, y: 264, currentFrame: 0
+x: 1045, y: 264, currentFrame: 2
+x: 1045, y: 264, currentFrame: 0
+x: 1056, y: 264, currentFrame: 2
+x: 1056, y: 264, currentFrame: 0
+x: 1067, y: 264, currentFrame: 2
+x: 1067, y: 264, currentFrame: 0
+x: 1078, y: 264, currentFrame: 2
+x: 1078, y: 264, currentFrame: 0
+x: 1089, y: 264, currentFrame: 2
+x: 1089, y: 264, currentFrame: 0
+x: 1100, y: 264, currentFrame: 2
+x: 1100, y: 264, currentFrame: 0
+x: 1111, y: 264, currentFrame: 2
+x: 1111, y: 264, currentFrame: 0
+x: 1122, y: 264, currentFrame: 2
+x: 1122, y: 264, currentFrame: 0
+x: 1122, y: 264, currentFrame: 0
+x: 1133, y: 264, currentFrame: 2
+x: 1133, y: 264, currentFrame: 0
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 264, currentFrame: 2
+x: 1144, y: 275, currentFrame: 0
+x: 1144, y: 286, currentFrame: 0
+x: 1144, y: 297, currentFrame: 0
+x: 1144, y: 308, currentFrame: 0
+x: 1144, y: 319, currentFrame: 0
+x: 1144, y: 330, currentFrame: 0
+x: 1144, y: 341, currentFrame: 0
+x: 1144, y: 352, currentFrame: 0
+x: 1144, y: 363, currentFrame: 0
+x: 1144, y: 374, currentFrame: 0
+x: 1144, y: 385, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1144, y: 396, currentFrame: 0
+x: 1133, y: 396, currentFrame: 3
+x: 1122, y: 396, currentFrame: 3
+x: 1111, y: 396, currentFrame: 3
+x: 1100, y: 396, currentFrame: 3
+x: 1089, y: 396, currentFrame: 3
+x: 1078, y: 396, currentFrame: 3
+x: 1067, y: 396, currentFrame: 3
+x: 1056, y: 396, currentFrame: 3
+x: 1045, y: 396, currentFrame: 3
+x: 1034, y: 396, currentFrame: 3
+x: 1023, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 396, currentFrame: 3
+x: 1012, y: 407, currentFrame: 0
+x: 1012, y: 418, currentFrame: 0
+x: 1012, y: 429, currentFrame: 0
+x: 1012, y: 440, currentFrame: 0
+x: 1012, y: 451, currentFrame: 0
+x: 1012, y: 462, currentFrame: 0
+x: 1012, y: 473, currentFrame: 0
+x: 1012, y: 484, currentFrame: 0
+x: 1012, y: 495, currentFrame: 0
+x: 1012, y: 506, currentFrame: 0
+x: 1012, y: 517, currentFrame: 0
+x: 1012, y: 528, currentFrame: 0
+x: 1012, y: 539, currentFrame: 0
+x: 1012, y: 550, currentFrame: 0
+x: 1012, y: 561, currentFrame: 0
+x: 1012, y: 572, currentFrame: 0
+x: 1012, y: 583, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1012, y: 594, currentFrame: 0
+x: 1001, y: 594, currentFrame: 3
+x: 990, y: 594, currentFrame: 3
+x: 979, y: 594, currentFrame: 3
+x: 968, y: 594, currentFrame: 3
+x: 957, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 594, currentFrame: 3
+x: 946, y: 583, currentFrame: 1
+x: 946, y: 572, currentFrame: 1
+x: 946, y: 561, currentFrame: 1
+x: 946, y: 550, currentFrame: 1
+x: 946, y: 539, currentFrame: 1
+x: 946, y: 528, currentFrame: 1
+x: 946, y: 517, currentFrame: 1
+x: 946, y: 506, currentFrame: 1
+x: 946, y: 495, currentFrame: 1
+x: 946, y: 484, currentFrame: 1
+x: 946, y: 473, currentFrame: 1
+x: 946, y: 462, currentFrame: 1
+x: 946, y: 451, currentFrame: 1
+x: 946, y: 440, currentFrame: 1
+x: 946, y: 429, currentFrame: 1
+x: 946, y: 418, currentFrame: 1
+x: 946, y: 407, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 946, y: 396, currentFrame: 1
+x: 935, y: 396, currentFrame: 3
+x: 924, y: 396, currentFrame: 3
+x: 913, y: 396, currentFrame: 3
+x: 902, y: 396, currentFrame: 3
+x: 891, y: 396, currentFrame: 3
+x: 880, y: 396, currentFrame: 3
+x: 869, y: 396, currentFrame: 3
+x: 858, y: 396, currentFrame: 3
+x: 847, y: 396, currentFrame: 3
+x: 836, y: 396, currentFrame: 3
+x: 825, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 396, currentFrame: 3
+x: 814, y: 407, currentFrame: 0
+x: 814, y: 418, currentFrame: 0
+x: 814, y: 429, currentFrame: 0
 x: 814, y: 440, currentFrame: 0
 x: 814, y: 451, currentFrame: 0
 x: 814, y: 462, currentFrame: 0
@@ -547,29 +4089,6 @@ x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
 x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 517, currentFrame: 1
-x: 814, y: 506, currentFrame: 1
-x: 814, y: 495, currentFrame: 1
-x: 814, y: 484, currentFrame: 1
-x: 814, y: 473, currentFrame: 1
-x: 814, y: 462, currentFrame: 1
-x: 814, y: 473, currentFrame: 0
-x: 814, y: 484, currentFrame: 0
-x: 814, y: 495, currentFrame: 0
-x: 814, y: 506, currentFrame: 0
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
 x: 825, y: 528, currentFrame: 2
 x: 836, y: 528, currentFrame: 2
 x: 847, y: 528, currentFrame: 2
@@ -578,34 +4097,6 @@ x: 869, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 3
-x: 858, y: 528, currentFrame: 3
-x: 847, y: 528, currentFrame: 3
-x: 836, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 814, y: 528, currentFrame: 3
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
 x: 880, y: 528, currentFrame: 2
@@ -620,12 +4111,16 @@ x: 880, y: 506, currentFrame: 1
 x: 880, y: 506, currentFrame: 1
 MusicTime stopped
 WIN GAME
-timeStart : 90 time : 120
+timeStart : 120 time : 300
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+MusicTime played
+MusicTime stopped
+NHẠC NỀN CHẠY
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
 EXIT GAME
 END GAME
+TimeManager destroyed
 START GAME
 BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
 NHẠC NỀN MENU TẢI THÀNH CÔNG
@@ -641,97 +4136,54 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 2, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 2, time: 300
+MusicTime played
 MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
+Countdown timeout, playing letgo sound
+MusicTime played
+x: 88, y: 77, currentFrame: 1
+x: 88, y: 77, currentFrame: 3
+x: 88, y: 88, currentFrame: 0
+x: 88, y: 99, currentFrame: 0
+x: 88, y: 110, currentFrame: 0
+x: 88, y: 121, currentFrame: 0
+x: 88, y: 132, currentFrame: 0
+x: 88, y: 143, currentFrame: 0
+x: 88, y: 154, currentFrame: 0
+x: 88, y: 165, currentFrame: 0
+x: 88, y: 176, currentFrame: 0
+x: 88, y: 187, currentFrame: 0
+x: 88, y: 198, currentFrame: 0
+x: 88, y: 209, currentFrame: 0
+x: 88, y: 220, currentFrame: 0
+x: 88, y: 231, currentFrame: 0
+x: 88, y: 242, currentFrame: 0
+x: 88, y: 253, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 2
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 2, timeStart: 0, time: 296
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 2, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+getPrePosition x: 99, y: 264, currentFrame: 2, timeStart: 1, time: 296
+setCurrentPosition x: 99, y: 264, currentFrame: 2, timeStart: 1, time: 296
+MusicTime played
 MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+Countdown timeout, playing letgo sound
+MusicTime played
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 2, timeStart: 0, time: 298
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 2, timeStart: 0, time: 298
 EXIT GAME
 END GAME
 START GAME
@@ -749,42 +4201,31 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
 CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
+getPrePosition x: 99, y: 264, currentFrame: 2, timeStart: 5, time: 298
+setCurrentPosition x: 99, y: 264, currentFrame: 2, timeStart: 5, time: 298
+MusicTime played
 MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-STOP MUSIC
-PLAY MUSIC
-STOP MUSIC
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+Countdown timeout, playing letgo sound
+x: 110, y: 264, currentFrame: 2
+MusicTime played
+x: 121, y: 264, currentFrame: 2
+x: 132, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 253, currentFrame: 1
+x: 154, y: 253, currentFrame: 2
+x: 154, y: 253, currentFrame: 2
+setPrePositionprePosition.txtx:154, y: 253, currentFrame: 2, timeStart: 0, time: 298
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+setPrePositionprePosition.txtx:154, y: 253, currentFrame: 2, timeStart: 0, time: 298
 EXIT GAME
 END GAME
 START GAME
@@ -802,228 +4243,88 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 154, y: 253, currentFrame: 2, timeStart: 2, time: 298
+setCurrentPosition x: 154, y: 253, currentFrame: 2, timeStart: 2, time: 298
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 154, y: 264, currentFrame: 0
+MusicTime played
+x: 143, y: 264, currentFrame: 3
+x: 143, y: 264, currentFrame: 0
+x: 154, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 3
+x: 154, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 3
+x: 143, y: 264, currentFrame: 1
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 0
+x: 143, y: 264, currentFrame: 3
+x: 132, y: 264, currentFrame: 3
+setPrePositionprePosition.txtx:132, y: 264, currentFrame: 3, timeStart: 0, time: 297
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+TimeManager created
+Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 132, y: 264, currentFrame: 3, timeStart: 0, time: 297
+setCurrentPosition x: 132, y: 264, currentFrame: 3, timeStart: 0, time: 297
+MusicTime played
+x: 121, y: 264, currentFrame: 3
+x: 132, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 0
+x: 143, y: 264, currentFrame: 1
+x: 143, y: 264, currentFrame: 0
+x: 132, y: 264, currentFrame: 3
+x: 132, y: 264, currentFrame: 0
+x: 121, y: 264, currentFrame: 3
+x: 132, y: 264, currentFrame: 2
+x: 121, y: 264, currentFrame: 3
+x: 121, y: 264, currentFrame: 0
+x: 121, y: 264, currentFrame: 0
+x: 110, y: 264, currentFrame: 3
+x: 110, y: 264, currentFrame: 0
+x: 121, y: 264, currentFrame: 2
+x: 121, y: 264, currentFrame: 0
+x: 110, y: 264, currentFrame: 3
+x: 110, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 3
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 3, timeStart: 0, time: 291
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
 PLAY GAME
-timeStart : 90 time : 120
+timeStart : 120 time : 300
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
 BACK TO MENU
 MusicTime stopped
-STOP MUSIC
-CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-BACK TO MENU
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-STOP MUSIC
-CONTINUE GAME
-getPrePosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-setCurrentPosition x: 814, y: 506, currentFrame: 0, timeStart: 1, time: 120
-Countdown timeout
-x: 814, y: 517, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 814, y: 528, currentFrame: 0
-x: 825, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 2
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 836, y: 528, currentFrame: 1
-x: 847, y: 528, currentFrame: 2
-x: 858, y: 528, currentFrame: 2
-x: 869, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 528, currentFrame: 2
-x: 880, y: 517, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-x: 880, y: 506, currentFrame: 1
-MusicTime stopped
-WIN GAME
-timeStart : 90 time : 120
-resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-BACK TO MENU
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 90, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-BACK TO MENU
-MusicTime stopped
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-CONTINUE GAME
-getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 86, time: 120
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-BACK TO MENU
-MusicTime stopped
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 83, time: 120
-EXIT GAME
-END GAME
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
-START GAME
-BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
-NHẠC NỀN MENU TẢI THÀNH CÔNG
-ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
-ÂM THANH WIN TẢI THÀNH CÔNG
-ÂM THANH LOSE TẢI THÀNH CÔNG
-types[0] created
-types[1] created
-types[2] created
-characterTextures[0] created
-characterTextures[1] created
-characterTextures[2] created
-characterTextures[3] created
-TimeManager created
-Musictime loaded
+NHẠC NỀN CHẠY
 PLAY GAME
-timeStart : 90 time : 120
+timeStart : 120 time : 300
 resetPosition x: 88, y: 88, currentFrame: 0
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
-BACK TO MENU
-MusicTime stopped
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 89, time: 120
+MusicTime played
+setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 119, time: 300
 EXIT GAME
 END GAME
 START GAME
@@ -1041,6 +4342,43 @@ characterTextures[2] created
 characterTextures[3] created
 TimeManager created
 Musictime loaded
-setPrePositionprePosition.txtx:88, y: 88, currentFrame: 0, timeStart: 90, time: 120
+ÂM THANH letgo TẢI THÀNH CÔNG
+NHẠC NỀN CHẠY
+CONTINUE GAME
+getPrePosition x: 132, y: 264, currentFrame: 3, timeStart: 1, time: 297
+setCurrentPosition x: 132, y: 264, currentFrame: 3, timeStart: 1, time: 297
+MusicTime played
+MusicTime stopped
+Countdown timeout, playing letgo sound
+x: 143, y: 264, currentFrame: 2
+MusicTime played
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 154, y: 264, currentFrame: 2
+x: 143, y: 264, currentFrame: 3
+x: 132, y: 264, currentFrame: 3
+x: 121, y: 264, currentFrame: 3
+x: 110, y: 264, currentFrame: 3
+x: 99, y: 264, currentFrame: 3
+x: 88, y: 264, currentFrame: 3
+x: 88, y: 264, currentFrame: 3
+x: 88, y: 264, currentFrame: 3
+x: 88, y: 253, currentFrame: 1
+x: 88, y: 242, currentFrame: 1
+x: 88, y: 231, currentFrame: 1
+x: 88, y: 220, currentFrame: 1
+x: 88, y: 231, currentFrame: 0
+x: 88, y: 242, currentFrame: 0
+x: 88, y: 253, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 88, y: 264, currentFrame: 0
+x: 99, y: 264, currentFrame: 2
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 2, timeStart: 0, time: 297
+BACK TO MENU
+MusicTime stopped
+NHẠC NỀN CHẠY
+setPrePositionprePosition.txtx:99, y: 264, currentFrame: 2, timeStart: 0, time: 297
 EXIT GAME
 END GAME

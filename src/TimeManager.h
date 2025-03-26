@@ -38,10 +38,13 @@ private:
     TTF_Font *font;
     Uint32 lastTime;
     Mix_Music *musicTime;
+    Mix_Chunk *Letgosound;
     int Time;
     int timeStart;
     bool timeOver;
     bool timeBegin;
     bool musicTimePlaying;
+    bool waitingForSound; 
+    Uint32 waitStart; 
 };
 #endif

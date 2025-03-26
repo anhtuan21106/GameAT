@@ -4,7 +4,7 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), timeTexture1(nullptr), Time(120), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(90), musicTimePlaying(false)
+    : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), Letgosound(nullptr), timeTexture1(nullptr), Time(300), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(120), musicTimePlaying(false), waitingForSound(false), waitStart(0)
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -32,6 +32,18 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
     }
     else
         writeLog("Musictime loaded");
+
+    Letgosound = Mix_LoadWAV("music/letgo.wav");
+    if (!Letgosound)
+    {
+        cerr << "LỖI TẢI ÂM THANH letgo: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI ÂM THANH letgo: " + string(Mix_GetError()));
+    }
+    else
+    {
+        Mix_VolumeChunk(Letgosound, 20);
+        writeLog("ÂM THANH letgo TẢI THÀNH CÔNG");
+    }
 }
 
 TimeManager::~TimeManager()
@@ -71,6 +83,7 @@ void TimeManager::playMusicTime()
     {
         musicTimePlaying = true;
         Mix_PlayMusic(musicTime, -1);
+        writeLog("MusicTime played");
     }
 }
 
@@ -91,7 +104,18 @@ void TimeManager::update()
 
     Uint32 currentTime = SDL_GetTicks();
 
-    if (currentTime - lastTime >= 1000)
+    if (waitingForSound)
+    {
+        if (currentTime - waitStart >= 1000)
+        {
+            waitingForSound = false;
+        }
+        return;
+    }
+    else
+        playMusicTime();
+
+    if (currentTime - lastTime >= 1200)
     {
         if (timeBegin)
         {
@@ -100,20 +124,26 @@ void TimeManager::update()
             else
             {
                 timeBegin = false;
-                writeLog("Countdown timeout");
+                waitingForSound = true;
+                waitStart = currentTime;
+                stopMusicTime();
+                Mix_PlayChannel(-1, Letgosound, 0);
+                writeLog("Countdown timeout, playing letgo sound");
             }
         }
 
-        if (!timeBegin)
+        if (!timeBegin && !waitingForSound)
         {
             if (Time > 0)
                 Time--;
             else
                 timeOver = true;
         }
+
         lastTime = currentTime;
     }
 }
+
 void TimeManager::rsLastTime()
 {
     lastTime = SDL_GetTicks();
@@ -154,8 +184,8 @@ void TimeManager::setTime(int value)
 }
 void TimeManager::resetTime()
 {
-    timeStart = 90;
-    Time = 120;
+    timeStart = 120;
+    Time = 300;
     writeLog("timeStart : " + to_string(timeStart) + " time : " + to_string(Time));
 }
 void TimeManager::render()
@@ -194,7 +224,7 @@ void TimeManager::render()
 void TimeManager::TimeGame()
 {
     SDL_Color textColor;
-    if (timeStart >= 90 * 0.15 && timeBegin || Time >= 120 * 0.15 && !timeBegin)
+    if (timeStart >= 120 * 0.15 && timeBegin || Time >= 120 * 0.15 && !timeBegin)
         textColor = {0, 191, 255, 255};
     else
         textColor = {static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), 255};
@@ -244,6 +274,6 @@ void TimeManager::bxh(const char *filename)
          << setw(2) << localtime(&now)->tm_hour << ":"
          << setw(2) << localtime(&now)->tm_min << ":"
          << setw(2) << localtime(&now)->tm_sec << " "
-         << 120 - Time << endl;
+         << 300 - Time << endl;
     file.close();
 }

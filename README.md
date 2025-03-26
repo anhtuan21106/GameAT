@@ -15,7 +15,7 @@
 - Continue: Chơi tiếp mà không reset game
 - Exit: Thoát game
 #### 2.Game
-- Người chơi có 90s để ghi nhớ map (không được di chuyển) sau 90s map sẽ tắt và người chơi có 120s để tìm kho báu.
+- Người chơi có 120s để ghi nhớ map (không được di chuyển) sau 120s map sẽ tắt và người chơi có 300s để tìm kho báu.
 - Màu trắng là cỏ, màu đen là tường, kho báu ở giữa map
 - Nhấn phím UP để đi lên, DOWN để đi xuống, LEFT để đi sang trái, RIGHT để đi sang phải.
 - Phím P: Để quay lại menu
@@ -29,7 +29,7 @@
 - Kết hợp nhiều yếu tố: trí nhớ, chiến thuật, tư duy và phản xạ nhanh.  
 
 ### **2. Các tính năng đã hoàn thiện**  
--  **Âm thanh:** Nhạc nền, âm thanh click nút, âm thanh khi thắng/thua
+-  **Âm thanh:** Nhạc nền, âm thanh click nút, âm thanh khi thắng/thua,thời gian
 -  **Hình ảnh:** Menu, nhân vật, các vật phẩm (màu đen,trắng,kho báu)
 -  **Hiệu ứng:**  Nút ấn , thời gian
 
@@ -38,6 +38,7 @@
 -  **Xử lý trạng thái game:** Kiểm tra va chạm chuột với các nút (Play, Continue, Exit). 
 -  **Phát nhạc nền:** Chạy nhạc nền khi vào menu và tắt khi vào game. 
 - **Phát âm thanh nút bấm**: Hiệu ứng âm thanh khi nhấn nút.
+- **Hiệu ứng đổi màu**: đổi màu khung nút khi chuột di chuyển vào
 #### *Character.cpp*:
 - **Di chuyển nhân vật:** Cập nhật vị trí dựa vào phím điều khiển.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
@@ -46,10 +47,13 @@
 #### *map.cpp*:
 - **Vẽ bản đồ:** Đọc dữ liệu từ file và vẽ map.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
-- **Ẩn/hiện bản đồ:** Hiển thị bản đồ trong 30 giây để ghi nhớ, sau đó tắt đi để tăng độ khó.  
+- **Ẩn/hiện bản đồ:** Hiển thị bản đồ trong 120 giây để ghi nhớ, sau đó tắt đi để tăng độ khó.  
 #### *timeManager.cpp*:
 -  **Đếm ngược thời gian:** 
 -  **kiểm tra trạng thái thời gian:** Sau thời gian ghi nhớ, bản đồ sẽ ẩn đi và người chơi phải dựa vào trí nhớ để tìm kho báu.
+-  **thời gian thực tế**
+-  **hiệu ứng đổi màu:** khi thời gian dưới 15% màu sẽ đổi liên tục.
+- **lưu kết quả khi thắng:**
 #### *main.cpp*:
 - Xử lý logic game
 ## V. Nguồn Tham Khảo  
@@ -64,4 +68,10 @@
 - **Cơ chế ẩn/hiện bản đồ:** Người chơi phải ghi nhớ đường đi trước khi màn hình tối lại.  
 - **Hệ thống thời gian tạo áp lực:** Người chơi cần tìm kho báu trước khi hết giờ. 
 - **Hệ thống lưu dữ liệu:** Người chơi không lo lắng khi thoát game 
+- **Hệ thống lưu kết quả:** lưu kết quả khi người chơi thắng
+## V. Mức độ sử dụng AI: 20-25%
+- Tra cứu các Hàm SDL
+- Kiểm tra các thuật toán đã làm
+- Tham khảo bố cục project
+
 
