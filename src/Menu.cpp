@@ -182,10 +182,7 @@ MenuState Menu::handleEvents(SDL_Event &event)
 void Menu::playMusic()
 {
     if (backgroundMusic && !Mix_PlayingMusic())
-    {
-        Mix_PlayMusic(backgroundMusic, -1); // lặp vô hạn
-        writeLog("NHẠC NỀN CHẠY");
-    }
+        Mix_PlayMusic(backgroundMusic, -1);
 }
 
 void Menu::playMusicButton()

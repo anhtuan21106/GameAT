@@ -19,7 +19,7 @@
 - Màu trắng là cỏ, màu đen là tường, kho báu ở giữa map
 - Nhấn phím UP để đi lên, DOWN để đi xuống, LEFT để đi sang trái, RIGHT để đi sang phải.
 - Phím P: Để quay lại menu
-- Exit: Thoát game
+- Phím Esc: Thoát game
 ## III. Ngưỡng Điểm Đề Xuất  
 **Mức điểm mong muốn:** *9 - 10*  
 

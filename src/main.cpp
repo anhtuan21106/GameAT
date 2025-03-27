@@ -74,6 +74,9 @@ int main(int argc, char *argv[])
     bool musicPlaying = true;
     Uint32 waitStart = 0;
     bool waiting = false;
+    long long pressCount = 0;
+    bool first = true;
+    bool end = true;
     while (running)
     {
         Uint32 currentTime = SDL_GetTicks();
@@ -105,19 +108,43 @@ int main(int argc, char *argv[])
                 {
                 case SDLK_UP:
                     stepY = -11;
-                    currentFrame = 1;
+                    if (pressCount % 3 == 0)
+                        currentFrame = 1;
+                    else if (pressCount % 3 == 1)
+                        currentFrame = 8;
+                    else
+                        currentFrame = 9;
+                    pressCount++;
                     break;
                 case SDLK_DOWN:
                     stepY = 11;
-                    currentFrame = 0;
+                    if (pressCount % 3 == 0)
+                        currentFrame = 0;
+                    else if (pressCount % 3 == 1)
+                        currentFrame = 4;
+                    else
+                        currentFrame = 5;
+                    pressCount++;
                     break;
                 case SDLK_LEFT:
                     stepX = -11;
-                    currentFrame = 3;
+                    if (pressCount % 3 == 0)
+                        currentFrame = 3;
+                    else if (pressCount % 3 == 1)
+                        currentFrame = 6;
+                    else
+                        currentFrame = 7;
+                    pressCount++;
                     break;
                 case SDLK_RIGHT:
                     stepX = 11;
-                    currentFrame = 2;
+                    if (pressCount % 3 == 0)
+                        currentFrame = 2;
+                    else if (pressCount % 3 == 1)
+                        currentFrame = 10;
+                    else
+                        currentFrame = 11;
+                    pressCount++;
                     break;
                 }
                 if (currentFrame != -1)
@@ -143,9 +170,11 @@ int main(int argc, char *argv[])
                     timeManager.setTimeUpStart(true);
                     timeManager.resetTime();
                     character.resetPosition();
+                    first = true;
                 }
                 else if (state == CONTINUE)
                 {
+                    first = true;
                     timeManager.rsLastTime();
                     writeLog("CONTINUE GAME");
                     vector<int> prePosition = character.getPrePosition("prePosition.txt", timeManager);
@@ -162,8 +191,32 @@ int main(int argc, char *argv[])
         }
         SDL_RenderClear(renderer);
 
-        map.setShowMap(timeManager.isTimeUpStart());
-        
+        if (!timeManager.isTimeUpStart())
+        {
+            if (first)
+            {
+                map.setShowMap(false);
+                first = false;
+                end = true;
+            }
+            if (timeManager.getTime() % 7 == 0 && timeManager.getTime() <= 100 && end)
+            {
+                map.setShowMap(true);
+                end = false;
+            }
+            else
+            {
+                if (currentTime - waitStart >= 1500)
+                {
+                    waitStart = currentTime;
+                    map.setShowMap(false);
+                    end = true;
+                }
+            }
+        }
+        else
+            map.setShowMap(true);
+
         if (waiting)
         {
             if (currentTime - waitStart >= 2000)

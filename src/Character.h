@@ -12,7 +12,7 @@ class Character
 {
 private:
     SDL_Renderer *renderer;
-    SDL_Texture *characterTextures[4];
+    SDL_Texture *characterTextures[12];
     int x, y, width, height;
     int currentFrame;
 

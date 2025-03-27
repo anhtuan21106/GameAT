@@ -9,8 +9,9 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(
         return;
     }
 
-    const char *imagePaths[4] = {"image/character1.png", "image/character2.png", "image/character3.png", "image/character4.png"};
-    for (int i = 0; i < 4; i++)
+    const char *imagePaths[12] = {"image/character1.png", "image/character2.png", "image/character3.png", "image/character4.png", "image/c11.png",
+                                  "image/c12.png", "image/c21.png", "image/c22.png", "image/c31.png", "image/c32.png", "image/c41.png", "image/c42.png"};
+    for (int i = 0; i < 12; i++)
     {
         SDL_Surface *surface = IMG_Load(imagePaths[i]);
         if (!surface)
@@ -38,7 +39,7 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(
 
 Character::~Character()
 {
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 12; i++)
     {
         if (characterTextures[i])
         {
@@ -64,10 +65,6 @@ void Character::move(int stepX, int stepY, int newFrame, Map &map)
     {
         x += stepX;
         y += stepY;
-    }
-    else if (tileType == 2)
-    {
-        SDL_Delay(500);
     }
     writeLog("x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
@@ -114,6 +111,6 @@ void Character::setPrePosition(const char *filename, TimeManager &timeManager)
         return;
     }
     File << x << " " << y << " " << currentFrame << " " << timeManager.getTimeStart() << " " << timeManager.getTime();
-    writeLog("setPrePosition" + string(filename) + "x:" + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeManager.getTimeStart()) + ", time: " + to_string(timeManager.getTime()));
+    writeLog("setPrePosition x:" + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeManager.getTimeStart()) + ", time: " + to_string(timeManager.getTime()));
     File.close();
 }

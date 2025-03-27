@@ -83,7 +83,6 @@ void TimeManager::playMusicTime()
     {
         musicTimePlaying = true;
         Mix_PlayMusic(musicTime, -1);
-        writeLog("MusicTime played");
     }
 }
 
@@ -128,7 +127,6 @@ void TimeManager::update()
                 waitStart = currentTime;
                 stopMusicTime();
                 Mix_PlayChannel(-1, Letgosound, 0);
-                writeLog("Countdown timeout, playing letgo sound");
             }
         }
 
