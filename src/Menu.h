@@ -25,11 +25,12 @@ private:
     SDL_Rect continueButton;
     SDL_Rect exitButton;
     SDL_Rect *effectButton;
+
 public:
     Menu(SDL_Renderer *renderer);
     ~Menu();
-    void render();                            // vẽ menu
-    MenuState handleEvents(SDL_Event &event); // xử lý sự kiện
+    void render();
+    MenuState handleEvents(SDL_Event &event);
     void playMusic();
     void playMusicButton();
     void winGameMusic();

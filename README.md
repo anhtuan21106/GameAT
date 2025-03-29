@@ -15,7 +15,7 @@
 - Continue: Chơi tiếp mà không reset game
 - Exit: Thoát game
 #### 2.Game
-- Người chơi có 120s để ghi nhớ map (không được di chuyển) sau 120s map sẽ tắt và người chơi có 300s để tìm kho báu.
+- Người chơi có 120s để ghi nhớ map (không được di chuyển) sau 120s map sẽ tắt và người chơi có 300s để tìm kho báu (bản đồ mở ngẫu nhiên trong vòng 1,5s khi dưới 100s).
 - Màu trắng là cỏ, màu đen là tường, kho báu ở giữa map
 - Nhấn phím UP để đi lên, DOWN để đi xuống, LEFT để đi sang trái, RIGHT để đi sang phải.
 - Phím P: Để quay lại menu
@@ -47,7 +47,7 @@
 #### *map.cpp*:
 - **Vẽ bản đồ:** Đọc dữ liệu từ file và vẽ map.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
-- **Ẩn/hiện bản đồ:** Hiển thị bản đồ trong 120 giây để ghi nhớ, sau đó tắt đi để tăng độ khó.  
+- **Ẩn/hiện bản đồ:** Hiển thị bản đồ trong 120 giây để ghi nhớ, sau đó tắt đi để tăng độ khó (bản đồ mở ngẫu nhiên 1,5s khi dưới 100 giây).  
 #### *timeManager.cpp*:
 -  **Đếm ngược thời gian:** 
 -  **kiểm tra trạng thái thời gian:** Sau thời gian ghi nhớ, bản đồ sẽ ẩn đi và người chơi phải dựa vào trí nhớ để tìm kho báu.

@@ -29,6 +29,7 @@ public:
     void playMusicTime();
     void stopMusicTime();
     void bxh(const char *filename);
+
 private:
     SDL_Renderer *renderer;
     SDL_Texture *timeTexture;
@@ -44,7 +45,7 @@ private:
     bool timeOver;
     bool timeBegin;
     bool musicTimePlaying;
-    bool waitingForSound; 
-    Uint32 waitStart; 
+    bool waitingForSound;
+    Uint32 waitStart;
 };
 #endif

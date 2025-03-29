@@ -8,9 +8,8 @@ Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(ti
         writeLog("Lỗi khi khởi tạo SDL_Image: " + string(IMG_GetError()));
         return;
     }
-    types.resize(3, nullptr);
-    const char *fileNames[] = {"image/grass1.png", "image/wall1.png", "image/treasure.png"};
-    for (int i = 0; i < 3; i++)
+    const char *fileNames[4] = {"image/grass1.png", "image/wall1.png", "image/treasure.png", "image/gameover2.png"};
+    for (int i = 0; i < 4; i++)
     {
         SDL_Surface *surface = IMG_Load(fileNames[i]);
         if (!surface)
@@ -36,7 +35,7 @@ Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(ti
 
 Map::~Map()
 {
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 4; i++)
     {
         if (types[i])
         {
@@ -122,12 +121,14 @@ void Map::render()
             for (int j = 0; j < cols; j++)
             {
                 int tileType = tileMap[i][j];
-                if (tileType < 0 || tileType >= types.size() || !types[tileType])
-                    continue;
                 SDL_Rect dstRect = {tileSize * j, tileSize * i, tileSize, tileSize};
                 SDL_RenderCopy(renderer, types[tileType], NULL, &dstRect);
             }
         }
+    }
+    if(Gameover){
+        SDL_Rect rect = {0, 0, 1920, 1080}; 
+        SDL_RenderCopy(renderer,types[3], NULL, &rect); 
     }
 }
 void Map::setGameover(bool value)

@@ -74,9 +74,10 @@ int main(int argc, char *argv[])
     bool musicPlaying = true;
     Uint32 waitStart = 0;
     bool waiting = false;
-    long long pressCount = 0;
+    int pressCount = 0;
     bool first = true;
     bool end = true;
+    bool over = true;
     while (running)
     {
         Uint32 currentTime = SDL_GetTicks();
@@ -104,13 +105,14 @@ int main(int argc, char *argv[])
             if ((state == PLAY || state == CONTINUE) && event.type == SDL_KEYDOWN && !timeManager.isTimeUpStart())
             {
                 int stepX = 0, stepY = 0, currentFrame = -1;
+                pressCount = pressCount % 3;
                 switch (event.key.keysym.sym)
                 {
                 case SDLK_UP:
                     stepY = -11;
-                    if (pressCount % 3 == 0)
+                    if (pressCount == 0)
                         currentFrame = 1;
-                    else if (pressCount % 3 == 1)
+                    else if (pressCount == 1)
                         currentFrame = 8;
                     else
                         currentFrame = 9;
@@ -118,9 +120,9 @@ int main(int argc, char *argv[])
                     break;
                 case SDLK_DOWN:
                     stepY = 11;
-                    if (pressCount % 3 == 0)
+                    if (pressCount == 0)
                         currentFrame = 0;
-                    else if (pressCount % 3 == 1)
+                    else if (pressCount == 1)
                         currentFrame = 4;
                     else
                         currentFrame = 5;
@@ -128,9 +130,9 @@ int main(int argc, char *argv[])
                     break;
                 case SDLK_LEFT:
                     stepX = -11;
-                    if (pressCount % 3 == 0)
+                    if (pressCount == 0)
                         currentFrame = 3;
-                    else if (pressCount % 3 == 1)
+                    else if (pressCount == 1)
                         currentFrame = 6;
                     else
                         currentFrame = 7;
@@ -138,9 +140,9 @@ int main(int argc, char *argv[])
                     break;
                 case SDLK_RIGHT:
                     stepX = 11;
-                    if (pressCount % 3 == 0)
+                    if (pressCount == 0)
                         currentFrame = 2;
-                    else if (pressCount % 3 == 1)
+                    else if (pressCount == 1)
                         currentFrame = 10;
                     else
                         currentFrame = 11;
@@ -199,60 +201,58 @@ int main(int argc, char *argv[])
                 first = false;
                 end = true;
             }
-            if (timeManager.getTime() % 7 == 0 && timeManager.getTime() <= 100 && end)
+            if (timeManager.getTime() % 10 == 0 && timeManager.getTime() <= 100 && end)
             {
                 map.setShowMap(true);
                 end = false;
             }
-            else
+            else if (currentTime - waitStart >= 1500)
             {
-                if (currentTime - waitStart >= 1500)
-                {
-                    waitStart = currentTime;
-                    map.setShowMap(false);
-                    end = true;
-                }
+                waitStart = currentTime;
+                map.setShowMap(false);
+                end = true;
             }
         }
         else
             map.setShowMap(true);
 
-        if (waiting)
+        if (waiting && currentTime - waitStart >= 2000)
         {
-            if (currentTime - waitStart >= 2000)
-            {
-                waiting = false;
-                state = MENU;
-            }
+            waiting = false;
+            map.setGameover(false);
+            timeManager.setTimeUp(false);
+            state = MENU;
+            over = true;
         }
-        else if (map.isGameover() || timeManager.isTimeUp())
+        else if ((map.isGameover() || timeManager.isTimeUp()) && over)
         {
             timeManager.stopMusicTime();
             if (map.isGameover())
             {
                 timeManager.bxh("bxh.txt");
                 writeLog("WIN GAME");
-                map.setGameover(false);
+                timeManager.setTimeUp(true);
                 menu.winGameMusic();
             }
-            if (timeManager.isTimeUp())
+            else if (timeManager.isTimeUp())
             {
                 writeLog("LOSE GAME");
-                timeManager.setTimeUp(false);
+                map.setGameover(true);
                 menu.loseGameMusic();
             }
-            waitStart = currentTime;
             waiting = true;
-            timeManager.setTimeUpStart(true);
+            over = false;
+            waitStart = currentTime;
             timeManager.resetTime();
+            timeManager.setTimeUpStart(true);
             character.resetPosition();
             character.setPrePosition("prePosition.txt", timeManager);
         }
-
         if ((state == PLAY) || (state == CONTINUE))
         {
             map.render();
-            character.render();
+            if (!map.isGameover())
+                character.render();
             timeManager.TimeGame();
             timeManager.update();
         }

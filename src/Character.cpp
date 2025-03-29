@@ -19,6 +19,7 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(
             cerr << "Không thể tải ảnh: " << IMG_GetError() << endl;
             writeLog("Không thể tải ảnh [" + to_string(i) + "]: " + string(IMG_GetError()));
             characterTextures[i] = nullptr;
+            continue;
         }
         else
         {

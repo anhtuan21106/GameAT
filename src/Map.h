@@ -20,10 +20,11 @@ class Map
 private:
     SDL_Renderer *renderer;
     int tileSize;
-    vector<SDL_Texture *> types;
+    SDL_Texture *types[4];
     vector<vector<int>> tileMap;
     bool Gameover;
     bool ShowMap;
+
 public:
     Map(SDL_Renderer *renderer, int tileSize);
     ~Map();
