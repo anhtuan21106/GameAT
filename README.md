@@ -75,5 +75,5 @@
 - Tra cứu các Hàm SDL
 - Kiểm tra các thuật toán đã làm
 - Tham khảo bố cục project
-
+link thử game:https://youtu.be/N4mSFjlM-Bc
 

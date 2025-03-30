@@ -71,38 +71,38 @@ int main(int argc, char *argv[])
     Map map(renderer, 22);
     Character character(renderer);
     TimeManager timeManager(renderer);
-    bool musicPlaying = true;
-    Uint32 waitStart = 0;
-    bool waiting = false;
-    int pressCount = 0;
-    bool first = true;
-    bool end = true;
-    bool over = true;
+    bool musicPlaying = true; // kiểm tra trạng thái nhạc menu
+    Uint32 waitStart = 0;     // thời gian chờ
+    bool waiting = false;     // trạng thái chờ
+    int pressCount = 0;       // số lần di chuyển
+    bool first = true;        // trạng thái lần đầu tắt bản đồ
+    bool end = true;          // kiểm tra thời gian random
+    bool over = true;         // kiểm tra gameover
     while (running)
     {
-        Uint32 currentTime = SDL_GetTicks();
+        Uint32 currentTime = SDL_GetTicks(); // lây thời gian hien tại
         while (SDL_PollEvent(&event))
         {
-            if ((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || state == EXIT)
+            if ((event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_ESCAPE) || state == EXIT) // sự kiện thoát
             {
                 character.setPrePosition("prePosition.txt", timeManager);
                 running = false;
                 writeLog("EXIT GAME");
             }
-            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k && state == MENU)
+            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_k && state == MENU) // tắt/bật nhạc
             {
                 musicPlaying = !musicPlaying;
                 musicPlaying ? menu.playMusic() : menu.stopMusic();
                 writeLog(musicPlaying ? "PLAY MUSIC" : "STOP MUSIC");
             }
-            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p)
+            else if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_p) // quay lại menu
             {
                 character.setPrePosition("prePosition.txt", timeManager);
                 state = MENU;
                 writeLog("BACK TO MENU");
             }
 
-            if ((state == PLAY || state == CONTINUE) && event.type == SDL_KEYDOWN && !timeManager.isTimeUpStart())
+            if ((state == PLAY || state == CONTINUE) && event.type == SDL_KEYDOWN && !timeManager.isTimeUpStart()) // sự kiện di chuyển
             {
                 int stepX = 0, stepY = 0, currentFrame = -1;
                 pressCount = pressCount % 3;
@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
                     cleanup();
                     return -1;
                 }
-                if (state == PLAY)
+                if (state == PLAY) // play game-rs all
                 {
                     timeManager.rsLastTime();
                     writeLog("PLAY GAME");
@@ -174,7 +174,7 @@ int main(int argc, char *argv[])
                     character.resetPosition();
                     first = true;
                 }
-                else if (state == CONTINUE)
+                else if (state == CONTINUE) // continue game
                 {
                     first = true;
                     timeManager.rsLastTime();
@@ -193,6 +193,7 @@ int main(int argc, char *argv[])
         }
         SDL_RenderClear(renderer);
 
+        // xử lý hiện/tắt bản đồ
         if (!timeManager.isTimeUpStart())
         {
             if (first)
@@ -216,6 +217,7 @@ int main(int argc, char *argv[])
         else
             map.setShowMap(true);
 
+        // xử lí gameover
         if (waiting && currentTime - waitStart >= 2000)
         {
             waiting = false;
@@ -249,6 +251,7 @@ int main(int argc, char *argv[])
             character.resetPosition();
             character.setPrePosition("prePosition.txt", timeManager);
         }
+        // vẽ lên màn hình
         if ((state == PLAY) || (state == CONTINUE))
         {
             map.render();
@@ -268,6 +271,7 @@ int main(int argc, char *argv[])
         SDL_RenderPresent(renderer);
         SDL_Delay(16);
     }
+    // giải phóng
     cleanup();
     return 0;
 }

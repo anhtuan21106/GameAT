@@ -1,5 +1,6 @@
 #include "Map.h"
 using namespace std;
+// Hàm khởi tạo
 Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(tileSize), Gameover(false), ShowMap(true)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
@@ -32,7 +33,7 @@ Map::Map(SDL_Renderer *renderer, int tileSize) : renderer(renderer), tileSize(ti
         }
     }
 }
-
+// Hàm huy
 Map::~Map()
 {
     for (int i = 0; i < 4; i++)
@@ -46,7 +47,7 @@ Map::~Map()
     }
     IMG_Quit();
 }
-
+// Hàm tạo bản đồ
 bool Map::LoadMap(const string &file)
 {
     ifstream File(file);
@@ -78,11 +79,12 @@ bool Map::LoadMap(const string &file)
     File.close();
     return !tileMap.empty();
 }
+// Hàm ktra gameover
 bool Map::isGameover() const
 {
     return Gameover;
 }
-
+// Hàm ktra va chạm
 int Map::getTile(int x, int y, int width, int height)
 {
     int leftCol = x / tileSize;
@@ -104,7 +106,7 @@ int Map::getTile(int x, int y, int width, int height)
     }
     return 0;
 }
-
+// Hàm render
 void Map::render()
 {
     if (!ShowMap)
@@ -126,15 +128,18 @@ void Map::render()
             }
         }
     }
-    if(Gameover){
-        SDL_Rect rect = {0, 0, 1920, 1080}; 
-        SDL_RenderCopy(renderer,types[3], NULL, &rect); 
+    if (Gameover)
+    {
+        SDL_Rect rect = {0, 0, 1920, 1080};
+        SDL_RenderCopy(renderer, types[3], NULL, &rect);
     }
 }
+// Hàm set gameover
 void Map::setGameover(bool value)
 {
     Gameover = value;
 }
+// Hàm set show map
 void Map::setShowMap(bool value)
 {
     ShowMap = value;

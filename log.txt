@@ -3774,3 +3774,129 @@ setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
 setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
 EXIT GAME
 END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+types[3] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+characterTextures[4] created
+characterTextures[5] created
+characterTextures[6] created
+characterTextures[7] created
+characterTextures[8] created
+characterTextures[9] created
+characterTextures[10] created
+characterTextures[11] created
+ÂM THANH di chuyển TẢI THÀNH CÔNG
+TimeManager created
+Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 116, time: 300
+BACK TO MENU
+MusicTime stopped
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 116, time: 300
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+types[3] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+characterTextures[4] created
+characterTextures[5] created
+characterTextures[6] created
+characterTextures[7] created
+characterTextures[8] created
+characterTextures[9] created
+characterTextures[10] created
+characterTextures[11] created
+ÂM THANH di chuyển TẢI THÀNH CÔNG
+TimeManager created
+Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 116, time: 300
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 116, time: 300
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 115, time: 300
+EXIT GAME
+END GAME
+START GAME
+BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG
+NHẠC NỀN MENU TẢI THÀNH CÔNG
+ÂM THANH NÚT ẤN TẢI THÀNH CÔNG
+ÂM THANH WIN TẢI THÀNH CÔNG
+ÂM THANH LOSE TẢI THÀNH CÔNG
+types[0] created
+types[1] created
+types[2] created
+types[3] created
+characterTextures[0] created
+characterTextures[1] created
+characterTextures[2] created
+characterTextures[3] created
+characterTextures[4] created
+characterTextures[5] created
+characterTextures[6] created
+characterTextures[7] created
+characterTextures[8] created
+characterTextures[9] created
+characterTextures[10] created
+characterTextures[11] created
+ÂM THANH di chuyển TẢI THÀNH CÔNG
+TimeManager created
+Musictime loaded
+ÂM THANH letgo TẢI THÀNH CÔNG
+STOP MUSIC
+CONTINUE GAME
+getPrePosition x: 88, y: 88, currentFrame: 0, timeStart: 0, time: 2
+setCurrentPosition x: 88, y: 88, currentFrame: 0, timeStart: 0, time: 2
+MusicTime stopped
+LOSE GAME
+timeStart : 120 time : 300
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+CONTINUE GAME
+getPrePosition x: 814, y: 506, currentFrame: 1, timeStart: 1, time: 1
+setCurrentPosition x: 814, y: 506, currentFrame: 1, timeStart: 1, time: 1
+MusicTime stopped
+x: 814, y: 517, currentFrame: 0
+x: 814, y: 528, currentFrame: 4
+x: 814, y: 528, currentFrame: 5
+x: 825, y: 528, currentFrame: 2
+x: 836, y: 528, currentFrame: 10
+x: 847, y: 528, currentFrame: 11
+x: 858, y: 528, currentFrame: 2
+x: 869, y: 528, currentFrame: 10
+x: 880, y: 528, currentFrame: 11
+x: 880, y: 517, currentFrame: 1
+x: 880, y: 506, currentFrame: 8
+x: 880, y: 506, currentFrame: 9
+MusicTime stopped
+WIN GAME
+timeStart : 120 time : 300
+resetPosition x: 88, y: 88, currentFrame: 0
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+setPrePosition x:88, y: 88, currentFrame: 0, timeStart: 120, time: 300
+EXIT GAME
+END GAME

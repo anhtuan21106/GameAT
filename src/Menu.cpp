@@ -1,6 +1,6 @@
 #include "Menu.h"
 using namespace std;
-
+// Hàm khởi tạo
 Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullptr), backgroundMusic(nullptr), buttonSound(nullptr), winGame(nullptr), loseGame(nullptr), effectButton(nullptr)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
@@ -30,11 +30,11 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
             writeLog("BACKGROUND MENU TEXTURE TẠO THÀNH CÔNG");
         }
     }
-
+    // vẽ nút
     playButton = {740, 431, 416, 172};
     continueButton = {590, 616, 730, 160};
     exitButton = {778, 807, 380, 188};
-
+    // khởi tạo SDL_Mix
     if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
     {
         cerr << "LỖI SDL-MIX: " << Mix_GetError() << endl;
@@ -87,7 +87,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
         writeLog("ÂM THANH LOSE TẢI THÀNH CÔNG");
     }
 }
-
+// Hàm hủy
 Menu::~Menu()
 {
     if (backgroundTexture)
@@ -119,7 +119,7 @@ Menu::~Menu()
     Mix_Quit();
     IMG_Quit();
 }
-
+// Hàm render
 void Menu::render()
 {
     if (backgroundTexture)
@@ -132,7 +132,7 @@ void Menu::render()
         SDL_RenderDrawRect(renderer, effectButton);
     }
 }
-
+// xử lý chuyển đổi trang thái
 MenuState Menu::handleEvents(SDL_Event &event)
 {
     if (event.type == SDL_MOUSEMOTION)
@@ -178,13 +178,13 @@ MenuState Menu::handleEvents(SDL_Event &event)
     }
     return MENU;
 }
-
+// Hàm phát nhạc
 void Menu::playMusic()
 {
     if (backgroundMusic && !Mix_PlayingMusic())
         Mix_PlayMusic(backgroundMusic, -1);
 }
-
+// Hàm phát nhạc nút
 void Menu::playMusicButton()
 {
     if (buttonSound)
@@ -192,6 +192,7 @@ void Menu::playMusicButton()
         Mix_PlayChannel(-1, buttonSound, 0); // lặp 1 lần
     }
 }
+// Hàm phát nhạc win
 void Menu::winGameMusic()
 {
     if (winGame)
@@ -199,6 +200,7 @@ void Menu::winGameMusic()
         Mix_PlayChannel(-1, winGame, 0); // lặp 1 lần
     }
 }
+// Hàm phát nhạc lose
 void Menu::loseGameMusic()
 {
     if (loseGame)
@@ -206,6 +208,7 @@ void Menu::loseGameMusic()
         Mix_PlayChannel(-1, loseGame, 0); // lặp 1 lần
     }
 }
+// Hàm dừng nhạc
 void Menu::stopMusic()
 {
     if (Mix_PlayingMusic() && backgroundMusic)

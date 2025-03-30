@@ -2,11 +2,12 @@
 #include <iostream>
 
 using namespace std;
-
+// Hàm khởi tạo
 TimeManager::TimeManager(SDL_Renderer *renderer)
     : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), musicGame(nullptr), Letgosound(nullptr), timeTexture1(nullptr), Time(300),
       timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(120), musicTimePlaying(false), musicGamePlaying(false), waitingForSound(false), waitStart(0)
 {
+    // Khởi tạo SDL_ttf
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
     {
@@ -19,12 +20,14 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
         timeRect1 = {1800, 11, 100, 100};
         writeLog("TimeManager created");
     }
+    // Khởi tạo SDL-mix
     if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 4048) < 0)
     {
         cerr << "LỖI SDL-MIX: " << Mix_GetError() << endl;
         writeLog("LỖI SDL-MIX: " + string(Mix_GetError()));
         return;
     }
+    // Khởi tạo nhạc
     musicTime = Mix_LoadMUS("music/time.mp3");
     musicGame = Mix_LoadMUS("music/game.mp3");
     if (!musicTime || !musicGame)
@@ -47,7 +50,7 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
         writeLog("ÂM THANH letgo TẢI THÀNH CÔNG");
     }
 }
-
+// Hàm huy
 TimeManager::~TimeManager()
 {
     if (font)
@@ -78,6 +81,7 @@ TimeManager::~TimeManager()
     Mix_Quit();
     TTF_Quit();
 }
+// hàm phat nhạc time
 void TimeManager::playMusicTime()
 {
 
@@ -87,7 +91,7 @@ void TimeManager::playMusicTime()
         Mix_PlayMusic(musicTime, -1);
     }
 }
-
+// hàm dừng nhạc time
 void TimeManager::stopMusicTime()
 {
     if (Mix_PlayingMusic() && musicTime && musicTimePlaying)
@@ -97,6 +101,7 @@ void TimeManager::stopMusicTime()
         writeLog("MusicTime stopped");
     }
 }
+// hàm phat nhạc game
 void TimeManager::playMusicGame()
 {
 
@@ -106,7 +111,7 @@ void TimeManager::playMusicGame()
         Mix_PlayMusic(musicGame, -1);
     }
 }
-
+// hàm dừng nhạc game
 void TimeManager::stopMusicGame()
 {
     if (Mix_PlayingMusic() && musicGame && musicGamePlaying)
@@ -116,7 +121,7 @@ void TimeManager::stopMusicGame()
         writeLog("MusicTime stopped");
     }
 }
-
+// hàm khởi tạo thời gian
 void TimeManager::update()
 {
     if (timeOver)
@@ -162,15 +167,17 @@ void TimeManager::update()
         lastTime = currentTime;
     }
 }
-
+// hàm reset thời gian
 void TimeManager::rsLastTime()
 {
     lastTime = SDL_GetTicks();
 }
+// hàm kiểm tra hết thời gian
 bool TimeManager::isTimeUp()
 {
     return timeOver;
 }
+// hàm kiểm tra hết thời gian đếm ngược
 bool TimeManager::isTimeUpStart()
 {
     return timeBegin;
@@ -207,6 +214,7 @@ void TimeManager::resetTime()
     Time = 300;
     writeLog("timeStart : " + to_string(timeStart) + " time : " + to_string(Time));
 }
+// vẽ thời gian hiện tại trên màn hình
 void TimeManager::render()
 {
     time_t now = time(0);
@@ -239,7 +247,7 @@ void TimeManager::render()
     if (timeTexture1)
         SDL_RenderCopy(renderer, timeTexture1, NULL, &timeRect1);
 }
-
+// vẽ thời gian game trên màn hình
 void TimeManager::TimeGame()
 {
     SDL_Color textColor;
@@ -280,6 +288,7 @@ void TimeManager::TimeGame()
     if (timeTexture)
         SDL_RenderCopy(renderer, timeTexture, NULL, &timeRect);
 }
+//hàm lấy kết quả
 void TimeManager::bxh(const char *filename)
 {
     time_t now = time(0);

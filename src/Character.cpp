@@ -1,5 +1,6 @@
 #include "Character.h"
 using namespace std;
+// Hàm khởi tạo
 Character::Character(SDL_Renderer *renderer) : renderer(renderer), musicmove(nullptr), x(4 * 22), y(4 * 22), width(44), height(44), currentFrame(0)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
@@ -8,7 +9,7 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), musicmove(nul
         writeLog("Lỗi khi khởi tạo SDL_Image: " + string(IMG_GetError()));
         return;
     }
-
+    // Tạo texture cho người chơi
     const char *imagePaths[12] = {"image/character1.png", "image/character2.png", "image/character3.png", "image/character4.png", "image/c11.png",
                                   "image/c12.png", "image/c21.png", "image/c22.png", "image/c31.png", "image/c32.png", "image/c41.png", "image/c42.png"};
     for (int i = 0; i < 12; i++)
@@ -36,6 +37,7 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), musicmove(nul
             }
         }
     }
+    // Tạo am thanh
     musicmove = Mix_LoadWAV("music/move1.wav");
     if (!musicmove)
     {
@@ -48,7 +50,7 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), musicmove(nul
         writeLog("ÂM THANH di chuyển TẢI THÀNH CÔNG");
     }
 }
-
+// hàm hủy
 Character::~Character()
 {
     for (int i = 0; i < 12; i++)
@@ -61,13 +63,14 @@ Character::~Character()
         }
     }
 }
+// hàm render
 void Character::render()
 {
 
     SDL_Rect rect = {x, y, width, height};
     SDL_RenderCopy(renderer, characterTextures[currentFrame], NULL, &rect);
 }
-
+// hàm di chuyển
 void Character::move(int stepX, int stepY, int newFrame, Map &map)
 {
     Mix_PlayChannel(-1, musicmove, 0);
@@ -80,7 +83,7 @@ void Character::move(int stepX, int stepY, int newFrame, Map &map)
     }
     writeLog("x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
-
+// hàm set current position
 void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeStart, int Time, TimeManager &timeManager)
 {
     x = newX;
@@ -90,6 +93,7 @@ void Character::setCurrentPosition(int newX, int newY, int newFrame, int timeSta
     timeManager.setTime(Time);
     writeLog("setCurrentPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame) + ", timeStart: " + to_string(timeStart) + ", time: " + to_string(Time));
 }
+// hàm reset position
 void Character::resetPosition()
 {
     x = 4 * 22;
@@ -97,6 +101,7 @@ void Character::resetPosition()
     currentFrame = 0;
     writeLog("resetPosition x: " + to_string(x) + ", y: " + to_string(y) + ", currentFrame: " + to_string(currentFrame));
 }
+// hàm đọc vị trí vào file
 vector<int> Character::getPrePosition(const char *filename, TimeManager &timeManager)
 {
     vector<int> prePosition = {x, y, currentFrame, timeManager.getTimeStart(), timeManager.getTime()};
@@ -112,7 +117,7 @@ vector<int> Character::getPrePosition(const char *filename, TimeManager &timeMan
     File.close();
     return prePosition;
 }
-
+// hàm lấy vị trí từ file
 void Character::setPrePosition(const char *filename, TimeManager &timeManager)
 {
     ofstream File(filename, ios::trunc);
