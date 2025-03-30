@@ -59,7 +59,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
     else
     {
-        Mix_VolumeChunk(buttonSound, 20);
+        Mix_VolumeChunk(buttonSound, 40);
         writeLog("ÂM THANH NÚT ẤN TẢI THÀNH CÔNG");
     }
 
@@ -72,7 +72,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
     else
     {
-        Mix_VolumeChunk(winGame, 80);
+        Mix_VolumeChunk(winGame, 90);
         writeLog("ÂM THANH WIN TẢI THÀNH CÔNG");
     }
 
@@ -83,7 +83,7 @@ Menu::Menu(SDL_Renderer *renderer) : renderer(renderer), backgroundTexture(nullp
     }
     else
     {
-        Mix_VolumeChunk(loseGame, 80);
+        Mix_VolumeChunk(loseGame, 90);
         writeLog("ÂM THANH LOSE TẢI THÀNH CÔNG");
     }
 }

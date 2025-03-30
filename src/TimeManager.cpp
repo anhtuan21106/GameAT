@@ -4,7 +4,8 @@
 using namespace std;
 
 TimeManager::TimeManager(SDL_Renderer *renderer)
-    : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), Letgosound(nullptr), timeTexture1(nullptr), Time(300), timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(120), musicTimePlaying(false), waitingForSound(false), waitStart(0)
+    : renderer(renderer), font(nullptr), timeTexture(nullptr), musicTime(nullptr), musicGame(nullptr), Letgosound(nullptr), timeTexture1(nullptr), Time(300),
+      timeOver(false), lastTime(SDL_GetTicks()), timeBegin(true), timeStart(120), musicTimePlaying(false), musicGamePlaying(false), waitingForSound(false), waitStart(0)
 {
     font = TTF_OpenFont("ariblk.ttf", 20);
     if (!font)
@@ -25,10 +26,11 @@ TimeManager::TimeManager(SDL_Renderer *renderer)
         return;
     }
     musicTime = Mix_LoadMUS("music/time.mp3");
-    if (!musicTime)
+    musicGame = Mix_LoadMUS("music/game.mp3");
+    if (!musicTime || !musicGame)
     {
-        cerr << "LỖI TẢI NHẠC THOiGIAN: " << Mix_GetError() << endl;
-        writeLog("LỖI TẢI NHẠC THOiGIAN: " + string(Mix_GetError()));
+        cerr << "Lỗi Tải Nhạc Thoi Gian: " << Mix_GetError() << endl;
+        writeLog("Lỗi Tải Nhạc Thoi Gian: " + string(Mix_GetError()));
     }
     else
         writeLog("Musictime loaded");
@@ -95,6 +97,25 @@ void TimeManager::stopMusicTime()
         writeLog("MusicTime stopped");
     }
 }
+void TimeManager::playMusicGame()
+{
+
+    if (musicGame && !Mix_PlayingMusic() && !musicGamePlaying)
+    {
+        musicGamePlaying = true;
+        Mix_PlayMusic(musicGame, -1);
+    }
+}
+
+void TimeManager::stopMusicGame()
+{
+    if (Mix_PlayingMusic() && musicGame && musicGamePlaying)
+    {
+        musicGamePlaying = false;
+        Mix_HaltMusic();
+        writeLog("MusicTime stopped");
+    }
+}
 
 void TimeManager::update()
 {
@@ -112,7 +133,7 @@ void TimeManager::update()
         return;
     }
     else
-        playMusicTime();
+        playMusicGame();
 
     if (currentTime - lastTime >= 1200)
     {
@@ -222,10 +243,14 @@ void TimeManager::render()
 void TimeManager::TimeGame()
 {
     SDL_Color textColor;
-    if (timeStart >= 120 * 0.15 && timeBegin || Time >= 120 * 0.15 && !timeBegin)
+    if (timeStart >= 120 * 0.1 && timeBegin || Time >= 300 * 0.1 && !timeBegin)
         textColor = {0, 191, 255, 255};
     else
+    {
         textColor = {static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), static_cast<Uint8>(rand() % 256), 255};
+        stopMusicGame();
+        playMusicTime();
+    }
 
     if (timeTexture)
     {

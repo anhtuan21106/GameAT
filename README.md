@@ -29,14 +29,14 @@
 - Kết hợp nhiều yếu tố: trí nhớ, chiến thuật, tư duy và phản xạ nhanh.  
 
 ### **2. Các tính năng đã hoàn thiện**  
--  **Âm thanh:** Nhạc nền, âm thanh click nút, âm thanh khi thắng/thua,thời gian
--  **Hình ảnh:** Menu, nhân vật, các vật phẩm (màu đen,trắng,kho báu)
--  **Hiệu ứng:**  Nút ấn , thời gian
+-  **Âm thanh:** Nhạc nền, âm thanh click nút, âm thanh khi thắng/thua, thời gian, âm thanh khi chơi/bắt đầu chơi.
+-  **Hình ảnh:** Menu, nhân vật, các vật phẩm (màu đen,trắng,kho báu), gameover
+-  **Hiệu ứng:**  Nút ấn, thời gian
 
 ### **3. Các thuật toán đã cài đặt**  
 #### *Menu.cpp*:
--  **Xử lý trạng thái game:** Kiểm tra va chạm chuột với các nút (Play, Continue, Exit). 
--  **Phát nhạc nền:** Chạy nhạc nền khi vào menu và tắt khi vào game. 
+- **Xử lý trạng thái game:** Kiểm tra va chạm chuột với các nút (Play, Continue, Exit). 
+- **Phát nhạc nền:** Chạy nhạc nền khi vào menu và tắt khi vào game. 
 - **Phát âm thanh nút bấm**: Hiệu ứng âm thanh khi nhấn nút.
 - **Hiệu ứng đổi màu**: đổi màu khung nút khi chuột di chuyển vào
 #### *Character.cpp*:
@@ -44,6 +44,7 @@
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
 - **Cập nhật và reset vị trí:** Cập nhật vị trí nhân vật sau mỗi lần di chuyển và thiết lập lại khi người chơi thua hoặc restart.
 - **Đọc và ghi dữ liệu nhân vật :** Lưu dữ liệu nhân vật khi thoát
+- **Âm thanh khi di chuyển**
 #### *map.cpp*:
 - **Vẽ bản đồ:** Đọc dữ liệu từ file và vẽ map.
 - **Kiểm tra va chạm:** Phát hiện nhân vật có chạm vào tường hoặc kho báu hay không. 
@@ -52,7 +53,8 @@
 -  **Đếm ngược thời gian:** 
 -  **kiểm tra trạng thái thời gian:** Sau thời gian ghi nhớ, bản đồ sẽ ẩn đi và người chơi phải dựa vào trí nhớ để tìm kho báu.
 -  **thời gian thực tế**
--  **hiệu ứng đổi màu:** khi thời gian dưới 15% màu sẽ đổi liên tục.
+-  **hiệu ứng đổi màu:** khi thời gian dưới 10% màu sẽ đổi liên tục.
+-  **âm thanh**: thời gian đếm ngược và âm thanh khi chơi
 - **lưu kết quả khi thắng:**
 #### *main.cpp*:
 - Xử lý logic game

@@ -1,6 +1,6 @@
 #include "Character.h"
 using namespace std;
-Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(4 * 22), width(44), height(44), currentFrame(0)
+Character::Character(SDL_Renderer *renderer) : renderer(renderer), musicmove(nullptr), x(4 * 22), y(4 * 22), width(44), height(44), currentFrame(0)
 {
     if (IMG_Init(IMG_INIT_PNG) == 0)
     {
@@ -36,6 +36,17 @@ Character::Character(SDL_Renderer *renderer) : renderer(renderer), x(4 * 22), y(
             }
         }
     }
+    musicmove = Mix_LoadWAV("music/move1.wav");
+    if (!musicmove)
+    {
+        cerr << "LỖI TẢI ÂM THANH di chuyển: " << Mix_GetError() << endl;
+        writeLog("LỖI TẢI ÂM THANH di chuyển: " + string(Mix_GetError()));
+    }
+    else
+    {
+        Mix_VolumeChunk(musicmove, 90);
+        writeLog("ÂM THANH di chuyển TẢI THÀNH CÔNG");
+    }
 }
 
 Character::~Character()
@@ -59,8 +70,8 @@ void Character::render()
 
 void Character::move(int stepX, int stepY, int newFrame, Map &map)
 {
+    Mix_PlayChannel(-1, musicmove, 0);
     currentFrame = newFrame;
-
     int tileType = map.getTile(x + stepX, y + stepY, width, height);
     if (tileType == 0)
     {

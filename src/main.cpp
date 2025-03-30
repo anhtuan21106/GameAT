@@ -226,6 +226,7 @@ int main(int argc, char *argv[])
         }
         else if ((map.isGameover() || timeManager.isTimeUp()) && over)
         {
+            timeManager.stopMusicGame();
             timeManager.stopMusicTime();
             if (map.isGameover())
             {
@@ -259,6 +260,7 @@ int main(int argc, char *argv[])
         else
         {
             timeManager.stopMusicTime();
+            timeManager.stopMusicGame();
             menu.render();
         }
         timeManager.render();

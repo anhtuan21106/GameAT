@@ -15,6 +15,7 @@ private:
     SDL_Texture *characterTextures[12];
     int x, y, width, height;
     int currentFrame;
+    Mix_Chunk *musicmove;
 
 public:
     Character(SDL_Renderer *renderer);

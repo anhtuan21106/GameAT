@@ -27,7 +27,9 @@ public:
     void rsLastTime();
     void TimeGame();
     void playMusicTime();
+    void playMusicGame();
     void stopMusicTime();
+    void stopMusicGame();
     void bxh(const char *filename);
 
 private:
@@ -39,12 +41,14 @@ private:
     TTF_Font *font;
     Uint32 lastTime;
     Mix_Music *musicTime;
+    Mix_Music *musicGame;
     Mix_Chunk *Letgosound;
     int Time;
     int timeStart;
     bool timeOver;
     bool timeBegin;
     bool musicTimePlaying;
+    bool musicGamePlaying;
     bool waitingForSound;
     Uint32 waitStart;
 };
